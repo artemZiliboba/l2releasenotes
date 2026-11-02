@@ -61,7 +61,7 @@ def main():
     if args.source.resolve()==args.output.resolve():
         parser.error("Output must differ from source")
     source=json.loads(args.source.read_text(encoding="utf-8"))
-    result=translate(source,key)
+    result=translate(source,key,model=os.getenv('OPENAI_MODEL', 'gpt-4.1-mini'))
     args.output.parent.mkdir(parents=True,exist_ok=True)
     args.output.write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(f"Draft created: {args.output} (reviewed=false; not published)")
