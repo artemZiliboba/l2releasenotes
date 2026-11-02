@@ -1,0 +1,42 @@
+name: Translate Korean draft (manual)
+on:
+  workflow_dispatch:
+    inputs:
+      source_file:
+        description: 'Path to reviewed-source Korean JSON in repository (must be under input/)'
+        required: true
+        type: string
+permissions:
+  contents: read
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4.1-mini' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate configuration and input path
+        env:
+          SOURCE_FILE: ${{ inputs.source_file }}
+        run: |
+          test -n "$OPENAI_API_KEY" || { echo "::error::Configure OPENAI_API_KEY in Actions secrets"; exit 1; }
+          python - <<'PY'
+          import os
+          from pathlib import Path
+          path = Path(os.environ["SOURCE_FILE"])
+          if path.is_absolute() or ".." in path.parts or not str(path).startswith("input/") or path.suffix != ".json" or not path.is_file():
+              raise SystemExit("source_file must be an existing input/*.json file")
+          PY
+      - name: Translate to unpublished draft
+        env:
+          SOURCE_FILE: ${{ inputs.source_file }}
+        run: python scripts/translate_patch.py "$SOURCE_FILE" --output draft.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: russian-translation-draft
+          path: draft.json
+          retention-days: 7
