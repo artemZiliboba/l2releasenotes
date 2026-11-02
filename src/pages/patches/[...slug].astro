@@ -1,0 +1,8 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+export async function getStaticPaths(){const patches=await getCollection('patches');return patches.map(p=>({params:{slug:p.id},props:{patch:p}}));}
+const {patch}=Astro.props;
+const {Content}=await render(patch);
+---
+<Base title={patch.data.title} description={patch.data.summary}><p class="muted"><time datetime={patch.data.date.toISOString()}>{patch.data.date.toLocaleDateString('ru-RU')}</time> · {patch.data.version}</p><h1>{patch.data.title}</h1><p>{patch.data.summary}</p><p><a href={patch.data.source_url} rel="noopener noreferrer" target="_blank">Корейский оригинал ↗</a></p><hr/><Content/></Base>

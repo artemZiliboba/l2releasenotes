@@ -1,0 +1,7 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+const patches = (await getCollection('patches')).sort((a,b)=>b.data.date.getTime()-a.data.date.getTime());
+const base = import.meta.env.BASE_URL;
+---
+<Base><h1>Lineage 2 · Корейские обновления</h1><p class="muted">Русские переводы официальных патчноутов Essence / Aden. Новые материалы появятся после подтверждения корейского источника и настройки переводчика.</p>{patches.length===0 ? <p>Пока нет опубликованных переводов.</p> : patches.map(p=><article><p class="muted"><time datetime={p.data.date.toISOString()}>{p.data.date.toLocaleDateString('ru-RU')}</time> · {p.data.version}</p><h2><a href={base+'patches/'+p.id+'/'}>{p.data.title}</a></h2><p>{p.data.summary}</p>{p.data.categories.map(c=><span class="tag">{c}</span>)}</article>)}</Base>

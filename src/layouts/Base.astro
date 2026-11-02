@@ -1,0 +1,5 @@
+---
+const { title = 'L2 KR · Русские патчноуты', description = 'Переводы обновлений Lineage 2 Essence с корейского' } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+<!doctype html><html lang="ru"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="description" content={description}/><title>{title}</title><link rel="alternate" type="application/rss+xml" title="L2 KR RSS" href={base+'rss.xml'}/><style> :root{font-family:system-ui,sans-serif;color:#e9eaf2;background:#10121b}body{margin:0}main,header,footer{max-width:850px;margin:auto;padding:24px}header{border-bottom:1px solid #303449}a{color:#91c7ff}article{padding:24px 0;border-bottom:1px solid #303449}h1{font-size:clamp(2rem,5vw,3.4rem)}p{line-height:1.7}.muted{color:#aab0c2}.tag{display:inline-block;background:#242b40;border-radius:30px;padding:5px 12px;margin-right:8px}table{display:block;overflow-x:auto}img{max-width:100%} </style></head><body><header><a href={base}>L2 KR / Патчноуты</a> · <a href={base+'rss.xml'}>RSS</a></header><main><slot/></main><footer class="muted">Неофициальный перевод. Источник — NCSOFT.</footer></body></html>
