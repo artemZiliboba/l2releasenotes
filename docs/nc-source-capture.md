@@ -36,3 +36,12 @@ The first GitHub Actions run on 2026-11-17 collected 18 article JSON responses p
 - The script is not considered complete until the artifact manifest shows `attachments.failed = 0` for each board. A green validation job does not prove source completeness.
 
 If HTTP 406 persists, investigate NC's documented download policy and supported API options rather than attempting to bypass CDN restrictions.
+
+
+## MVP scope (L2 Update only, 2026-11-17)
+
+The manually triggered GitHub Actions workflow now runs `--board l2update --no-attachments`. This intentionally captures the original article JSON and HTML without attempting NC CDN downloads. The artifact is named `nc-l2update-originals`. A green workflow means this first-page text-only capture succeeded; it does **not** establish that all historical articles, translations, or publication tasks are complete.
+
+**Deferred: L2 Note.** The L2 Note API JSON was retrievable, but 14 of 15 attachment downloads failed with HTTP 406 in the last test. The existing `l2note` collector code remains available for future investigation, but is not run by the MVP workflow. No browser-header spoofing or CDN bypass is attempted.
+
+**Still to build for a complete MVP:** verified pagination and source version mapping (Essence/Aden), meaningful-content hashes and durable deduplication against already published records and open PRs, full Korean HTML-to-Markdown extraction with table audits, reviewed Russian translation PRs, and Telegram notifications only after Pages deployment. Do not schedule or auto-publish before these gates are implemented.
