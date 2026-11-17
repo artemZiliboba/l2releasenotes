@@ -1,5 +1,57 @@
 ---
-const { title = 'L2 KR · Русские патчноуты', description = 'Переводы обновлений Lineage 2 Essence с корейского' } = Astro.props;
+const { title = 'L2 KR · Русские переводы', description = 'Редакторский архив переводов обновлений Lineage 2' } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 ---
-<!doctype html><html lang="ru"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="description" content={description}/><title>{title}</title><link rel="alternate" type="application/rss+xml" title="L2 KR RSS" href={base+'rss.xml'}/><style> :root{font-family:system-ui,sans-serif;color:#e9eaf2;background:#10121b}body{margin:0}main,header,footer{max-width:850px;margin:auto;padding:24px}header{border-bottom:1px solid #303449}a{color:#91c7ff}a:visited{color:#b5a4ff}a:hover{color:#d9eaff}article{padding:24px 0;border-bottom:1px solid #303449}h1{font-size:clamp(2rem,5vw,3.4rem)}p{line-height:1.7}.muted{color:#aab0c2}.tag{display:inline-block;background:#242b40;border-radius:30px;padding:5px 12px;margin:0 8px 8px 0}table{display:block;overflow-x:auto}img{max-width:100%} </style></head><body><header><a href={base}>L2 KR / Патчноуты</a> · <a href={base+'rss.xml'}>RSS</a></header><main><slot/></main><footer class="muted">Неофициальный перевод. Источник — NCSOFT.</footer></body></html>
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+    <link rel="alternate" type="application/rss+xml" title="L2 KR RSS" href={base + 'rss.xml'} />
+    <style is:global>
+      :root { font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif; color: #e7eaf0; background: #101319; font-size: 16px; line-height: 1.65; }
+      * { box-sizing: border-box; }
+      body { margin: 0; }
+      header, main, footer { width: min(100% - 40px, 760px); margin-inline: auto; }
+      header { padding: 22px 0; border-bottom: 1px solid #2b323e; font-size: .9rem; }
+      main { padding: 46px 0 80px; }
+      footer { padding: 22px 0 40px; border-top: 1px solid #2b323e; font-size: .84rem; }
+      a, a:visited { color: #a8cfff; text-decoration-color: #637b9a; text-underline-offset: 3px; }
+      a:hover { color: #d5e7ff; }
+      h1, h2, h3 { color: #f6f7fa; line-height: 1.24; letter-spacing: -.025em; }
+      h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); margin: 10px 0 18px; font-weight: 700; }
+      h2 { font-size: 1.4rem; margin: 36px 0 12px; }
+      h3 { font-size: 1.1rem; margin: 26px 0 10px; }
+      p { margin: 0 0 18px; }
+      .muted { color: #a5adbc; }
+      .eyebrow { color: #a5adbc; font-size: .86rem; margin: 0 0 10px; }
+      .summary { color: #c5ccd8; font-size: 1.05rem; }
+      .article-header { margin-bottom: 32px; padding-bottom: 24px; border-bottom: 1px solid #2b323e; }
+      .article-body { max-width: 70ch; }
+      .article-body p { line-height: 1.75; }
+      .article-body ul, .article-body ol { padding-left: 1.4rem; margin: 10px 0 22px; }
+      .article-body li { padding-left: .25rem; margin: 9px 0; }
+      .article-body li::marker { color: #a5adbc; }
+      .article-body blockquote { border-left: 2px solid #526784; margin: 20px 0 28px; padding: 2px 0 2px 18px; color: #bbc4d3; }
+      .article-body blockquote p:last-child { margin-bottom: 0; }
+      .article-body hr { border: 0; border-top: 1px solid #2b323e; margin: 34px 0; }
+      .article-body strong { color: #f1f3f8; font-weight: 650; }
+      .tag { display: inline-block; color: #c3cfdf; background: #222b38; border: 1px solid #354151; border-radius: 5px; font-size: .78rem; padding: 3px 9px; margin: 0 7px 7px 0; }
+      .patch-preview { padding: 24px 0; border-bottom: 1px solid #2b323e; }
+      .patch-preview h2 { font-size: 1.35rem; margin: 5px 0 12px; }
+      .patch-preview h2 a { color: #e7eaf0; text-decoration: none; }
+      .patch-preview h2 a:hover { color: #a8cfff; }
+      table { display: block; overflow-x: auto; border-collapse: collapse; max-width: 100%; }
+      th, td { border: 1px solid #354151; padding: 9px 12px; }
+      img { max-width: 100%; height: auto; }
+      @media (max-width: 560px) { header, main, footer { width: min(100% - 32px, 760px); } main { padding-top: 30px; } }
+    </style>
+  </head>
+  <body>
+    <header><a href={base}>L2 KR / Переводы</a> · <a href={base + 'rss.xml'}>RSS</a></header>
+    <main><slot /></main>
+    <footer class="muted">Неофициальный редакторский перевод · Источник: NC Korea</footer>
+  </body>
+</html>
