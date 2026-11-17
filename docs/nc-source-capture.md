@@ -51,3 +51,9 @@ The manually triggered GitHub Actions workflow now runs `--board l2update --no-a
 The MVP workflow now uses `--month 2026-11` for **L2 Update only**. Article selection is based on the API `timestamps.postedAt`, converted to the Korean calendar timezone (`Asia/Seoul`), not on dates mentioned in article titles. Older publications updated in November are not automatically included: this is a *publication-month* boundary.
 
 Only the first 18 list results are queried. **This does not guarantee complete November coverage** if more than 18 recent entries exist, and does not implement pagination. The raw first-page listing is retained as evidence, but only November-matching article details are fetched. Future months and historical backfill are intentionally out of scope until a later change.
+
+## Decision: rolling 18-article MVP window (supersedes November cutoff)
+
+The first run establishes the starting snapshot from the **latest 18** L2 Update list entries. Later runs inspect the same rolling window, including articles published after November 2026; no historical backfill is attempted. The workflow intentionally **does not** pass `--month`. The optional CLI month filter remains available for manual investigations only.
+
+This is a bounded *discovery window*, not a guarantee of complete coverage. More than 18 new posts between runs, or revisions to posts that have fallen outside the window, can be missed. Before scheduled automation, add durable ID/content-hash deduplication, an overlap/gap alert, and a fallback for gaps. The current collector still fetches all 18 detail JSONs each run; it does not yet skip previously processed items. No translations or publication are automated.
