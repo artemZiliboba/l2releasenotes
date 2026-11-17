@@ -4,7 +4,7 @@ date: "2026-10-21"
 summary: "В обновлении от 28 октября NC Korea планировала удалить запрос оплаты в почте и биржу адены в мировом аукционе. Объявлен порядок возврата предметов и комиссий."
 source_url: "https://lineage2.plaync.com/board/l2update/view?articleId=6ad0044ed8339a6f92109bf9"
 source_id: "6ad0044ed8339a6f92109bf9"
-version: "NC Korea · Main / Eva / Ilsom & Baldo"
+version: "NC Korea · несколько серверов"
 categories: ["Почта", "Мировой аукцион"]
 ---
 
