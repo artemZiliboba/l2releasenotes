@@ -7,11 +7,19 @@ export async function getStaticPaths() {
 }
 const { patch } = Astro.props;
 const { Content } = await render(patch);
+const formatTitle = (title: string, date: Date) => {
+  const stamp = date.toLocaleDateString('ru-RU');
+  let label = title.replace(/[—–]/g, '-').trim();
+  label = label.replace(/^\\d{2}\\.\\d{2}\\.\\d{4}\\s*-\\s*/, '');
+  label = label.replace(/\\s*-\\s*обновление\\s+\\d{1,2}\\s+[^,]+?\\s+\\d{4}\\s+года?$/i, ': обновление');
+  label = label.replace(/^Обновление\\s+\\d{1,2}\\s+[^:]+?:\\s*/i, 'Обновление: ');
+  return stamp + ' - ' + label;
+};
 ---
-<Base title={patch.data.title} description={patch.data.summary}>
+<Base title={formatTitle(patch.data.title, patch.data.date)} description={patch.data.summary}>
   <div class="article-header">
     <p class="eyebrow"><time datetime={patch.data.date.toISOString()}>{patch.data.date.toLocaleDateString('ru-RU')}</time> · {patch.data.version}</p>
-    <h1>{patch.data.title}</h1>
+    <h1>{formatTitle(patch.data.title, patch.data.date)}</h1>
     <p class="summary">{patch.data.summary}</p>
     <a href={patch.data.source_url} rel="noopener noreferrer" target="_blank">Оригинал NC Korea ↗</a>
   </div>
