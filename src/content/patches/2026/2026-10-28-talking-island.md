@@ -1,5 +1,5 @@
 ---
-title: "28.10.2026 — Talking Island: события, рейтинг и L2 Store"
+title: "28.10.2026 - Talking Island: события, рейтинг и L2 Store"
 date: "2026-10-28"
 summary: "События с тортами и чёрными купонами, 28-дневный календарь входа, обновление создания персонажа, недельный рейтинг опыта, L2 Store и специальное изготовление."
 source_url: "https://lineage2.plaync.com/board/l2update/view?articleId=6ae12cf0066b033317c0295d"
