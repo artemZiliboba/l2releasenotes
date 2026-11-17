@@ -145,7 +145,7 @@
 ## Общие изменения умений
 
 1. Некоторые умения теперь **попадают со 100%-й вероятностью**, независимо от физической/магической точности атакующего и физического/магического уклонения цели.
-2. Изменён расход **магических кристаллов** у обычных и других умений. Таблицы фиксированного расхода и изменений мощности перенесены ниже. Перенесена часть вероятностной таблицы; остальные строки ещё требуют перевода.
+2. Изменён расход **магических кристаллов** у обычных и других умений. Таблицы фиксированного расхода и изменений мощности перенесены ниже. Перенесена полная таблица вероятностного расхода (78 строк). Требуется итоговая построчная проверка.
 ### Расход магических кристаллов: обычные умения
 
 В таблице показано количество кристаллов **за одно применение** до и после обновления.
@@ -249,6 +249,79 @@
 | Sword Muse, Spectral Dancer | Silence Song / Medusa Dance | +2 | 4; ср. 4 | 5 (10%), 6 (40%), 7 (50%); ср. 6,4 |
 | Sword Muse, Spectral Dancer | Silence Song / Medusa Dance | +3 | 6; ср. 6 | 5 (25%), 6 (50%), 7 (25%); ср. 6 |
 
+| Phoenix Knight, Vanguard, Mystic Muse, Soultaker, Storm Screamer, Archmage, Barkas | Phoenix Strike / Phantom Burst / Mystic Helix / Dark Helix / Wind Helix / Fire Helix / Gigantic Wolf | +1 | 2 (10%), 3 (15%), 4 (25%), 5 (50%); ср. 4,15 | 3 (17%), 4 (51%), 5 (32%); ср. 4,15 |
+| Phoenix Knight, Vanguard, Mystic Muse, Soultaker, Storm Screamer, Archmage, Barkas | Phoenix Strike / Phantom Burst / Mystic Helix / Dark Helix / Wind Helix / Fire Helix / Gigantic Wolf | +2 | 2 (10%), 3 (20%), 4 (30%), 5 (40%); ср. 4 | 3 (25%), 4 (50%), 5 (25%); ср. 4 |
+| Phoenix Knight, Vanguard, Mystic Muse, Soultaker, Storm Screamer, Archmage, Barkas | Phoenix Strike / Phantom Burst / Mystic Helix / Dark Helix / Wind Helix / Fire Helix / Gigantic Wolf | +3 | 1 (20%), 2 (25%), 3 (25%), 4 (30%); ср. 2,65 | 2 (42%), 3 (51%), 4 (7%); ср. 2,65 |
+| Dominator, Doomcryer | Flame Blast / Blood Link | +1 | 2 (10%), 3 (15%), 4 (25%), 5 (50%); ср. 4,15 | 2 (25%), 3 (50%), 4 (25%); ср. 3 |
+| Dominator, Doomcryer | Flame Blast / Blood Link | +2 | 2 (10%), 3 (20%), 4 (30%), 5 (40%); ср. 4 | 1 (1%), 2 (48%), 3 (51%); ср. 2,5 |
+| Dominator, Doomcryer | Flame Blast / Blood Link | +3 | 1 (20%), 2 (25%), 3 (25%), 4 (30%); ср. 2,65 | 1 (25%), 2 (50%), 3 (25%); ср. 2 |
+| Spectral Master, Arcana Lord | Summon Spectral Cubic / Summon Arcana Cubic | +1 | 1 | 0 (25%), 1 (50%), 2 (25%); ср. 1 |
+| Spectral Master, Arcana Lord | Summon Spectral Cubic / Summon Arcana Cubic | +2 | 2 | 1 (25%), 2 (50%), 3 (25%); ср. 2 |
+| Spectral Master, Arcana Lord | Summon Spectral Cubic / Summon Arcana Cubic | +3 | 3 | 2 (25%), 3 (50%), 4 (25%); ср. 3 |
+| Elemental Master | Summon Elemental Cubic | +1 | 40 | 0 (25%), 1 (50%), 2 (25%); ср. 1 |
+| Elemental Master | Summon Elemental Cubic | +2 | 40 | 0 (38%), 1 (49%), 2 (13%); ср. 0,75 |
+| Elemental Master | Summon Elemental Cubic | +3 | 40 | 0 (51%), 1 (48%), 2 (1%); ср. 0,5 |
+| Ghost Sentinel, Moonlight Sentinel, Sagittarius | Storm Arrow Rain / Storm Piercing / Aqua Arrow Rain / Aqua Piercing / Flame Arrow Rain / Flame Piercing | +1 | 2 (10%), 3 (15%), 4 (25%), 5 (50%); ср. 4,15 | 3 (17%), 4 (51%), 5 (32%); ср. 4,15 |
+| Ghost Sentinel, Moonlight Sentinel, Sagittarius | Storm Arrow Rain / Storm Piercing / Aqua Arrow Rain / Aqua Piercing / Flame Arrow Rain / Flame Piercing | +2 | 2 (20%), 3 (25%), 4 (25%), 5 (30%); ср. 3,65 | 3 (42%), 4 (51%), 5 (7%); ср. 3,65 |
+| Ghost Sentinel, Moonlight Sentinel, Sagittarius | Storm Arrow Rain / Storm Piercing / Aqua Arrow Rain / Aqua Piercing / Flame Arrow Rain / Flame Piercing | +3 | 1 (20%), 2 (25%), 3 (25%), 4 (30%); ср. 2,65 | 2 (42%), 3 (51%), 4 (7%); ср. 2,65 |
+| Trickster | Trickal Arrest | +1 | 3 (10%), 4 (15%), 5 (25%), 6 (50%); ср. 5,15 | 1 (25%), 2 (50%), 3 (25%); ср. 2 |
+| Trickster | Trickal Arrest | +2 | 2 (10%), 3 (15%), 4 (25%), 5 (50%); ср. 4,15 | 0 (10%), 1 (21%), 2 (69%); ср. 1,59 |
+| Trickster | Trickal Arrest | +3 | 1 (10%), 2 (15%), 3 (25%), 4 (50%); ср. 3,15 | 0 (10%), 1 (52%), 2 (38%); ср. 1,28 |
+| Grand Khavatari | Burning Strike | +1 | 0 | 0 (25%), 1 (50%), 2 (25%); ср. 1 |
+| Grand Khavatari | Burning Strike | +2 | 1 | 0 (20%), 1 (66%), 2 (14%); ср. 0,94 |
+| Grand Khavatari | Burning Strike | +3 | 1 | 0 (53%), 1 (31%), 2 (16%); ср. 0,63 |
+| Death Knight (все) | Hell Fire | +1 | 3 (15%), 5 (15%), 7 (35%), 9 (35%); ср. 6,8 | 2 (2%), 3 (51%), 4 (47%); ср. 3,45 |
+| Death Knight (все) | Hell Fire | +2 | 3 (20%), 5 (20%), 7 (30%), 9 (30%); ср. 6,4 | 2 (31%), 3 (50%), 4 (19%); ср. 2,88 |
+| Death Knight (все) | Hell Fire | +3 | 3 (25%), 5 (25%), 7 (25%), 9 (25%); ср. 6 | 1 (25%), 2 (50%), 3 (25%); ср. 2 |
+| Doombringer | Soul Sign | +1 | 5 (10%), 6 (15%), 7 (25%), 8 (50%); ср. 7,15 | 6 (18%), 7 (49%), 8 (33%); ср. 7,15 |
+| Doombringer | Soul Sign | +2 | 5 (10%), 6 (20%), 7 (30%), 8 (40%); ср. 7 | 6 (25%), 7 (50%), 8 (25%); ср. 7 |
+| Doombringer | Soul Sign | +3 | 3 (20%), 5 (25%), 6 (25%), 7 (30%); ср. 5,45 | 4 (5%), 5 (60%), 6 (35%); ср. 5,3 |
+| Duelist | Blade Wave / Blade Wave: Engage | +1 | 2 (10%), 3 (15%), 4 (25%), 5 (50%); ср. 4,15 | 2 (9%), 3 (17%), 4 (74%); ср. 3,65 |
+| Duelist | Blade Wave / Blade Wave: Engage | +2 | 2 (10%), 3 (20%), 4 (30%), 5 (40%); ср. 4 | 1 (14%), 2 (30%), 3 (56%); ср. 2,42 |
+| Duelist | Blade Wave / Blade Wave: Engage | +3 | 1 (20%), 2 (25%), 3 (25%), 4 (30%); ср. 2,65 | 0 (15%), 1 (50%), 2 (35%); ср. 1,2 |
+| Dreadnought | Tempest Spear / Rapid Pierce | +1 | 2 (10%), 3 (15%), 4 (25%), 5 (50%); ср. 4,15 | 3 (17%), 4 (51%), 5 (32%); ср. 4,15 |
+| Dreadnought | Tempest Spear / Rapid Pierce | +2 | 2 (30%), 3 (25%), 4 (25%), 5 (20%); ср. 3,35 | 2 (7%), 3 (51%), 4 (42%); ср. 3,35 |
+| Dreadnought | Tempest Spear / Rapid Pierce | +3 | 1 (20%), 2 (25%), 3 (25%), 4 (30%); ср. 2,65 | 2 (42%), 3 (51%), 4 (7%); ср. 2,65 |
+| Maestro | Broken Match | +1 | 2 (10%), 3 (10%), 4 (15%), 5 (65%); ср. 4,35 | 1 (12%), 2 (51%), 3 (37%); ср. 2,25 |
+| Maestro | Broken Match | +2 | 2 (10%), 3 (20%), 4 (20%), 5 (50%); ср. 4,1 | 1 (31%), 2 (50%), 3 (19%); ср. 1,88 |
+| Maestro | Broken Match | +3 | 1 (10%), 2 (20%), 3 (20%), 4 (50%); ср. 3,1 | 0 (22%), 1 (46%), 2 (32%); ср. 1,1 |
+| Fortune Seeker | Spoil Destroyer | +1 | 2 (10%), 3 (10%), 4 (15%), 5 (65%); ср. 4,35 | 1 (12%), 2 (51%), 3 (37%); ср. 2,25 |
+| Fortune Seeker | Spoil Destroyer | +2 | 2 (10%), 3 (20%), 4 (20%), 5 (50%); ср. 4,1 | 1 (31%), 2 (50%), 3 (19%); ср. 1,88 |
+| Fortune Seeker | Spoil Destroyer | +3 | 1 (10%), 2 (20%), 3 (20%), 4 (50%); ср. 3,1 | 0 (1%), 1 (81%), 2 (18%); ср. 1,17 |
+| Soul Hound | Rapier Slash | +1 | 2 (10%), 3 (15%), 4 (25%), 5 (50%); ср. 4,15 | 3 (18%), 4 (49%), 5 (33%); ср. 4,15 |
+| Soul Hound | Rapier Slash | +2 | 2 (10%), 3 (20%), 4 (30%), 5 (40%); ср. 4 | 3 (25%), 4 (50%), 5 (25%); ср. 4 |
+| Soul Hound | Rapier Slash | +3 | 1 (20%), 2 (25%), 3 (25%), 4 (30%); ср. 2,65 | 1 (5%), 2 (40%), 3 (55%); ср. 2,5 |
+| Crow | Severing Hell | +1 | 5 (10%), 6 (15%), 7 (25%), 8 (50%); ср. 7,15 | 6 (17%), 7 (51%), 8 (32%); ср. 7,15 |
+| Crow | Severing Hell | +2 | 5 (10%), 6 (20%), 7 (30%), 8 (40%); ср. 7 | 6 (25%), 7 (50%), 8 (25%); ср. 7 |
+| Crow | Severing Hell | +3 | 3 (20%), 5 (25%), 6 (25%), 7 (30%); ср. 5,45 | 4 (2%), 5 (51%), 6 (47%); ср. 5,45 |
+| Titan | Gigantic Crush | +1 | 2 | 5 (40%), 6 (50%), 7 (10%); ср. 5,7 |
+| Titan | Gigantic Crush | +2 | 4 | 4 (22%), 5 (51%), 6 (27%); ср. 5,05 |
+| Titan | Gigantic Crush | +3 | 6 | 3 (4%), 4 (50%), 5 (46%); ср. 4,42 |
+| Spirit | Cleave Solis / Light Cleave Solis | +1 | 4 (10%), 5 (10%), 6 (30%), 7 (50%); ср. 6,2 | 5 (10%), 6 (60%), 7 (30%); ср. 6,2 |
+| Spirit | Cleave Solis / Light Cleave Solis | +2 | 4 (30%), 5 (20%), 6 (30%), 7 (20%); ср. 5,4 | 4 (10%), 5 (40%), 6 (50%); ср. 5,4 |
+| Spirit | Cleave Solis / Light Cleave Solis | +3 | 3 (20%), 4 (25%), 5 (25%), 6 (30%); ср. 4,65 | 3 (5%), 4 (25%), 5 (70%); ср. 4,65 |
+| Hierophant | Higher Attack | +1 | 17 | 16 (25%), 17 (50%), 18 (25%); ср. 17 |
+| Hierophant | Higher Attack | +2 | 19 | 18 (25%), 19 (50%), 20 (25%); ср. 19 |
+| Hierophant | Higher Attack | +3 | 20 | 19 (25%), 20 (50%), 21 (25%); ср. 20 |
+| Rose Bane | Perfume of Death | +1 | 4 (10%), 5 (10%), 6 (30%), 7 (50%); ср. 6,2 | 2 (26%), 4 (50%), 5 (24%); ср. 3,72 |
+| Rose Bane | Perfume of Death | +2 | 4 (30%), 5 (20%), 6 (30%), 7 (20%); ср. 5,4 | 2 (26%), 3 (51%), 4 (23%); ср. 2,97 |
+| Rose Bane | Perfume of Death | +3 | 3 (20%), 4 (25%), 5 (25%), 6 (30%); ср. 4,65 | 1 (26%), 2 (51%), 3 (23%); ср. 1,97 |
+| Storm Blaster | Piercing Thrust | +1 | 5 | 2 (17%), 3 (51%), 4 (32%); ср. 3,15 |
+| Storm Blaster | Piercing Thrust | +2 | 5 | 2 (37%), 3 (51%), 4 (12%); ср. 2,75 |
+| Storm Blaster | Piercing Thrust | +3 | 5 | 1 (15%), 2 (51%), 3 (34%); ср. 2,19 |
+| Assassin | Clone Barrage | +1 | 1 (10%), 3 (15%), 5 (25%), 7 (50%); ср. 5,3 | 0 (5%), 1 (50%), 2 (45%); ср. 1,4 |
+| Assassin | Clone Barrage | +2 | 1 (20%), 3 (20%), 5 (30%), 7 (30%); ср. 4,4 | 0 (17%), 1 (49%), 2 (34%); ср. 1,17 |
+| Assassin | Clone Barrage | +3 | 1 (20%), 2 (25%), 3 (25%), 5 (30%); ср. 2,95 | 0 (35%), 1 (49%), 2 (16%); ср. 0,81 |
+| Shillien Saint | Nemesis | +1 | 7 | 9 (25%), 10 (50%), 11 (25%); ср. 10 |
+| Shillien Saint | Nemesis | +2 | 9 | 8 (20%), 9 (40%), 10 (40%); ср. 9,2 |
+| Shillien Saint | Nemesis | +3 | 10 | 7 (4%), 8 (40%), 9 (56%); ср. 8,52 |
+| Eva's Saint | Nocturne of Eva | +1 | 21 | 15 (25%), 16 (50%), 17 (25%); ср. 16 |
+| Eva's Saint | Nocturne of Eva | +2 | 22 | 12 (10%), 13 (30%), 14 (60%); ср. 13,5 |
+| Eva's Saint | Nocturne of Eva | +3 | 23 | 11 (10%), 12 (40%), 13 (50%); ср. 12,4 |
+| Cardinal | Darkness Fall / Balanced Body | +1 | 6 | 4 (30%), 5 (50%), 6 (20%); ср. 4,9 |
+| Cardinal | Darkness Fall / Balanced Body | +2 | 7 | 3 (11%), 4 (50%), 5 (39%); ср. 4,28 |
+| Cardinal | Darkness Fall / Balanced Body | +3 | 8 | 3 (12%), 4 (50%), 5 (38%); ср. 4,26 |
+
 3. Изменено действие **Bless the Sayha**: скорректировано увеличение максимального HP, добавлены восстановление HP и MP. Первый уровень умения теперь изучается с **70-го уровня**.
 4. Улучшена магическая точность магов. Бонус магической точности добавлен к **Magician's Attitude**, **Children of World Tree**, **Weapon Mastery (Orc Mage)** и **Shaman Attack Mastery**.
 5. Изменены визуальные эффекты некоторых умений.
@@ -315,6 +388,6 @@
 
 ## Примечания редакции
 
-- Это **не полная статья**. Разделы создания персонажа и таблица характеристик переведены. Остаются большие таблицы расхода магических кристаллов и вероятностей, а также построчная QA.
+- Это **не полная статья**. Разделы создания персонажа и таблица характеристик переведены. Таблицы расхода магических кристаллов и вероятностей перенесены; остаётся итоговая построчная QA и проверка всех разделов.
 - Класс Bartz и серверная группа Main приведены по оригинальной публикации. Их соответствие региональным версиям Essence/Aden не подтверждено.
 - Английские имена умений используются как рабочая транслитерация, а не как утверждение об официальной русской локализации.
