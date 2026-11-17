@@ -45,3 +45,9 @@ The manually triggered GitHub Actions workflow now runs `--board l2update --no-a
 **Deferred: L2 Note.** The L2 Note API JSON was retrievable, but 14 of 15 attachment downloads failed with HTTP 406 in the last test. The existing `l2note` collector code remains available for future investigation, but is not run by the MVP workflow. No browser-header spoofing or CDN bypass is attempted.
 
 **Still to build for a complete MVP:** verified pagination and source version mapping (Essence/Aden), meaningful-content hashes and durable deduplication against already published records and open PRs, full Korean HTML-to-Markdown extraction with table audits, reviewed Russian translation PRs, and Telegram notifications only after Pages deployment. Do not schedule or auto-publish before these gates are implemented.
+
+## November 2026 starting boundary
+
+The MVP workflow now uses `--month 2026-11` for **L2 Update only**. Article selection is based on the API `timestamps.postedAt`, converted to the Korean calendar timezone (`Asia/Seoul`), not on dates mentioned in article titles. Older publications updated in November are not automatically included: this is a *publication-month* boundary.
+
+Only the first 18 list results are queried. **This does not guarantee complete November coverage** if more than 18 recent entries exist, and does not implement pagination. The raw first-page listing is retained as evidence, but only November-matching article details are fetched. Future months and historical backfill are intentionally out of scope until a later change.
