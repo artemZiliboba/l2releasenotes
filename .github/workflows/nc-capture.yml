@@ -13,7 +13,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Capture L2 Update articles (MVP, text only)
-        run: python scripts/collect_nc_sources.py --board l2update --no-attachments --output nc-capture
+        run: python scripts/collect_nc_sources.py --board l2update --no-attachments --month 2026-11 --output nc-capture
       - name: Upload original JSON and attachments for editorial review
         if: always()
         uses: actions/upload-artifact@v4
