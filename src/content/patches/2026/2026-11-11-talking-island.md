@@ -1,5 +1,5 @@
 ---
-title: "Talking Island — обновление 11 ноября 2026 года"
+title: "11.11.2026 - Talking Island: изготовление и исправления"
 date: "2026-11-11"
 summary: "Четыре предложения специального изготовления за Печати Гирана до 18 ноября и исправление пункта Soul Crystal в меню щитов."
 source_url: "https://lineage2.plaync.com/board/l2update/view?articleId=68766cf0263e537d356d1627"
