@@ -241,6 +241,9 @@
 | Eva's Templar | Bless of Eva | +1 | 2 (10%), 3 (15%), 4 (25%), 5 (50%); ср. 4,15 | 3 (17%), 4 (51%), 5 (32%); ср. 4,15 |
 | Eva's Templar | Bless of Eva | +2 | 2 (10%), 3 (20%), 4 (30%), 5 (40%); ср. 4 | 3 (36%), 4 (51%), 5 (13%); ср. 3,77 |
 | Eva's Templar | Bless of Eva | +3 | 1 (20%), 2 (25%), 3 (25%), 4 (30%); ср. 2,65 | 2 (42%), 3 (51%), 4 (7%); ср. 2,65 |
+| Phoenix Knight, Vanguard, Mystic Muse, Soultaker, Storm Screamer, Archmage, Barkas | Phoenix Strike / Phantom Burst / Mystic Helix / Dark Helix / Wind Helix / Fire Helix / Gigantic Wolf | +1 | 2 (10%), 3 (15%), 4 (25%), 5 (50%); ср. 4,15 | 3 (17%), 4 (51%), 5 (32%); ср. 4,15 |
+| Phoenix Knight, Vanguard, Mystic Muse, Soultaker, Storm Screamer, Archmage, Barkas | Phoenix Strike / Phantom Burst / Mystic Helix / Dark Helix / Wind Helix / Fire Helix / Gigantic Wolf | +2 | 2 (10%), 3 (20%), 4 (30%), 5 (40%); ср. 4 | 3 (25%), 4 (50%), 5 (25%); ср. 4 |
+| Phoenix Knight, Vanguard, Mystic Muse, Soultaker, Storm Screamer, Archmage, Barkas | Phoenix Strike / Phantom Burst / Mystic Helix / Dark Helix / Wind Helix / Fire Helix / Gigantic Wolf | +3 | 1 (20%), 2 (25%), 3 (25%), 4 (30%); ср. 2,65 | 2 (42%), 3 (51%), 4 (7%); ср. 2,65 |
 | Hell Knight | Dark Knight Smash | +1 | 2 (10%), 3 (15%), 4 (25%), 5 (50%); ср. 4,15 | 1 (10%), 2 (50%), 3 (40%); ср. 2,3 |
 | Hell Knight | Dark Knight Smash | +2 | 2 (10%), 3 (20%), 4 (30%), 5 (40%); ср. 4 | 1 (35%), 2 (50%), 3 (15%); ср. 1,8 |
 | Hell Knight | Dark Knight Smash | +3 | 1 (20%), 2 (25%), 3 (25%), 4 (30%); ср. 2,65 | 0 (5%), 1 (37%), 2 (58%); ср. 1,53 |
@@ -251,9 +254,6 @@
 | Sword Muse, Spectral Dancer | Silence Song / Medusa Dance | +2 | 4; ср. 4 | 5 (10%), 6 (40%), 7 (50%); ср. 6,4 |
 | Sword Muse, Spectral Dancer | Silence Song / Medusa Dance | +3 | 6; ср. 6 | 5 (25%), 6 (50%), 7 (25%); ср. 6 |
 
-| Phoenix Knight, Vanguard, Mystic Muse, Soultaker, Storm Screamer, Archmage, Barkas | Phoenix Strike / Phantom Burst / Mystic Helix / Dark Helix / Wind Helix / Fire Helix / Gigantic Wolf | +1 | 2 (10%), 3 (15%), 4 (25%), 5 (50%); ср. 4,15 | 3 (17%), 4 (51%), 5 (32%); ср. 4,15 |
-| Phoenix Knight, Vanguard, Mystic Muse, Soultaker, Storm Screamer, Archmage, Barkas | Phoenix Strike / Phantom Burst / Mystic Helix / Dark Helix / Wind Helix / Fire Helix / Gigantic Wolf | +2 | 2 (10%), 3 (20%), 4 (30%), 5 (40%); ср. 4 | 3 (25%), 4 (50%), 5 (25%); ср. 4 |
-| Phoenix Knight, Vanguard, Mystic Muse, Soultaker, Storm Screamer, Archmage, Barkas | Phoenix Strike / Phantom Burst / Mystic Helix / Dark Helix / Wind Helix / Fire Helix / Gigantic Wolf | +3 | 1 (20%), 2 (25%), 3 (25%), 4 (30%); ср. 2,65 | 2 (42%), 3 (51%), 4 (7%); ср. 2,65 |
 | Dominator, Doomcryer | Flame Blast / Blood Link | +1 | 2 (10%), 3 (15%), 4 (25%), 5 (50%); ср. 4,15 | 2 (25%), 3 (50%), 4 (25%); ср. 3 |
 | Dominator, Doomcryer | Flame Blast / Blood Link | +2 | 2 (10%), 3 (20%), 4 (30%), 5 (40%); ср. 4 | 1 (1%), 2 (48%), 3 (51%); ср. 2,5 |
 | Dominator, Doomcryer | Flame Blast / Blood Link | +3 | 1 (20%), 2 (25%), 3 (25%), 4 (30%); ср. 2,65 | 1 (25%), 2 (50%), 3 (25%); ср. 2 |
