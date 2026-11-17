@@ -1,0 +1,24 @@
+name: Capture NC Korean originals
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Capture first page from both official boards
+        run: python scripts/collect_nc_sources.py --board all --output nc-capture
+      - name: Upload original JSON and attachments for editorial review
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nc-korean-originals
+          path: nc-capture/
+          retention-days: 14
+          if-no-files-found: warn
