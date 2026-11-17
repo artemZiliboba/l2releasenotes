@@ -14,7 +14,7 @@ def editorial_payload(detail):
     content = article.get("content") or {}
     # Never hash the full API response: counters and engagement metadata vary.
     return {
-        "title": article.get("title"),
+        "title": (article.get("contentMeta") or {}).get("title") or article.get("title"),
         "html": content.get("content"),
         "attachments": [
             {"fileUrl": f.get("fileUrl"), "fileSize": f.get("fileSize")}
