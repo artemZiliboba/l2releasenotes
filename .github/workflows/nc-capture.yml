@@ -12,13 +12,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Capture first page from both official boards
-        run: python scripts/collect_nc_sources.py --board all --output nc-capture
+      - name: Capture L2 Update articles (MVP, text only)
+        run: python scripts/collect_nc_sources.py --board l2update --no-attachments --output nc-capture
       - name: Upload original JSON and attachments for editorial review
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: nc-korean-originals
+          name: nc-l2update-originals
           path: nc-capture/
           retention-days: 14
           if-no-files-found: warn

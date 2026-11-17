@@ -7,6 +7,7 @@ import json
 import re
 import time
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 from pathlib import Path
 from urllib.parse import urlencode, urlparse
 from urllib.error import HTTPError, URLError
@@ -57,7 +58,21 @@ def save_json(path, value):
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def collect(board, output, size=18, pages=1, download_attachments=True):
+def is_in_month(item, month):
+    """Filter by official posting timestamp in Korea local calendar month."""
+    if month is None:
+        return True
+    timestamps = item.get("timestamps") or {}
+    posted = timestamps.get("postedAt")
+    if not isinstance(posted, str):
+        raise ValueError("Missing postedAt; cannot safely filter by month")
+    parsed = datetime.fromisoformat(posted.replace("Z", "+00:00"))
+    if parsed.tzinfo is None:
+        raise ValueError("Naive postedAt; cannot safely filter by month")
+    return parsed.astimezone(ZoneInfo("Asia/Seoul")).strftime("%Y-%m") == month
+
+
+def collect(board, output, size=18, pages=1, download_attachments=True, month=None):
     if board not in BOARDS:
         raise ValueError("Unsupported board")
     root = output / board
@@ -77,6 +92,8 @@ def collect(board, output, size=18, pages=1, download_attachments=True):
         if not items:
             break
         for item in items:
+            if not is_in_month(item, month):
+                continue
             article_id = str(item.get("id", ""))
             if not SAFE_ID.fullmatch(article_id) or article_id in seen:
                 continue
@@ -135,6 +152,8 @@ def collect(board, output, size=18, pages=1, download_attachments=True):
         raise RuntimeError("Further pagination is not yet verified; run with --pages 1")
     save_json(root / "manifest.json", {
         "board": board,
+        "monthFilter": month,
+        "coverage": "first-list-page-only; month may be incomplete",
         "collectedAt": datetime.now(timezone.utc).isoformat(),
         "records": records,
         "completeHistory": not bool(listing.get("hasMore")),
@@ -152,12 +171,15 @@ def main():
     parser.add_argument("--size", type=int, default=18)
     parser.add_argument("--pages", type=int, default=1)
     parser.add_argument("--no-attachments", action="store_true")
+    parser.add_argument("--month", help="Limit downloaded articles by Korean posting month (YYYY-MM)")
     args = parser.parse_args()
+    if args.month and not re.fullmatch(r"[0-9]{4}-(0[1-9]|1[0-2])", args.month):
+        parser.error("--month must be YYYY-MM")
     if not 1 <= args.size <= 18 or args.pages != 1:
         parser.error("Only first-page collection (size 1..18, pages=1) is verified")
     failures = 0
     for board in BOARDS if args.board == "all" else (args.board,):
-        count, failed = collect(board, args.output, args.size, args.pages, not args.no_attachments)
+        count, failed = collect(board, args.output, args.size, args.pages, not args.no_attachments, args.month)
         failures += failed
         print(f"{board}: captured {count} articles", flush=True)
     if failures:

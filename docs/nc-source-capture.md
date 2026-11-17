@@ -36,3 +36,24 @@ The first GitHub Actions run on 2026-11-17 collected 18 article JSON responses p
 - The script is not considered complete until the artifact manifest shows `attachments.failed = 0` for each board. A green validation job does not prove source completeness.
 
 If HTTP 406 persists, investigate NC's documented download policy and supported API options rather than attempting to bypass CDN restrictions.
+
+
+## MVP scope (L2 Update only, 2026-11-17)
+
+The manually triggered GitHub Actions workflow now runs `--board l2update --no-attachments`. This intentionally captures the original article JSON and HTML without attempting NC CDN downloads. The artifact is named `nc-l2update-originals`. A green workflow means this first-page text-only capture succeeded; it does **not** establish that all historical articles, translations, or publication tasks are complete.
+
+**Deferred: L2 Note.** The L2 Note API JSON was retrievable, but 14 of 15 attachment downloads failed with HTTP 406 in the last test. The existing `l2note` collector code remains available for future investigation, but is not run by the MVP workflow. No browser-header spoofing or CDN bypass is attempted.
+
+**Still to build for a complete MVP:** verified pagination and source version mapping (Essence/Aden), meaningful-content hashes and durable deduplication against already published records and open PRs, full Korean HTML-to-Markdown extraction with table audits, reviewed Russian translation PRs, and Telegram notifications only after Pages deployment. Do not schedule or auto-publish before these gates are implemented.
+
+## November 2026 starting boundary
+
+The MVP workflow now uses `--month 2026-11` for **L2 Update only**. Article selection is based on the API `timestamps.postedAt`, converted to the Korean calendar timezone (`Asia/Seoul`), not on dates mentioned in article titles. Older publications updated in November are not automatically included: this is a *publication-month* boundary.
+
+Only the first 18 list results are queried. **This does not guarantee complete November coverage** if more than 18 recent entries exist, and does not implement pagination. The raw first-page listing is retained as evidence, but only November-matching article details are fetched. Future months and historical backfill are intentionally out of scope until a later change.
+
+## Decision: rolling 18-article MVP window (supersedes November cutoff)
+
+The first run establishes the starting snapshot from the **latest 18** L2 Update list entries. Later runs inspect the same rolling window, including articles published after November 2026; no historical backfill is attempted. The workflow intentionally **does not** pass `--month`. The optional CLI month filter remains available for manual investigations only.
+
+This is a bounded *discovery window*, not a guarantee of complete coverage. More than 18 new posts between runs, or revisions to posts that have fallen outside the window, can be missed. Before scheduled automation, add durable ID/content-hash deduplication, an overlap/gap alert, and a fallback for gaps. The current collector still fetches all 18 detail JSONs each run; it does not yet skip previously processed items. No translations or publication are automated.
