@@ -6,9 +6,9 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 const formatTitle = (title: string, date: Date) => {
   const stamp = date.toLocaleDateString('ru-RU');
   let label = title.replace(/[—–]/g, '-').trim();
-  label = label.replace(/^\\d{2}\\.\\d{2}\\.\\d{4}\\s*-\\s*/, '');
-  label = label.replace(/\\s*-\\s*обновление\\s+\\d{1,2}\\s+[^,]+?\\s+\\d{4}\\s+года?$/i, ': обновление');
-  label = label.replace(/^Обновление\\s+\\d{1,2}\\s+[^:]+?:\\s*/i, 'Обновление: ');
+  label = label.replace(/^\d{1,2}\.\d{1,2}\.\d{4}\s*-\s*/, '');
+  label = label.replace(/\s*-\s*обновление\s+\d{1,2}\s+[а-яё]+\s+\d{4}\s+года?$/i, ': обновление');
+  label = label.replace(/^Обновление\s+\d{1,2}\s+[а-яё]+(?:\s+\d{4})?:\s*/i, 'Обновление: ');
   return stamp + ' - ' + label;
 };
 ---
