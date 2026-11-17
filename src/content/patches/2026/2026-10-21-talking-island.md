@@ -1,5 +1,5 @@
 ---
-title: "Talking Island — обновление 21 октября 2026 года"
+title: "21.10.2026 — Talking Island: рыбалка и изготовление"
 date: "2026-10-21"
 summary: "Изменения рыбалки, ограничений Creative Critical при изготовлении предметов, два предложения за Печати Гирана и исправление усиления HP боссов."
 source_url: "https://lineage2.plaync.com/board/l2update/view?articleId=6ad6fb37d8339a6f92109d01"

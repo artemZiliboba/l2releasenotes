@@ -1,5 +1,5 @@
 ---
-title: "Talking Island — обновление 4 ноября 2026 года"
+title: "04.11.2026 — Talking Island: юбилейный куб и изготовление"
 date: "2026-11-04"
 summary: "Юбилейный куб к 23-летию, восемь предложений специального изготовления и исправление расположения текста в окне контактов."
 source_url: "https://lineage2.plaync.com/board/l2update/view?articleId=6aea6770577e8c01355e0315"
