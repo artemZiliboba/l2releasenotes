@@ -1,0 +1,168 @@
+{
+  "board": "l2update",
+  "records": {
+    "68766cf0263e537d356d1627": {
+      "contentHash": "a1ea049694d4e41d4d0da9994a9cbdc4e9c1b7e8ae2be30886f049ec44274b9e",
+      "id": "68766cf0263e537d356d1627",
+      "postedAt": "2026-11-10T22:40:20.001Z",
+      "serverFamily": "unverified",
+      "sourceUrl": "https://lineage2.plaync.com/board/l2update/view?articleId=68766cf0263e537d356d1627",
+      "title": "[말하는섬] 11월 11일(수) 업데이트 안내",
+      "updatedAt": "2026-11-10T22:40:48.141Z"
+    },
+    "68766cf028c745263507304b": {
+      "contentHash": "9cb55d4f1dfb8886ff964e4720547a3a64bf34c5c77eab4c7930c6ecc9ebcc8a",
+      "id": "68766cf028c745263507304b",
+      "postedAt": "2026-11-10T22:40:10.001Z",
+      "serverFamily": "unverified",
+      "sourceUrl": "https://lineage2.plaync.com/board/l2update/view?articleId=68766cf028c745263507304b",
+      "title": "[수정] [BASIC] 11월 11일(수) 업데이트 안내",
+      "updatedAt": "2026-11-11T00:30:19.793Z"
+    },
+    "68766cf0577e8c01355e01e9": {
+      "contentHash": "cab8c60ba3c12da373136f406e1a8664af149e88ad5a931a7af1ffb807d1a5ef",
+      "id": "68766cf0577e8c01355e01e9",
+      "postedAt": "2026-10-27T23:00:00.001Z",
+      "serverFamily": "unverified",
+      "sourceUrl": "https://lineage2.plaync.com/board/l2update/view?articleId=68766cf0577e8c01355e01e9",
+      "title": "[본서버] 10월 28일(수) 업데이트 안내 - 신규 클래스 및 스킬",
+      "updatedAt": "2026-10-28T00:31:37.718Z"
+    },
+    "68766cf06cfe4756db5b9253": {
+      "contentHash": "a4e1812e958d3f2d8620233a67d5e96f7605532933f0cc61b792b88506d8ad5a",
+      "id": "68766cf06cfe4756db5b9253",
+      "postedAt": "2026-11-10T22:40:00.001Z",
+      "serverFamily": "unverified",
+      "sourceUrl": "https://lineage2.plaync.com/board/l2update/view?articleId=68766cf06cfe4756db5b9253",
+      "title": "[수정] [본서버] 11월 11일(수) 업데이트 안내",
+      "updatedAt": "2026-11-11T00:27:29.493Z"
+    },
+    "68766cf0eea53f5d6dbcfb40": {
+      "contentHash": "e5c0c0c84288801c364b2d12f95aed25713ee4864cef7c3a9e153513c5cc4e16",
+      "id": "68766cf0eea53f5d6dbcfb40",
+      "postedAt": "2026-10-06T23:00:03.001Z",
+      "serverFamily": "unverified",
+      "sourceUrl": "https://lineage2.plaync.com/board/l2update/view?articleId=68766cf0eea53f5d6dbcfb40",
+      "title": "[말하는섬] 10월 7일(수) 업데이트 안내",
+      "updatedAt": "2026-10-06T23:00:27.285Z"
+    },
+    "6a56e55fe2307f62bca6bd42": {
+      "contentHash": "b3fd22fe9f207a08d533a78765016d7d8b1db507c09a3577d307a96ee0f29603",
+      "id": "6a56e55fe2307f62bca6bd42",
+      "postedAt": "2026-10-01T01:14:45.001Z",
+      "serverFamily": "unverified",
+      "sourceUrl": "https://lineage2.plaync.com/board/l2update/view?articleId=6a56e55fe2307f62bca6bd42",
+      "title": "[말하는섬] 9월 30일(수) 알려진 문제",
+      "updatedAt": "2026-10-01T01:17:55.903Z"
+    },
+    "6aa9cdf0263e537d356d13b6": {
+      "contentHash": "6abe17775bb7bca336fe0a6f8d797fba85d7b6aaa7e5d6d913a6a78e2299b9b7",
+      "id": "6aa9cdf0263e537d356d13b6",
+      "postedAt": "2026-10-27T23:00:10.001Z",
+      "serverFamily": "unverified",
+      "sourceUrl": "https://lineage2.plaync.com/board/l2update/view?articleId=6aa9cdf0263e537d356d13b6",
+      "title": "[본서버] 10월 28일(수) 업데이트 안내 - 사냥터, 아이템, 퀘스트, 콘텐츠 및 이벤트",
+      "updatedAt": "2026-10-28T03:47:22.418Z"
+    },
+    "6aa9cdf0eea53f5d6dbcfb41": {
+      "contentHash": "8f54158b56699caaa2b6a472b3b56016f8fbc417dd3dda3cee265f0e001ab7d5",
+      "id": "6aa9cdf0eea53f5d6dbcfb41",
+      "postedAt": "2026-10-06T23:00:00.001Z",
+      "serverFamily": "unverified",
+      "sourceUrl": "https://lineage2.plaync.com/board/l2update/view?articleId=6aa9cdf0eea53f5d6dbcfb41",
+      "title": "[본서버] 10월 7일(수) 업데이트 안내",
+      "updatedAt": "2026-10-07T00:21:19.312Z"
+    },
+    "6aceb7f0263e537d356d1123": {
+      "contentHash": "6c48d7d4156f82eeffa74790913045b3e5a4ea598b0521a0e99727bc049181b7",
+      "id": "6aceb7f0263e537d356d1123",
+      "postedAt": "2026-10-13T23:00:00.406Z",
+      "serverFamily": "unverified",
+      "sourceUrl": "https://lineage2.plaync.com/board/l2update/view?articleId=6aceb7f0263e537d356d1123",
+      "title": "[본서버] 10월 14일(수) 업데이트 안내",
+      "updatedAt": "2026-10-13T23:00:11.820Z"
+    },
+    "6aceb7f0263e537d356d1125": {
+      "contentHash": "6715e155860d838812d00957be47e2b663d36fed9b07b8d29155c61c83808b4c",
+      "id": "6aceb7f0263e537d356d1125",
+      "postedAt": "2026-10-13T23:00:00.406Z",
+      "serverFamily": "unverified",
+      "sourceUrl": "https://lineage2.plaync.com/board/l2update/view?articleId=6aceb7f0263e537d356d1125",
+      "title": "[말하는섬] 10월 14일(수) 업데이트 안내",
+      "updatedAt": "2026-10-13T23:00:48.147Z"
+    },
+    "6ad0044ed8339a6f92109bf9": {
+      "contentHash": "9c5c2af2095a81f57667e1f62f37f51a4ded884a8685bf6dd93db0c1603565c9",
+      "id": "6ad0044ed8339a6f92109bf9",
+      "postedAt": "2026-10-20T23:47:35.001Z",
+      "serverFamily": "unverified",
+      "sourceUrl": "https://lineage2.plaync.com/board/l2update/view?articleId=6ad0044ed8339a6f92109bf9",
+      "title": "[본/에바/일섬&발도] 우편/월드 거래소 시스템 변경 업데이트 사전 안내",
+      "updatedAt": "2026-10-20T23:51:57.643Z"
+    },
+    "6ad6fabfd8339a6f92109d00": {
+      "contentHash": "f2f8ea570a6e37a8a4e8b3696a5f3eab730d7ba3e8ff08fb3b675defae14f56e",
+      "id": "6ad6fabfd8339a6f92109d00",
+      "postedAt": "2026-10-20T22:45:00.001Z",
+      "serverFamily": "unverified",
+      "sourceUrl": "https://lineage2.plaync.com/board/l2update/view?articleId=6ad6fabfd8339a6f92109d00",
+      "title": "[본서버] 10월 21일(수) 업데이트 안내",
+      "updatedAt": "2026-10-21T00:31:34.791Z"
+    },
+    "6ad6fb37d8339a6f92109d01": {
+      "contentHash": "edd781e7609d02ce4a18a03226af4d749eed2381624d1d963f56bd4ed23e647a",
+      "id": "6ad6fb37d8339a6f92109d01",
+      "postedAt": "2026-10-20T22:45:25.001Z",
+      "serverFamily": "unverified",
+      "sourceUrl": "https://lineage2.plaync.com/board/l2update/view?articleId=6ad6fb37d8339a6f92109d01",
+      "title": "[말하는섬] 10월 21일(수) 업데이트 안내",
+      "updatedAt": "2026-10-21T00:31:55.169Z"
+    },
+    "6ae081dee9e73259ce61e831": {
+      "contentHash": "1a930ef806af5e6485ecc500668e721b71647bbbc935cab3036250fe5fbf0263",
+      "id": "6ae081dee9e73259ce61e831",
+      "postedAt": "2026-10-27T10:50:06.080Z",
+      "serverFamily": "unverified",
+      "sourceUrl": "https://lineage2.plaync.com/board/l2update/view?articleId=6ae081dee9e73259ce61e831",
+      "title": "[본/에바/일섬&발도] 토벌 콘텐츠 사전 업데이트 안내",
+      "updatedAt": "2026-10-27T10:51:41.750Z"
+    },
+    "6ae12cf0066b033317c0295d": {
+      "contentHash": "9f876ed45504b9f56272b94b8ab1e7ef2c4401277d9c4ad02407581f4d59fc05",
+      "id": "6ae12cf0066b033317c0295d",
+      "postedAt": "2026-10-27T23:01:00.001Z",
+      "serverFamily": "unverified",
+      "sourceUrl": "https://lineage2.plaync.com/board/l2update/view?articleId=6ae12cf0066b033317c0295d",
+      "title": "[수정] [말하는섬] 10월 28일(수) 업데이트 안내",
+      "updatedAt": "2026-10-27T23:45:55.239Z"
+    },
+    "6aea6770066b033317c02a9c": {
+      "contentHash": "96a6986c61c44886c21e82b3d7b2bf46a8b4822dc6678b4ee06d108117df2ead",
+      "id": "6aea6770066b033317c02a9c",
+      "postedAt": "2026-11-03T23:00:00.716Z",
+      "serverFamily": "unverified",
+      "sourceUrl": "https://lineage2.plaync.com/board/l2update/view?articleId=6aea6770066b033317c02a9c",
+      "title": "[본서버] 11월 4일(수) 업데이트 안내",
+      "updatedAt": "2026-11-04T10:39:39.300Z"
+    },
+    "6aea6770066b033317c02a9f": {
+      "contentHash": "0151ec221ea7fb459b5937109e4f88c6a7c9287a728d07891137216674faeb90",
+      "id": "6aea6770066b033317c02a9f",
+      "postedAt": "2026-11-03T23:00:00.716Z",
+      "serverFamily": "unverified",
+      "sourceUrl": "https://lineage2.plaync.com/board/l2update/view?articleId=6aea6770066b033317c02a9f",
+      "title": "[BASIC] 11월 4일(수) 업데이트 안내",
+      "updatedAt": "2026-11-04T10:40:05.255Z"
+    },
+    "6aea6770577e8c01355e0315": {
+      "contentHash": "68772d207b69f4b85d52ca6006f59f828e2783a73aac365b2e45cc1c24370c0d",
+      "id": "6aea6770577e8c01355e0315",
+      "postedAt": "2026-11-03T23:00:00.001Z",
+      "serverFamily": "unverified",
+      "sourceUrl": "https://lineage2.plaync.com/board/l2update/view?articleId=6aea6770577e8c01355e0315",
+      "title": "[말하는섬] 11월 4일(수) 업데이트 안내",
+      "updatedAt": "2026-11-03T23:00:48.012Z"
+    }
+  },
+  "schemaVersion": 1
+}
