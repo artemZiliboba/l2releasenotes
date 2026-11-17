@@ -31,6 +31,8 @@ jobs:
       - name: Compare and preserve observed fingerprints
         run: |
           python scripts/update_nc_registry.py nc-capture --previous previous-registry.json --registry nc-capture/registry.json --report nc-capture/editorial-diff.json
+      - name: Prepare editorial translation queue
+        run: python scripts/prepare_editorial_queue.py nc-capture --output nc-capture/editorial-queue.json
       - name: Upload original JSON and editorial report
         uses: actions/upload-artifact@v4
         with:
