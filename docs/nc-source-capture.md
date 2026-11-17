@@ -22,3 +22,17 @@ The first-page API call and article-detail structure were observed in browser HA
 - Do not add automatic Telegram posting until the reviewed translation is published on Pages and the link is confirmed accessible.
 
 Run locally: `python scripts/collect_nc_sources.py --board l2update --output nc-capture`.
+
+
+## Attachment reliability and failure reporting
+
+The first GitHub Actions run on 2026-11-17 collected 18 article JSON responses per board but reported 13 CDN download failures: six HTTP 406 and seven HTTP 502. These are observed HTTP statuses, not proof of a specific root cause.
+
+- HTTP 502, 503, 504, 500, 429 and 408, and transient network failures, receive up to three attempts with bounded backoff.
+- HTTP 406 is **not retried**: it may represent an intentional server/CDN restriction. No circumvention or authentication spoofing is attempted.
+- Each board's `manifest.json` records attachment counts and per-file errors, including HTTP status and official URL.
+- Expected file sizes are checked when supplied by the API; a mismatched download counts as failed.
+- The collector exits with status 1 if any requested attachment fails, but the workflow still uploads the partial archive via `if: always()`.
+- The script is not considered complete until the artifact manifest shows `attachments.failed = 0` for each board. A green validation job does not prove source completeness.
+
+If HTTP 406 persists, investigate NC's documented download policy and supported API options rather than attempting to bypass CDN restrictions.
