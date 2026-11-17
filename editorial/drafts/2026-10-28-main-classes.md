@@ -145,7 +145,85 @@
 ## Общие изменения умений
 
 1. Некоторые умения теперь **попадают со 100%-й вероятностью**, независимо от физической/магической точности атакующего и физического/магического уклонения цели.
-2. Изменён расход **магических кристаллов** у обычных и других умений. В оригинале приведены подробные таблицы по классам, уровням умений, прежним и новым значениям расхода, включая вероятностные варианты. **Таблицы не перенесены в этот черновик**, поэтому числовая часть раздела не готова.
+2. Изменён расход **магических кристаллов** у обычных и других умений. Таблицы фиксированного расхода и изменений мощности перенесены ниже. **Большая таблица вероятностного расхода для усиленных редких умений ещё не перенесена**.
+### Расход магических кристаллов: обычные умения
+
+В таблице показано количество кристаллов **за одно применение** до и после обновления.
+
+| Класс | Умение | Уровень | Было | Стало |
+| --- | --- | --- | ---: | ---: |
+| Ghost Hunter | Deadly Piercing | 1 | 5 | 4 |
+| Death Knight (все) | Consume | 1 | 10 | 9 |
+| Death Knight (все) | Consume | 2 | 20 | 9 |
+| Death Knight (все) | Evil Stigma | 2 | 3 | 2 |
+| Rose Bane | Rose Assault | 5–15 | 1 | 0 |
+| Rose Bane | Nightmare Blossom | 1–10 | 3 | 1 |
+| Rose Bane | Rose Vine | 1 | 2 | 1 |
+| Rose Bane | Queen's Garden: Master | 2 | 15 | 13 |
+| Soul Hound | Soul Weakness | 1 | 20 | 5 |
+| Soul Hound | Leopold: Master | 1 | 10 | 5 |
+| Storm Blaster | Dragon Strike | 1 | 50 | 37 |
+| Storm Blaster | Elemental Transition | 1 | 3 | 2 |
+| Storm Blaster | Freezing Pierce | 1 | 5 | 4 |
+| Shillien Saint | Dark Ruin | 1 | 50 | 34 |
+| Shillien Templar | Condemn: Master | 2 | 15 | 9 |
+| Shillien Templar | Lightning Break Wave | 1 | 2 | 0 |
+| Assassin | Assassin Stance | 1 | 50 | 40 |
+| Adventurer | Critical Assault | 1 | 5 | 4 |
+| Eva's Saint | Expel | 1 | 50 | 35 |
+| Eva's Templar | Shelter: Master | 2 | 60 | 29 |
+| Wind Rider | Fury Blade | 1 | 5 | 4 |
+| Cardinal | Diminish Life | 5 | 3 | 1 |
+| Titan | Hyper Rush | 1 | 1 | 0 |
+| Fortune Seeker | Fortune Time | 1–4 | 220 | 110 |
+| Fortune Seeker | Blessed Fortune Time | 1–4 | 220 | 110 |
+| Fortune Seeker | Fortune Wave | 1–2 | 5 | 3 |
+| Fortune Seeker | Random Weapon Performance | 1 | 5 | 4 |
+| Hell Knight | Hell: Master | 2 | 25 | 20 |
+| Dreadnought | Tempest Lightning | 1–10 | 3 | 1 |
+| Dreadnought | Spear Expert | 1–5 | 200 | 150 |
+| Elemental Master | Over the Rainbow | 1 | 20 | 15 |
+
+### Расход магических кристаллов: редкие умения +0
+
+| Класс | Умение | Уровень | Было | Стало |
+| --- | --- | --- | ---: | ---: |
+| Sword Muse | Silence Song | 4 | 0 | 7 |
+| Spectral Dancer | Medusa Dance | 4 | 0 | 7 |
+| Trickster | Trickal Arrest | 1–3 | 7 | 3 |
+| Grand Khavatari | Burning Strike | 1–10 | 0 | 2 |
+| Death Knight (все) | Hell Fire | 1–20 | 0 | 4 |
+| Titan | Gigantic Crush | 1–9 | 0 | 6 |
+| Shillien Saint | Nemesis | 1–3 | 5 | 11 |
+
+### Усиление умений с повышенным расходом кристаллов
+
+Значения мощности относятся к **максимальному уровню умения**, если не указано иное.
+
+| Класс и умение | Изменённый параметр | Было | Стало |
+| --- | --- | --- | --- |
+| Grand Khavatari, Burning Strike +0 Lv10 | Мощность | 8 600 | 9 000 |
+| Grand Khavatari, Burning Strike +0 Lv10 | Шанс дополнительного удара | 30% | 70% |
+| Grand Khavatari, Burning Strike +1 Lv10 | Шанс дополнительного удара | 50% | 90% |
+| Death Knight, Hell Fire +0 Lv20 | Мощность | 5 958 | 8 500 |
+| Sword Muse, Silence Song +0 Lv4 | Мощность | 7 579 | 8 200 |
+| Sword Muse, Silence Song +0 Lv4 | Число ударов | 1 | 2 |
+| Sword Muse, Silence Song +0 Lv4 | Число целей | 6 | 7 |
+| Sword Muse, Silence Song +1 Lv4 | Число ударов | 1 | 2 |
+| Sword Muse, Silence Song +1 Lv4 | Число целей | 7 | 9 |
+| Spectral Dancer, Medusa Dance +0 Lv4 | Мощность | 7 579 | 8 200 |
+| Spectral Dancer, Medusa Dance +0 Lv4 | Число ударов | 1 | 2 |
+| Spectral Dancer, Medusa Dance +0 Lv4 | Число целей | 6 | 7 |
+| Spectral Dancer, Medusa Dance +1 Lv4 | Число ударов | 1 | 2 |
+| Spectral Dancer, Medusa Dance +1 Lv4 | Число целей | 7 | 9 |
+| Shillien Saint, Nemesis +0 Lv3 | Мощность | 195 | 210 |
+| Shillien Saint, Nemesis +0 Lv3 | Дополнительный эффект | Нет | Магическое сопротивление цели -5%; прежнее снижение восстановления сохраняется |
+| Titan, Gigantic Crush +0 Lv9 | Число ударов | 1 | 2 |
+| Titan, Gigantic Crush +0 Lv9 | Число целей | 5 | 6 |
+| Titan, Gigantic Crush +1 Lv9 | Мощность | 7 783 | 10 577 |
+| Titan, Gigantic Crush +1 Lv9 | Число целей | 7 | 9 |
+| Titan, Gigantic Crush +2 Lv9 | Дополнительный эффект | Нет | 50%-й шанс одного дополнительного удара |
+
 3. Изменено действие **Bless the Sayha**: скорректировано увеличение максимального HP, добавлены восстановление HP и MP. Первый уровень умения теперь изучается с **70-го уровня**.
 4. Улучшена магическая точность магов. Бонус магической точности добавлен к **Magician's Attitude**, **Children of World Tree**, **Weapon Mastery (Orc Mage)** и **Shaman Attack Mastery**.
 5. Изменены визуальные эффекты некоторых умений.
