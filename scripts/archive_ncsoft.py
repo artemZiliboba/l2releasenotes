@@ -13,7 +13,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "source-snapshots" / "l2update"
-API_BASE = "https://api-community.plaync.com/lin2/board/l2update"\nAPI = API_BASE + "/article/search/moreArticle?isVote=true&moreSize=18&moreDirection=BEFORE&previousArticleId=0"
+API_BASE = "https://api-community.plaync.com/lin2/board/l2update"
+API = API_BASE + "/article/search/moreArticle?isVote=true&moreSize=18&moreDirection=BEFORE&previousArticleId=0"
 
 
 def get_json(url):
@@ -23,7 +24,8 @@ def get_json(url):
 
 
 def write_if_changed(path, obj):
-    content = json.dumps(obj, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
+    content = json.dumps(obj, ensure_ascii=False, indent=2, sort_keys=True) + "
+"
     path.parent.mkdir(parents=True, exist_ok=True)
     if path.exists() and path.read_text(encoding="utf-8") == content:
         return False
@@ -47,7 +49,12 @@ def main():
         if not article_id.isalnum():
             raise ValueError("Unsafe NCSoft article ID")
         ids.add(article_id)
-        detail = get_json(API_BASE + "/article/" + article_id)\n        article = detail.get("article") if isinstance(detail, dict) else None\n        body = (article.get("content") or {}).get("content") if isinstance(article, dict) else None\n        if not isinstance(body, str) or not body.strip():\n            raise ValueError(f"Full NCSoft article HTML missing for {article_id}; no incomplete snapshot will be committed")\n        write_if_changed(OUT / "articles" / (article_id + ".json"), {
+        detail = get_json(API_BASE + "/article/" + article_id)
+        article = detail.get("article") if isinstance(detail, dict) else None
+        body = (article.get("content") or {}).get("content") if isinstance(article, dict) else None
+        if not isinstance(body, str) or not body.strip():
+            raise ValueError(f"Full NCSoft article HTML missing for {article_id}; no incomplete snapshot will be committed")
+        write_if_changed(OUT / "articles" / (article_id + ".json"), {
             "source": "official NCSoft l2update list API",
             "article_id": article_id,
             "source_url": "https://lineage2.plaync.com/board/l2update/view?articleId=" + article_id,
