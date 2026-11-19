@@ -95,7 +95,7 @@ def deployed(args):
             pretty_date = dt.date.fromisoformat(date).strftime("%d.%m.%Y")
         except ValueError:
             pretty_date = date
-        lines = ["📰 <b>Lineage 2 Korea · Обновление</b>"]
+        lines = []
         if pretty_date:
             lines.append("📅 " + html.escape(pretty_date))
         if version:
