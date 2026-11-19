@@ -1,0 +1,20 @@
+name: Telegram — daily NCSoft check
+on:
+  schedule:
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: telegram-daily
+  cancel-in-progress: false
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check NCSoft and report to Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/telegram_notify.py daily
