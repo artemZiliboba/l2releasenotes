@@ -13,7 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "source-snapshots" / "l2update"
-API = "https://api-community.plaync.com/lin2/board/l2update/article/search/moreArticle?isVote=true&moreSize=18&moreDirection=BEFORE&previousArticleId=0"
+API_BASE = "https://api-community.plaync.com/lin2/board/l2update"\nAPI = API_BASE + "/article/search/moreArticle?isVote=true&moreSize=18&moreDirection=BEFORE&previousArticleId=0"
 
 
 def get_json(url):
@@ -47,12 +47,12 @@ def main():
         if not article_id.isalnum():
             raise ValueError("Unsafe NCSoft article ID")
         ids.add(article_id)
-        write_if_changed(OUT / "articles" / (article_id + ".json"), {
+        detail = get_json(API_BASE + "/article/" + article_id)\n        article = detail.get("article") if isinstance(detail, dict) else None\n        body = (article.get("content") or {}).get("content") if isinstance(article, dict) else None\n        if not isinstance(body, str) or not body.strip():\n            raise ValueError(f"Full NCSoft article HTML missing for {article_id}; no incomplete snapshot will be committed")\n        write_if_changed(OUT / "articles" / (article_id + ".json"), {
             "source": "official NCSoft l2update list API",
             "article_id": article_id,
             "source_url": "https://lineage2.plaync.com/board/l2update/view?articleId=" + article_id,
             "record": item,
-            "full_article_verified": False,
+            "full_article_verified": True,
             "note": "List metadata only; do not translate as a complete article without verifying full original body."
         })
     write_if_changed(OUT / "latest.json", {
@@ -63,7 +63,7 @@ def main():
         "search_count": data.get("searchCount"),
         "full_article_verified": False,
     })
-    print(f"Archived {len(entries)} official NCSoft list records. Full article HTML still requires a verified retrieval endpoint.")
+    print(f"Archived {len(entries)} official NCSoft article detail responses with HTML.")
 
 
 if __name__ == "__main__":
