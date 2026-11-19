@@ -94,21 +94,22 @@ def deployed(args):
 
 
 def ids_from_api(obj):
-    """Fail closed when NCSoft changes response schema; never report a false no-news."""
+    """Read IDs from NCSoft's contentList, rejecting unexpected response formats."""
+    if not isinstance(obj, dict) or not isinstance(obj.get("contentList"), list):
+        raise ValueError("Unexpected NCSoft API response: contentList is missing")
+    items = obj["contentList"]
+    if not items:
+        raise ValueError("NCSoft returned an empty contentList; cannot confirm no news")
     found = set()
-    def walk(value):
-        if isinstance(value, dict):
-            if "articleId" in value and isinstance(value["articleId"], (str, int)):
-                found.add(str(value["articleId"]))
-            for child in value.values():
-                walk(child)
-        elif isinstance(value, list):
-            for child in value:
-                walk(child)
-    walk(obj)
-    if not found:
-        shape = list(obj)[:12] if isinstance(obj, dict) else type(obj).__name__
-        raise ValueError(f"NCSoft API returned no recognizable article IDs; response top-level shape: {shape}")
+    for item in items:
+        if not isinstance(item, dict):
+            raise ValueError("Unexpected NCSoft article entry type")
+        # NCSoft search entries may use id rather than articleId.
+        value = item.get("articleId") or item.get("id")
+        if not isinstance(value, (str, int)) or not str(value).strip():
+            keys = sorted(item.keys())
+            raise ValueError(f"NCSoft entry has no recognized ID; available fields: {keys}")
+        found.add(str(value))
     return found
 
 
