@@ -1,31 +1,212 @@
-# L2 KR Release Notes
+# Lineage 2 KR Release Notes — русские переводы обновлений NC Korea
 
-Unofficial Russian translations of Lineage 2 Essence / Aden patch notes.
+[Открыть сайт](https://artemziliboba.github.io/l2releasenotes/) · [GitHub Actions](https://github.com/artemZiliboba/l2releasenotes/actions) · [Официальные обновления NCSoft](https://lineage2.plaync.com/board/l2update)
 
-## Status
-Stage 1 in progress. Astro website, RSS, GitHub Pages workflow, validation workflow and a **reviewed manual import** are implemented. Automated Korean ingestion and translation are **not** implemented until the correct official source and terms are verified. No fabricated patches are included.
+Неофициальный русскоязычный архив обновлений **корейской Lineage 2**. Корейские оригиналы автоматически сохраняются в GitHub, а полные переводы готовит ChatGPT со скиллом `lineage2-kr-patchnotes` — вручную или по отдельному расписанию. Готовые статьи публикуются в `master` и отображаются на сайте на Astro/GitHub Pages.
 
-## Local
+> **Важно о версиях игры.** Источник `l2update` включает разные серверные группы: Main, BASIC, Talking Island и другие. Это **не** означает, что каждое обновление относится к Essence/Aden. В переводах сохраняются исходные обозначения серверов. Сопоставление с Essence/Aden допустимо только при наличии подтверждённого источника.
+
+## Как всё работает
+
+```text
+Официальный NCSoft (корейский HTML)
+              |
+              | GitHub Actions: 00:00, 06:00, 12:00, 18:00 UTC
+              v
+source-snapshots/l2update/  (оригиналы в master)
+              |
+              | ChatGPT + lineage2-kr-patchnotes
+              | вручную или по отдельному планировщику
+              v
+src/content/patches/YYYY/*.md  (полные переводы в master)
+              |
+              | push в master
+              v
+GitHub Actions: Deploy Pages
+              |
+              +--> Сайт с русскими статьями
+              |
+              +--> Telegram — published patch notes
+```
+
+**Сбор оригиналов и перевод — разные процессы.** GitHub Actions умеет получать и хранить корейские тексты, но **не переводит их**. Перевод и запись Markdown выполняет ChatGPT при запуске скилла. Расписание ChatGPT хранится **в интерфейсе ChatGPT, не в этом репозитории**.
+
+### Что происходит при появлении обновления
+
+1. `Archive NCSoft sources (four times daily)` запрашивает последние записи официального `l2update`, скачивает **полный HTML** каждой статьи и сохраняет JSON в `source-snapshots/l2update/articles/`.
+2. Если файлы изменились, GitHub Actions коммитит их в `master`. Если изменился именно текст корейского оригинала, отдельный скрипт отправляет уведомление в Telegram (при настроенных секретах).
+3. ChatGPT по команде пользователя или своему планировщику проверяет архив, уже опубликованные `source_id` и доступные признаки редакций.
+4. Новые или подтверждённо изменённые оригиналы переводятся **полностью**: заголовки, абзацы, списки, таблицы, числа, условия и ссылки. Неизменившиеся статьи не публикуются повторно.
+5. Готовый Markdown добавляется **непосредственно в `master`**. Пользователь разрешил этот режим: без PR, отдельной ветки и предварительного редакторского согласования.
+6. `Deploy Pages` собирает сайт. После **успешного** деплоя `Telegram — published patch notes` уведомляет о новых добавленных файлах статей.
+
+Если оригинал недоступен целиком, категория сервера не определена или запись в GitHub заблокирована, перевод **не следует выдумывать или объявлять опубликованным**. Ошибка сообщается пользователю. Если изменений нет, пустые коммиты не создаются.
+
+## Все GitHub Actions
+
+Файлы находятся в [`.github/workflows/`](.github/workflows/). Открыть список запусков: **GitHub → Actions**.
+
+| Workflow в интерфейсе Actions | Файл | Когда запускается | Назначение |
+|---|---|---|---|
+| **Archive NCSoft sources (four times daily)** | [`archive-ncsoft.yml`](.github/workflows/archive-ncsoft.yml) | 00:00, 06:00, 12:00, 18:00 **UTC**, а также вручную | Основной сборщик: скачивает полные корейские оригиналы, сохраняет изменившиеся JSON в `master`; при новых/изменённых текстах отправляет Telegram-уведомление |
+| **Capture NC Korean originals** | [`nc-capture.yml`](.github/workflows/nc-capture.yml) | Только вручную | Дополнительный диагностический сбор последних 18 записей, сравнение отпечатков и подготовка редакционной очереди. Загружает артефакт `nc-l2update-originals` на 14 дней, хранит реестр в отдельной ветке `state/l2update`. **Не публикует переводы** |
+| **Deploy Pages** | [`pages.yml`](.github/workflows/pages.yml) | При каждом push в `master` и вручную | Устанавливает Node.js 22, выполняет `npm install`, `npm run build` и публикует `dist/` в GitHub Pages |
+| **Telegram — manual NCSoft status check** | [`telegram-daily.yml`](.github/workflows/telegram-daily.yml) | Только вручную | Однократно сверяет последние ID NCSoft с опубликованными `source_id` и отправляет отчёт в Telegram. **Не переводит статьи**; слово `daily` в названии скрипта — историческое |
+| **Telegram — published patch notes** | [`telegram-published.yml`](.github/workflows/telegram-published.yml) | После успешного `Deploy Pages` из `master` | Сравнивает коммиты двух успешных деплоев и отправляет в Telegram ссылки на **новые добавленные** Markdown-статьи. Изменения существующих файлов не считаются новыми статьями |
+| **Validate** | [`validate.yml`](.github/workflows/validate.yml) | При push и pull request | Запускает Python-тесты и проверяет сборку Astro. Это техническая проверка репозитория, **не** обязательный этап редакторского одобрения переводов |
+
+**Как запустить workflow вручную:** откройте **Actions → нужный workflow → Run workflow**, выберите ветку и подтвердите запуск. Для архиватора выбирайте `master`.
+
+GitHub Actions `schedule` выполняется на стороне GitHub: время указано в UTC, возможны задержки старта. Успешный запуск `Deploy Pages` сам по себе **не доказывает**, что архиватор скачал свежие данные: проверяйте соответствующий workflow отдельно.
+
+## Скилл ChatGPT: `lineage2-kr-patchnotes`
+
+Скилл — отдельный набор инструкций ChatGPT, **не Python-скрипт в этом репозитории**. Он объясняет, где искать оригиналы, как определять новые/исправленные статьи, как переводить и куда публиковать. Для работы у другого пользователя скилл должен быть **установлен в его ChatGPT**, а GitHub — подключён с необходимыми правами. Наличие README или одного только репозитория скилл автоматически не устанавливает.
+
+### Ручной запуск
+
+Откройте чат с установленным скиллом и напишите:
+
+- **`проверь`** или **`проверь обновления`** — проверить новые публикации и исправления NCSoft, затем незавершённый архив.
+- **`продолжай`** или **`дальше`** — продолжить перевод накопившихся неопубликованных материалов.
+
+Ручной режим работает независимо от планировщика: можно запускать в любое время. Он использует те же правила публикации напрямую в `master`, что и автоматический режим.
+
+### Автоматический запуск ChatGPT
+
+В ChatGPT отдельно создана задача **«Lineage 2 — проверка и перевод»**. Согласованное расписание: **01:00, 07:00, 13:00 и 19:00 UTC**, примерно через час после запуска архиватора. Планировщик должен запускать тот же скилл и:
+
+1. Читать `source-snapshots/l2update/` и опубликованные Markdown.
+2. Выявлять новые и достоверно изменённые оригиналы, не создавать дубликаты.
+3. Переводить полный доступный текст и коммитить результат в `master`.
+4. При отсутствии изменений не делать коммит.
+5. Сообщать об ошибках доступа и о публикациях; ссылку на сайт считать подтверждённой только после проверки деплоя.
+
+**Где управлять:** в интерфейсе ChatGPT, в разделе запланированных задач/автоматизаций. Настройка, права и состояние задачи **не синхронизируются с GitHub Actions**. Если другой человек будет использовать проект, ему потребуется собственный доступ к скиллу и настройка автоматизации.
+
+**Права:** успешное чтение GitHub не доказывает наличие права записи. При первом реальном коммите может потребоваться подключение или подтверждение доступа. Автоматический запуск не гарантирует, что сможет самостоятельно пройти интерактивное подтверждение: при отказе он должен сообщить о блокировке, а не заявлять об успешной публикации.
+
+### Почему не возникают дубликаты
+
+У каждой корейской статьи есть уникальный `source_id`. Скилл сопоставляет его с frontmatter уже опубликованных Markdown. Для обновлённого оригинала одного изменения времени коммита недостаточно: нужен признак изменения **содержимого** или другой надёжный маркер редакции. Перед записью нужно перечитать `master`, поскольку архиватор, ручной запуск и планировщик могут работать одновременно.
+
+Скилл **не должен** объявлять незаконченный перевод готовым. Если большая статья не помещается в один запуск, она остаётся в очереди. В `latest.json` поле `has_more: true` означает, что за пределами последней страницы источника может быть более старый архив: отсутствие новых записей в последних 18 **не означает**, что историческая очередь пуста.
+
+## Структура репозитория
+
+| Путь | Что хранится |
+|---|---|
+| [`src/content/patches/`](src/content/patches/) | Опубликованные русские Markdown-статьи по годам |
+| [`source-snapshots/l2update/latest.json`](source-snapshots/l2update/latest.json) | Последняя сохранённая выборка ID NCSoft; это **не онлайн-лента** |
+| [`source-snapshots/l2update/articles/`](source-snapshots/l2update/articles/) | Полные ответы NCSoft по ID, включая исходный HTML в `article.content.content` |
+| [`.github/workflows/`](.github/workflows/) | Все шесть GitHub Actions |
+| [`scripts/`](scripts/) | Архиватор, сборщик, Telegram, импорт и служебные утилиты |
+| [`src/`](src/) | Исходники сайта Astro |
+| [`tests/`](tests/) | Автоматические тесты Python |
+| [`editorial/`](editorial/) | Исторические редакционные материалы и очередь |
+| [`docs/`](docs/) | Дополнительные исследования и документация; некоторые старые документы описывают раннее состояние проекта |
+
+### Формат опубликованной статьи
+
+Пример расположения: `src/content/patches/2026/2026-11-18-main-goddard.md`.
+
+```markdown
+---
+title: "18.11.2026 - Main: название обновления"
+date: "2026-11-18"
+summary: "Краткое описание по-русски"
+source_url: "https://lineage2.plaync.com/board/l2update/view?articleId=SOURCE_ID"
+source_id: "SOURCE_ID"
+version: "NC Korea · Main"
+categories: ["Предметы", "Исправления"]
+---
+
+Полный перевод статьи на русский язык.
+
+| Параметр | Значение |
+|---|---|
+| Пример | Данные из оригинала |
+```
+
+Поля `source_id` и `source_url` связывают перевод с официальным источником. `version` отражает **фактическую** серверную группу, а не предположение об Essence/Aden. Для статьи с несколькими группами указываются подтверждённые исходником обозначения. Полный текст и таблицы идут после YAML-frontmatter.
+
+Адрес статьи на сайте строится из её идентификатора в коллекции Astro; для приведённого примера это `https://artemziliboba.github.io/l2releasenotes/patches/2026/2026-11-18-main-goddard/`. **Факт доступности страницы следует проверять после деплоя.**
+
+## Скрипты: что делает каждый
+
+- [`scripts/archive_ncsoft.py`](scripts/archive_ncsoft.py) — основной сборщик официальных последних записей и полных HTML; перезаписывает JSON только при изменении содержимого.
+- [`scripts/notify_ncsoft_archive.py`](scripts/notify_ncsoft_archive.py) — сравнивает архивные JSON в текущем и предыдущем коммитах, отправляет Telegram-сообщения только о новых или изменённых корейских телах.
+- [`scripts/telegram_notify.py`](scripts/telegram_notify.py) — режим `daily` для ручной сводки и `deployed` для уведомлений о новых опубликованных статьях.
+- [`scripts/collect_nc_sources.py`](scripts/collect_nc_sources.py), [`scripts/update_nc_registry.py`](scripts/update_nc_registry.py), [`scripts/compare_nc_capture.py`](scripts/compare_nc_capture.py), [`scripts/prepare_editorial_queue.py`](scripts/prepare_editorial_queue.py) — вспомогательные инструменты диагностики, сравнения и редакционной очереди.
+- [`scripts/import_patch.py`](scripts/import_patch.py) — **альтернативный ручной** импорт заранее проверенного JSON; требует `reviewed: true`. Это не путь автоматической публикации ChatGPT и не основание подставлять фиктивное одобрение.
+
+## Telegram
+
+В настройках репозитория GitHub должны быть заданы **Actions secrets**:
+
+| Secret | Назначение |
+|---|---|
+| `TELEGRAM_BOT_TOKEN` | Токен Telegram-бота |
+| `TELEGRAM_CHAT_ID` | ID чата или канала назначения |
+
+Путь: **Settings → Secrets and variables → Actions**. Не добавляйте значения секретов в код, README или коммиты.
+
+Telegram получает **два разных типа событий**:
+
+- **Новый/изменённый корейский оригинал:** после архивирования, ещё **до перевода**. Это сигнал о поступлении материала, а не о публикации русской статьи.
+- **Новая русская статья:** после успешного деплоя GitHub Pages. Workflow ищет **добавленные** файлы `.md`; исправления уже существующей статьи могут не породить уведомление.
+
+Дополнительно существует **ручная** проверка статуса NCSoft с отправкой сводки в Telegram. Если Telegram-секретов нет, архиватор сохраняет оригиналы, но его уведомление пропускается. Не путайте уведомление с гарантией успешного перевода.
+
+## Запуск сайта локально
+
+Требуются Node.js (в GitHub Actions используется **22**), npm и Python для тестов.
+
 ```bash
 npm install
 npm run dev
+```
+
+Для проверки сборки и тестов:
+
+```bash
 npm run build
 python -m unittest discover -s tests -v
 ```
 
-## Import a reviewed translation
-Create a JSON file (outside the repo if preferred) with `source_id`, `source_url` (official NC Korea HTTPS), `date` (YYYY-MM-DD), `title`, `summary`, `body` (Markdown), `reviewed: true`, optional `version` and `categories` (array). The `reviewed` flag is an explicit human approval of correct version/source and translation. Run:
+Сайт написан на **Astro 5**, использует `@astrojs/rss` и разворачивается из `dist/` на GitHub Pages. Базовый путь сайта — `/l2releasenotes` (см. [`astro.config.mjs`](astro.config.mjs)).
 
-```bash
-python scripts/import_patch.py reviewed.json
-```
+## Как передать проект другому человеку
 
-It generates a stable Markdown file in `src/content/patches/YYYY/` and skips identical reimports. This is an interim workflow, **not** an automated scraper or translator.
+1. Предоставьте доступ к репозиторию `artemZiliboba/l2releasenotes` с правами, соответствующими роли. Для автоматической публикации нужен доступ на **запись** в `master`.
+2. Установите в ChatGPT актуальный скилл **`lineage2-kr-patchnotes`**. Скилл поставляется и обновляется отдельно от этого README; инструкции в репозитории не заменяют его установку.
+3. Подключите GitHub к ChatGPT и проверьте **чтение** `source-snapshots/l2update/latest.json`. Затем подтвердите возможность **записи** в `master` при разрешённой реальной публикации.
+4. При необходимости настройте собственный планировщик ChatGPT на время после архивирования. Не создавайте вторую автоматизацию без необходимости: несколько параллельных переводчиков могут конфликтовать.
+5. Проверьте вкладку **Actions**, наличие успешных архивных запусков и успешного `Deploy Pages`; убедитесь, что GitHub Pages настроен на источник **GitHub Actions**.
+6. Для Telegram проверьте наличие двух секретов, доступ бота к целевому чату и права на отправку сообщений.
+7. Для первой проверки используйте ручное **«проверь»**; не делайте фиктивный коммит только ради проверки уведомлений.
 
-## GitHub Pages
-After merging into `master`, configure Settings → Pages → Build and deployment → Source: GitHub Actions. `pages.yml` builds and deploys to https://artemZiliboba.github.io/l2releasenotes/ .
+## Частые проблемы
 
-## Roadmap
-- #1 Site, Korean source validation, ingestion, translation, deployment.
-- #2 Telegram notifications (separate stage).
-- See `docs/source-research.md` for source status.
+| Симптом | Что проверить |
+|---|---|
+| Нет новых переводов | Был ли успешен **Archive NCSoft sources**? Есть ли новые ID/тексты в `source-snapshots/l2update/`? Не исчерпана ли только последняя страница при наличии `has_more`? |
+| ChatGPT читает, но не публикует | Подключение GitHub, разрешение на запись в `master`, ограничения ветки, доступность полного оригинала и корректность категории сервера |
+| В GitHub новый JSON, а Telegram молчит | Изменилось ли **тело** корейской статьи? Заданы ли `TELEGRAM_BOT_TOKEN` и `TELEGRAM_CHAT_ID`? Успешен ли шаг уведомления? |
+| `Deploy Pages` зелёный, но перевода нет | Деплой мог быть вызван изменением README, кода или архивного JSON. Ищите новые файлы в `src/content/patches/` |
+| Telegram о публикации не пришёл | Успешен ли Pages workflow? Добавлен ли новый `.md` между деплоями? Исправление старого `.md` текущий notifier не считает новой статьёй |
+| Статья появилась в GitHub, но не на сайте | Проверьте успешность и время завершения **Deploy Pages**, затем конкретный URL |
+| Оригинал есть, но перевод не готов | Проверьте полноту HTML, ограничения длительности запуска, ошибки перевода и очередь незавершённых статей |
+| Старые инструкции противоречат этому README | Сверяйтесь прежде всего с **текущими файлами workflow и скриптов в `master`**. Исторические исследования в `docs/` могут описывать прошлую архитектуру |
+
+## Полезные ссылки
+
+- **Сайт:** https://artemziliboba.github.io/l2releasenotes/
+- **Исходный код:** https://github.com/artemZiliboba/l2releasenotes
+- **Запуски GitHub Actions:** https://github.com/artemZiliboba/l2releasenotes/actions
+- **Официальная лента NCSoft:** https://lineage2.plaync.com/board/l2update
+- **Оригинал по ID:** `https://lineage2.plaync.com/board/l2update/view?articleId=<ID>`
+
+---
+
+**Принцип проекта:** сначала сохраняем достоверный полный корейский оригинал, затем переводим без пропусков, публикуем в `master`, проверяем деплой и только после этого считаем русскую страницу доступной. Ручной запуск и автоматизация ChatGPT используют один и тот же скилл и не заменяют друг друга.
