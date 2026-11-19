@@ -3,6 +3,7 @@
 import argparse
 import datetime as dt
 import json
+import html
 import os
 import re
 import subprocess
@@ -28,10 +29,10 @@ def request(url, data=None, headers=None):
         raise RuntimeError(f"HTTP {exc.code}: {detail}") from None
 
 
-def telegram(text):
+def telegram(text, html_mode=False):
     token = os.environ["TELEGRAM_BOT_TOKEN"]
     chat = os.environ["TELEGRAM_CHAT_ID"]
-    payload = urllib.parse.urlencode({"chat_id": chat, "text": text, "disable_web_page_preview": "true"}).encode()
+    payload = urllib.parse.urlencode({"chat_id": chat, "text": text, "disable_web_page_preview": "true", **({"parse_mode": "HTML"} if html_mode else {})}).encode()
     request(f"https://api.telegram.org/bot{token}/sendMessage", data=payload)
 
 
@@ -77,20 +78,37 @@ def deployed(args):
     records = [r for r in records if r.get("title")]
     if not records:
         return
-    lines = [f"🆕 Опубликованы переводы Lineage 2 Korea: {len(records)}"]
-    for record in records:
-        title = record["title"]
+    for path, record in zip([p for p in added if p.is_file()], [metadata(p) for p in added if p.is_file()]):
+        if not record.get("title"):
+            continue
+        title = str(record["title"])
         summary = str(record.get("summary", "")).strip()
-        source = record.get("source_url", "")
-        date = record.get("date", "")
-        lines.append(f"\n• {date} — {title}")
+        source = str(record.get("source_url", "")).strip()
+        date = str(record.get("date", "")).strip()
+        version = str(record.get("version", "")).replace("NC Korea · ", "").strip()
+        # Astro glob loader uses the filename without its .md extension as the entry ID.
+        article_url = SITE + "/patches/" + urllib.parse.quote(path.stem) + "/"
+        short_title = re.sub(r"^\\d{1,2}\\.\\d{1,2}\\.\\d{4}\\s*[-—–]\\s*", "", title)
+        short_title = re.sub(r"^(?:Main|BASIC|Talking Island)\\s*:\\s*", "", short_title, flags=re.I)
+        try:
+            pretty_date = dt.date.fromisoformat(date).strftime("%d.%m.%Y")
+        except ValueError:
+            pretty_date = date
+        lines = ["📰 <b>Lineage 2 Korea · Обновление</b>"]
+        if pretty_date:
+            lines.append("📅 " + html.escape(pretty_date))
+        if version:
+            lines.append("🎮 <b>" + html.escape(version) + "</b>")
+        lines.append("")
+        lines.append("<b>" + html.escape(short_title) + "</b>")
         if summary:
-            lines.append(summary[:230])
-        # Link to site root is guaranteed; avoid inventing Astro slug URLs.
-        lines.append(f"Сайт: {SITE}/")
-        if source:
-            lines.append(f"Оригинал: {source}")
-    telegram("\n".join(lines)[:3900])
+            lines.append("")
+            lines.append(html.escape(summary[:230]))
+        links = '<a href="' + html.escape(article_url, quote=True) + '">📖 Читать перевод</a>'
+        if source.startswith("https://"):
+            links += '  ·  <a href="' + html.escape(source, quote=True) + '">🇰🇷 Оригинал</a>'
+        lines.extend(["", links])
+        telegram("\\n".join(lines), html_mode=True)
 
 
 def ids_from_api(obj):
