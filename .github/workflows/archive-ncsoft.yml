@@ -1,7 +1,7 @@
-name: Archive NCSoft sources
+name: Archive NCSoft sources (four times daily)
 on:
   schedule:
-    - cron: '20 8 * * *'
+    - cron: '0 0,6,12,18 * * *'
   workflow_dispatch:
 permissions:
   contents: write
@@ -16,17 +16,26 @@ jobs:
         with:
           ref: master
           persist-credentials: true
-      - name: Download and validate official NCSoft list
+      - name: Download and validate full official NCSoft articles
         run: python scripts/archive_ncsoft.py
       - name: Commit changed snapshots to master
+        id: archive_commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add source-snapshots/l2update
           if git diff --cached --quiet; then
-            echo "No changes in NCSoft list records"
+            echo "No changes in NCSoft source archive"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git commit -m "Archive latest official NCSoft l2update records"
           git pull --rebase origin master
           git push origin HEAD:master
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+      - name: Notify Telegram only for new or revised Korean article bodies
+        if: steps.archive_commit.outputs.changed == 'true'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scripts/notify_ncsoft_archive.py
