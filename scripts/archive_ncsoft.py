@@ -24,8 +24,7 @@ def get_json(url):
 
 
 def write_if_changed(path, obj):
-    content = json.dumps(obj, ensure_ascii=False, indent=2, sort_keys=True) + "
-"
+    content = json.dumps(obj, ensure_ascii=False, indent=2, sort_keys=True) + chr(10)
     path.parent.mkdir(parents=True, exist_ok=True)
     if path.exists() and path.read_text(encoding="utf-8") == content:
         return False
