@@ -1,7 +1,223 @@
 {
+  "article": {
+    "categoryBoard": {
+      "boardAlias": "l2update",
+      "boardConfigRef": "6391373586043d35401d880c",
+      "boardName": "업데이트",
+      "boardNameI18N": {},
+      "boardSdkUrlPattern": null,
+      "boardState": "published",
+      "boardType": "Notice",
+      "boardUrlPattern": "https://lineage2.plaync.com/board/{boardAlias}/view?articleId={articleId}",
+      "docMetaVersion": "0.0.2",
+      "hierarchy": {
+        "friend": null,
+        "parent": null,
+        "root": null,
+        "subTree": {
+          "treeId": null,
+          "treeRoot": null
+        }
+      },
+      "id": "6391373486043d35401d8728",
+      "language": "",
+      "meta": {
+        "version": "0.0.2"
+      },
+      "metaTags": [
+        "lobby",
+        "searchAllowed"
+      ],
+      "serviceReserved": {
+        "reserved1": {},
+        "reserved2": {},
+        "reserved3": {},
+        "reserved4": {},
+        "serviceReserved": {}
+      },
+      "snow": {
+        "boardId": 2,
+        "parentBoardId": 0,
+        "rootBoardId": 0
+      },
+      "weight": 0
+    },
+    "content": {
+      "attachments": {
+        "files": [],
+        "thumbnailUrl": ""
+      },
+      "boardRef": "6391373486043d35401d8728",
+      "content": "<div data-contents-type=\"text\"><strong>리니지2 고객님, 안녕하세요.</strong></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">리니지2를 사랑해주시는 고객님들께 감사의 말씀을 드리며,</div><div data-contents-type=\"text\">11월 4일(수) 업데이트 사항을 다음과 같이 안내해 드립니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><span style=\"color: rgb(0, 112, 192);\"><strong>[이벤트]</strong></span></div><div data-contents-type=\"text\">1. 2026년 11월 11일(수) 정기점검까지 ‘아데나’를 비용으로 제작할 수 있는 상품 1종을 추가하였습니다.</div><div class=\"tableWrapper\"><table class=\"first-row first-col no-vband docx_a4\"><colgroup><col><col><col><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>상품명</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작 아이템</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작 비용</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작 제한</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">23주년 큐브 II (기간제)</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">23주년 큐브 II (기간제) [각인] 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아데나 100개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">계정당 1회</div></td></tr></tbody></table></div><div data-contents-type=\"text\">- ‘23주년 큐브 II (기간제) [각인]’ 아이템을 사용 시 회차별로 아래의 아이템을 획득 가능합니다.</div><div class=\"tableWrapper\"><table class=\"first-row first-col no-vband docx_a4\"><colgroup><col><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>회차</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>획득 아이템</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">1</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">인형 소환권(일반~영웅) - 11회(기간제) [각인] 20개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">2</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">제련석 선택권(기간제) [각인] 100개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">3</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">초월 강화석(기간제) [각인] 3개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">4</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">+7 탈리스만 교환권(기간제) [각인] 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">5</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">염료 강화제 [각인] 200개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">6</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">+7 헤어 액세서리 교환권(기간제) [각인] 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">7</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">인형 소환권(영웅) - 1회(기간제) [각인] 1개</div></td></tr></tbody></table></div><div data-contents-type=\"text\">- ‘23주년 큐브 II (기간제) [각인]’ 아이템은 1일 1회 사용 가능합니다.</div><div data-contents-type=\"text\">- ‘23주년 큐브 II (기간제) [각인]’ 아이템 및 획득 아이템은 2026년 12월 2일(수) 정기점검에 일괄 삭제됩니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><span style=\"color: rgb(0, 112, 192);\"><strong>[특수 제작]</strong></span></div><div data-contents-type=\"text\">1. 2026년 11월 11일(수) 정기점검까지 '아데나'와 '기란의 인장'을 비용으로 제작할 수 있는 상품 8종을 추가하였습니다.</div><div class=\"tableWrapper\"><table class=\"first-row first-col no-vband docx_a4\"><colgroup><col><col><col><col><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>상품명</strong></span></div></td><td colspan=\"2\" style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작 아이템</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작 비용</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작 제한</strong></span></div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">무기 외형 - 귀검</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">무기 외형 - 귀검 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아데나 20,000,000개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">서버당 3회</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아데나 1,000,000개</div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">무기 외형 - 피로 물든 마검</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">무기 외형 - 피로 물든 마검 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아데나 12,000,000개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">서버당 5회</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아데나 600,000개</div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">네임 데코 - 함박 눈</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">네임 데코 - 함박 눈 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아데나 10,000,000개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">서버당 5회</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아데나 500,000개</div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">네임 데코 - 여름 바다</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">네임 데코 - 여름 바다 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아데나 10,000,000개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">서버당 5회</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아데나 500,000개</div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">방어구 외형 - 예복</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">방어구 외형 - 예복 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아데나 10,000,000개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">서버당 10회</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아데나 500,000개</div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">방어구 외형 - 교복</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">방어구 외형 - 교복 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아데나 10,000,000개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">서버당 10회</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아데나 500,000개</div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">액세서리 외형 - 토끼귀</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">액세서리 외형 - 토끼귀 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아데나 5,000,000개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">서버당 20회</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아데나 500,000개</div></td></tr><tr><td rowspan=\"3\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">+18 수호의 방어구 교환권(기간제)</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">+18 수호의 방어구 교환권(기간제) [각인] 1개</div></td><td rowspan=\"3\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"3\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 175개</div></td><td rowspan=\"3\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">-</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">+18 수호의 방어구(각인) 교환권(기간제) [각인] 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 8개</div></td></tr></tbody></table></div><div data-contents-type=\"text\">- '+18 수호의 방어구 교환권(기간제)', '+18 수호의 방어구(각인) 교환권(기간제)'은 2026년 11월 18일(수) 정기점검에 일괄 삭제됩니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><span style=\"color: rgb(0, 112, 192);\"><strong>[그 외 변경사항]</strong></span></div><div data-contents-type=\"text\">1. 인맥창에서 메모란의 글자 위치가 창 화면에 맞지 않는 문제를 수정하였습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">고객 여러분께서는 위 내용을 확인하시어 원활하게 게임 진행하시길 바랍니다.</div><div data-contents-type=\"text\">고맙습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><a href=\"https://lounge.ncpurple.com/\"><div class=\"fr-image\" contenteditable=\"false\" data-contents-json=\"{&quot;src&quot;:&quot;https://assets.playnccdn.com/static-conti/1698872407960.jpeg&quot;,&quot;width&quot;:null,&quot;height&quot;:null}\" data-contents-type=\"image\"><div class=\"fe-image-inner\"><img src=\"https://assets.playnccdn.com/static-conti/1698872407960.jpeg\" alt=\"Purple_Lounge_FooterBanner_02_attract_KR.jpg\"></div></div></a></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div>",
+      "contentSize": 14792,
+      "deleteReasonCode": 0,
+      "deleteReasonComment": null,
+      "docMetaVersion": "0.0.3",
+      "id": "6aea6770577e8c01355e0315",
+      "ip": "0.0.0.0",
+      "meta": {
+        "version": "0.0.3"
+      },
+      "serviceReserved": {
+        "reserved1": {},
+        "reserved2": {},
+        "reserved3": {},
+        "reserved4": {},
+        "serviceReserved": {}
+      },
+      "tags": [],
+      "userAgent": null,
+      "userPlatform": null,
+      "zone": "ncs"
+    },
+    "contentMeta": {
+      "boardRef": "6391373486043d35401d8728",
+      "categoryBoard": {
+        "boardAlias": "l2update",
+        "boardConfigRef": "6391373586043d35401d880c",
+        "boardName": "업데이트",
+        "boardNameI18N": {},
+        "boardSdkUrlPattern": null,
+        "boardState": "published",
+        "boardType": "Notice",
+        "boardUrlPattern": "https://lineage2.plaync.com/board/{boardAlias}/view?articleId={articleId}",
+        "docMetaVersion": "0.0.2",
+        "hierarchy": {
+          "friend": null,
+          "parent": null,
+          "root": null,
+          "subTree": {
+            "treeId": null,
+            "treeRoot": null
+          }
+        },
+        "id": "6391373486043d35401d8728",
+        "language": "",
+        "meta": {
+          "version": "0.0.2"
+        },
+        "metaTags": [
+          "lobby",
+          "searchAllowed"
+        ],
+        "serviceReserved": {
+          "reserved1": {},
+          "reserved2": {},
+          "reserved3": {},
+          "reserved4": {},
+          "serviceReserved": {}
+        },
+        "snow": {
+          "boardId": 2,
+          "parentBoardId": 0,
+          "rootBoardId": 0
+        },
+        "weight": 0
+      },
+      "contentTypeCode": 1,
+      "docMetaVersion": "0.0.3",
+      "emoticonUrl": "https://vod.plaync.com/lineage2/board/lineage2_admin.png",
+      "groupId": "",
+      "hasAttachments": false,
+      "hierarchy": {
+        "parent": "",
+        "reactionParent": "",
+        "root": ""
+      },
+      "id": "6aea6770577e8c01355e0315",
+      "idNumberHierarchy": {
+        "parent": "",
+        "reactionParent": "",
+        "root": ""
+      },
+      "largeSummary": null,
+      "meta": {
+        "version": "0.0.3"
+      },
+      "metaTags": [
+        "NoticeFeedbackSurvey",
+        "HideVoteCount",
+        "ArticleTemplate",
+        "CommentUiOff"
+      ],
+      "reactions": {
+        "commentCount": 0,
+        "dislikeCount": 0,
+        "likeCount": 0,
+        "recommendCount": 0,
+        "recommendDownCount": 0,
+        "recommendUpCount": 0,
+        "replyCount": 0,
+        "reportCount": 0,
+        "scrapCount": 0,
+        "viewCount": 1449,
+        "voteCount": 0
+      },
+      "recentCommentWriter": null,
+      "reservedFields": null,
+      "rootBoard": null,
+      "rootBoardRef": "6391373486043d35401d8728",
+      "searchSummary": null,
+      "serviceRef": "638ed2ebb73f050c67d81732",
+      "snow": {
+        "contentId": 50044461
+      },
+      "statusCode": 1,
+      "summary": " ",
+      "thumbnailUrl": null,
+      "thumbnailUrlList": [],
+      "timestamps": {
+        "commentedAt": "1970-01-01T00:00:00.001Z",
+        "commentedEpoch": 0,
+        "localOffsetHours": 0,
+        "postDateTime": "2026-11-03 23:00:00.001",
+        "postedAt": "2026-11-03T23:00:00.001Z",
+        "postedEpoch": 1793746800,
+        "publishedAt": "2026-11-03T23:00:00.001Z",
+        "publishedDateTime": null,
+        "updateDateTime": "2026-11-03 23:00:48.012",
+        "updatedAt": "2026-11-03T23:00:48.012Z",
+        "updatedEpoch": 1793746848,
+        "version": "0.0.3"
+      },
+      "title": "[말하는섬] 11월 4일(수) 업데이트 안내",
+      "userReactionCodes": [],
+      "visibilityCode": 1,
+      "voteRef": null,
+      "writer": {
+        "admin": true,
+        "gameUser": {
+          "communityLevel": {
+            "level": 0,
+            "levelKey": null,
+            "rank": 0,
+            "score": 0
+          },
+          "gameCharacterId": "",
+          "gameCharacterName": "",
+          "gameCode": 0,
+          "gameGroupId": "",
+          "gameGroupMemberRank": "",
+          "gameServerId": "",
+          "gameUniqueGroupId": "",
+          "gameUserUid": ""
+        },
+        "loginUser": {
+          "admin": true,
+          "banned": false,
+          "name": "admin",
+          "serviceCode": "13",
+          "uid": "*****"
+        }
+      },
+      "zone": "ncs"
+    },
+    "idNumberHierarchy": null,
+    "rootBoard": null
+  },
   "article_id": "6aea6770577e8c01355e0315",
-  "full_article_verified": false,
-  "note": "List metadata only; do not translate as a complete article without verifying full original body.",
+  "full_article_verified": true,
+  "note": "Full official article detail, including HTML body.",
   "record": {
     "boardRef": "6391373486043d35401d8728",
     "categoryBoard": {

@@ -1,7 +1,223 @@
 {
+  "article": {
+    "categoryBoard": {
+      "boardAlias": "l2update",
+      "boardConfigRef": "6391373586043d35401d880c",
+      "boardName": "업데이트",
+      "boardNameI18N": {},
+      "boardSdkUrlPattern": null,
+      "boardState": "published",
+      "boardType": "Notice",
+      "boardUrlPattern": "https://lineage2.plaync.com/board/{boardAlias}/view?articleId={articleId}",
+      "docMetaVersion": "0.0.2",
+      "hierarchy": {
+        "friend": null,
+        "parent": null,
+        "root": null,
+        "subTree": {
+          "treeId": null,
+          "treeRoot": null
+        }
+      },
+      "id": "6391373486043d35401d8728",
+      "language": "",
+      "meta": {
+        "version": "0.0.2"
+      },
+      "metaTags": [
+        "lobby",
+        "searchAllowed"
+      ],
+      "serviceReserved": {
+        "reserved1": {},
+        "reserved2": {},
+        "reserved3": {},
+        "reserved4": {},
+        "serviceReserved": {}
+      },
+      "snow": {
+        "boardId": 2,
+        "parentBoardId": 0,
+        "rootBoardId": 0
+      },
+      "weight": 0
+    },
+    "content": {
+      "attachments": {
+        "files": [],
+        "thumbnailUrl": ""
+      },
+      "boardRef": "6391373486043d35401d8728",
+      "content": "<div data-contents-type=\"text\"><strong>리니지2 고객님, 안녕하세요.</strong></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">리니지2를 사랑해주시는 고객님들께 감사의 말씀을 드리며,</div><div data-contents-type=\"text\">11월 18일(수) 업데이트 사항을 다음과 같이 안내해 드립니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><span style=\"color: rgb(0, 112, 192);\"><strong>[L2 스토어]</strong></span></div><div data-contents-type=\"text\">1. 2026년 11월 25일(수) 정기점검까지 L2 스토어에서 신규 상품을 판매합니다.</div><div class=\"tableWrapper\"><table class=\"first-row first-col no-vband\"><colgroup><col><col><col><col><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>상품명</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>구분</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>판매 기간</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>비용</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>구매 제한</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">인형 1100회 소환 패키지(기간제)</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">이벤트</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">11/18 ~ 11/25</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">엘코인 8,000개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">계정당 3개</div></td></tr></tbody></table></div><div data-contents-type=\"text\">- ‘인형 1100회 소환 패키지(기간제) [각인]’ 아이템을 사용하면 아래의 아이템을 확정 획득할 수 있습니다.</div><div class=\"tableWrapper\"><table class=\"first-row first-col no-vband\"><colgroup><col><col></colgroup><tbody><tr><td colspan=\"2\" style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>확정 획득 아이템</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">인형 소환권(일반~영웅) - 11회(기간제) [각인] 100개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">인형 소환권(영웅) - 1회(기간제) [각인] 1개</div></td></tr></tbody></table></div><div data-contents-type=\"text\">- ‘인형 1100회 소환 패키지(기간제) [각인]’ 아이템 및 ‘인형 1100회 소환 패키지(기간제) [각인]’을 사용하여 획득한 기간제 아이템은 2026년 12월 2일(수)에 일괄 삭제됩니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><span style=\"color: rgb(0, 112, 192);\"><strong>[특수 제작]</strong></span></div><div data-contents-type=\"text\">1. 2026년 11월 25일(수) 정기점검까지 ‘기란의 인장’을 아이템을 비용으로 제작할 수 있는 한정 상품 1종을 추가하였습니다.</div><div class=\"tableWrapper\"><table class=\"first-row first-col no-vband\"><colgroup><col><col><col><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>상품명</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작 아이템</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작 비용</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작 제한</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">마스터 컬렉션 증표</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">마스터 컬렉션 증표 [각인] 3,000개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 100개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">계정당 1일 1회</div></td></tr></tbody></table></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">2. 2026년 11월 25일(수) 정기점검까지 ‘기란의 인장’을 비용으로 제작할 수 있는 상품 4종을 추가하였습니다.</div><div class=\"tableWrapper\"><table class=\"first-row first-col no-vband\"><colgroup><col><col><col><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>상품명</strong></span></div></td><td colspan=\"2\" style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작 아이템</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작 비용</strong></span></div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">+2 페리온의 목걸이 팩</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">+2 페리온의 목걸이 팩 [각인] 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 105개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 10개</div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">+2 아즈타칸의 귀걸이 팩</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">+2 아즈타칸의 귀걸이 팩 [각인] 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 70개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 7개</div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">+2 베레스의 반지 팩</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">+2 베레스의 반지 팩 [각인] 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 70개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 7개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">고급 레어 액세서리 강화 주문서</div></td><td colspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">고급 레어 액세서리 강화 주문서 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 200개</div></td></tr></tbody></table></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><span style=\"color: rgb(0, 112, 192);\"><strong>[그 외 변경사항]</strong></span></div><div data-contents-type=\"text\">1. 특수 사냥터 ‘신전 지하 동굴’에 입장이 가능한 상태에서 남은 횟수가 0회로 표시되는 문제를 수정하였습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">2. 일부 특수 사냥터에서 ‘아덴의 풍요를 지켜라!’ 이벤트 몬스터가 등장하던 문제를 수정하였습니다.</div><div data-contents-type=\"text\">- '초승달빛 머금은 상자(기간제)', '반달빛 머금은 상자(기간제)', '보름달빛 머금은 상자(기간제)' 아이템은 일괄 삭제하였습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">3. 드워프 레시피 제작창 내 제작자MP가 정상적으로 노출되지 않는 부분을 수정하였습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">고객 여러분께서는 위 내용을 확인하시어 원활하게 게임 진행하시길 바랍니다.</div><div data-contents-type=\"text\">고맙습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><a href=\"https://lounge.ncpurple.com/\"><div class=\"fr-image\" contenteditable=\"false\" data-contents-json=\"{&quot;src&quot;:&quot;https://assets.playnccdn.com/static-conti/1698872407960.jpeg&quot;,&quot;width&quot;:null,&quot;height&quot;:null}\" data-contents-type=\"image\"><div class=\"fe-image-inner\"><img src=\"https://assets.playnccdn.com/static-conti/1698872407960.jpeg\" alt=\"Purple_Lounge_FooterBanner_02_attract_KR.jpg\"></div></div></a></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div>",
+      "contentSize": 11299,
+      "deleteReasonCode": 0,
+      "deleteReasonComment": null,
+      "docMetaVersion": "0.0.3",
+      "id": "6afcdc70e96a444182a29dc9",
+      "ip": "0.0.0.0",
+      "meta": {
+        "version": "0.0.3"
+      },
+      "serviceReserved": {
+        "reserved1": {},
+        "reserved2": {},
+        "reserved3": {},
+        "reserved4": {},
+        "serviceReserved": {}
+      },
+      "tags": [],
+      "userAgent": null,
+      "userPlatform": null,
+      "zone": "ncs"
+    },
+    "contentMeta": {
+      "boardRef": "6391373486043d35401d8728",
+      "categoryBoard": {
+        "boardAlias": "l2update",
+        "boardConfigRef": "6391373586043d35401d880c",
+        "boardName": "업데이트",
+        "boardNameI18N": {},
+        "boardSdkUrlPattern": null,
+        "boardState": "published",
+        "boardType": "Notice",
+        "boardUrlPattern": "https://lineage2.plaync.com/board/{boardAlias}/view?articleId={articleId}",
+        "docMetaVersion": "0.0.2",
+        "hierarchy": {
+          "friend": null,
+          "parent": null,
+          "root": null,
+          "subTree": {
+            "treeId": null,
+            "treeRoot": null
+          }
+        },
+        "id": "6391373486043d35401d8728",
+        "language": "",
+        "meta": {
+          "version": "0.0.2"
+        },
+        "metaTags": [
+          "lobby",
+          "searchAllowed"
+        ],
+        "serviceReserved": {
+          "reserved1": {},
+          "reserved2": {},
+          "reserved3": {},
+          "reserved4": {},
+          "serviceReserved": {}
+        },
+        "snow": {
+          "boardId": 2,
+          "parentBoardId": 0,
+          "rootBoardId": 0
+        },
+        "weight": 0
+      },
+      "contentTypeCode": 1,
+      "docMetaVersion": "0.0.3",
+      "emoticonUrl": "https://vod.plaync.com/lineage2/board/lineage2_admin.png",
+      "groupId": "",
+      "hasAttachments": false,
+      "hierarchy": {
+        "parent": "",
+        "reactionParent": "",
+        "root": ""
+      },
+      "id": "6afcdc70e96a444182a29dc9",
+      "idNumberHierarchy": {
+        "parent": "",
+        "reactionParent": "",
+        "root": ""
+      },
+      "largeSummary": null,
+      "meta": {
+        "version": "0.0.3"
+      },
+      "metaTags": [
+        "NoticeFeedbackSurvey",
+        "HideVoteCount",
+        "ArticleTemplate",
+        "CommentUiOff"
+      ],
+      "reactions": {
+        "commentCount": 0,
+        "dislikeCount": 0,
+        "likeCount": 0,
+        "recommendCount": 0,
+        "recommendDownCount": 0,
+        "recommendUpCount": 0,
+        "replyCount": 0,
+        "reportCount": 0,
+        "scrapCount": 0,
+        "viewCount": 682,
+        "voteCount": 0
+      },
+      "recentCommentWriter": null,
+      "reservedFields": null,
+      "rootBoard": null,
+      "rootBoardRef": "6391373486043d35401d8728",
+      "searchSummary": null,
+      "serviceRef": "638ed2ebb73f050c67d81732",
+      "snow": {
+        "contentId": 50044871
+      },
+      "statusCode": 1,
+      "summary": " ",
+      "thumbnailUrl": null,
+      "thumbnailUrlList": [],
+      "timestamps": {
+        "commentedAt": "1970-01-01T00:00:00.001Z",
+        "commentedEpoch": 0,
+        "localOffsetHours": 0,
+        "postDateTime": "2026-11-17 23:00:01.001",
+        "postedAt": "2026-11-17T23:00:01.001Z",
+        "postedEpoch": 1794956401,
+        "publishedAt": "2026-11-17T23:00:01.001Z",
+        "publishedDateTime": null,
+        "updateDateTime": "2026-11-17 23:03:05.745",
+        "updatedAt": "2026-11-17T23:03:05.745Z",
+        "updatedEpoch": 1794956585,
+        "version": "0.0.3"
+      },
+      "title": "[말하는섬] 11월 18일(수) 업데이트 안내",
+      "userReactionCodes": [],
+      "visibilityCode": 1,
+      "voteRef": null,
+      "writer": {
+        "admin": true,
+        "gameUser": {
+          "communityLevel": {
+            "level": 0,
+            "levelKey": null,
+            "rank": 0,
+            "score": 0
+          },
+          "gameCharacterId": "",
+          "gameCharacterName": "",
+          "gameCode": 0,
+          "gameGroupId": "",
+          "gameGroupMemberRank": "",
+          "gameServerId": "",
+          "gameUniqueGroupId": "",
+          "gameUserUid": ""
+        },
+        "loginUser": {
+          "admin": true,
+          "banned": false,
+          "name": "admin",
+          "serviceCode": "13",
+          "uid": "*****"
+        }
+      },
+      "zone": "ncs"
+    },
+    "idNumberHierarchy": null,
+    "rootBoard": null
+  },
   "article_id": "6afcdc70e96a444182a29dc9",
-  "full_article_verified": false,
-  "note": "List metadata only; do not translate as a complete article without verifying full original body.",
+  "full_article_verified": true,
+  "note": "Full official article detail, including HTML body.",
   "record": {
     "boardRef": "6391373486043d35401d8728",
     "categoryBoard": {
@@ -82,7 +298,7 @@
       "replyCount": 0,
       "reportCount": 0,
       "scrapCount": 0,
-      "viewCount": 680,
+      "viewCount": 682,
       "voteCount": 0
     },
     "recentCommentWriter": null,

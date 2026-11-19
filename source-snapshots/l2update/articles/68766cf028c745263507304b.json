@@ -1,7 +1,223 @@
 {
+  "article": {
+    "categoryBoard": {
+      "boardAlias": "l2update",
+      "boardConfigRef": "6391373586043d35401d880c",
+      "boardName": "업데이트",
+      "boardNameI18N": {},
+      "boardSdkUrlPattern": null,
+      "boardState": "published",
+      "boardType": "Notice",
+      "boardUrlPattern": "https://lineage2.plaync.com/board/{boardAlias}/view?articleId={articleId}",
+      "docMetaVersion": "0.0.2",
+      "hierarchy": {
+        "friend": null,
+        "parent": null,
+        "root": null,
+        "subTree": {
+          "treeId": null,
+          "treeRoot": null
+        }
+      },
+      "id": "6391373486043d35401d8728",
+      "language": "",
+      "meta": {
+        "version": "0.0.2"
+      },
+      "metaTags": [
+        "lobby",
+        "searchAllowed"
+      ],
+      "serviceReserved": {
+        "reserved1": {},
+        "reserved2": {},
+        "reserved3": {},
+        "reserved4": {},
+        "serviceReserved": {}
+      },
+      "snow": {
+        "boardId": 2,
+        "parentBoardId": 0,
+        "rootBoardId": 0
+      },
+      "weight": 0
+    },
+    "content": {
+      "attachments": {
+        "files": [],
+        "thumbnailUrl": ""
+      },
+      "boardRef": "6391373486043d35401d8728",
+      "content": "<div data-contents-type=\"text\"><strong>[수정사항] </strong></div><div data-contents-type=\"text\">[특수 제작] '마력의 서판' 제작 횟수 증가 적용 시점 안내 추가</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><hr data-page-break=\"true\" contenteditable=\"false\"><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><strong>리니지2 고객님, 안녕하세요.</strong></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">리니지2를 사랑해주시는 고객님들께 감사의 말씀을 드리며,</div><div data-contents-type=\"text\">11월 11일(수) 업데이트 사항을 다음과 같이 안내해 드립니다.</div><div data-contents-type=\"text\"><strong>​</strong></div><div data-contents-type=\"text\">​</div><div data-contents-type=\"text\"><span style=\"font-size: 20px;\"><span style=\"color: rgb(0, 112, 192);\"><strong>[클래스]</strong></span></span></div><div data-contents-type=\"text\">1. 휴먼, 엘프, 다크엘프, 오크, 드워프 종족의 워리어·나이트 계열 클래스에 신규 스킬 '스위프트 템포'를 추가하였습니다.</div><div data-contents-type=\"text\">- '스위프트 템포'를 습득하면 물리 스킬의 재사용 대기 시간이 2% 감소합니다.</div><div data-contents-type=\"text\">- 40레벨부터 '마력의 서판' 5개를 소모하여 습득할 수 있습니다.</div><div class=\"tableWrapper\"><table class=\"\"><colgroup><col><col><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>2차 전직 클래스</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>3차 전직 클래스</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>소모 SP</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">글라디에이터</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">듀얼리스트</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">55</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">워로드</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">드레드노트</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">82</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">팰러딘</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">피닉스 나이트</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">62</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">다크 어벤져</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">헬 나이트</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">62</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">템플 나이트</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">에바스 템플러</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">67</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">실리엔 나이트</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">실리엔 템플러</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">56</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">디스트로이어</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">타이탄</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">67</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">타이런트</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">그랜드 카바타리</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">70</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">랜서</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">뱅가드</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">80</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">워스미스</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">마에스트로</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">90</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">바운티 헌터</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">포츈 시커</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">82</div></td></tr></tbody></table></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">2. 근거리 클래스의 일부 스킬과 기본 공격 사정거리를 늘렸습니다.</div><div class=\"tableWrapper\"><table class=\"\"><colgroup><col><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>클래스</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>변경 내용</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">데스나이트</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">'데몰리션' 스킬 사정거리 70 → 200<br>'퍼니쉬먼트' 스킬 사정거리 70 → 200<br>'데스 포스' 평타 사정거리 30 → 60</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">뱅가드</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">'와일드 인스팅트' 평타 사정거리 40 → 60</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">타이탄</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">'포뮬러 오브 데몰리션' 스킬 사정거리 40 → 200<br>'포뮬러 오브 데몰리션' +3 인챈트 방어 무시 효과 10% → 15%<br>'데몰리션 임팩트' 스킬 사정거리 40 → 150</div></td></tr></tbody></table></div><div data-contents-type=\"text\">- 아래 클래스의 무기 마스터리 스킬에 평타 사정거리 증가 효과를 추가하였습니다. 40레벨부터 기본 공격 사정거리가 늘어납니다.</div><div class=\"tableWrapper\"><table class=\"\"><colgroup><col><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>클래스</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>스킬</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">헬 나이트, 피닉스 나이트</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">나이트 웨폰 마스터리</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">소드 뮤즈, 스펙트럴 댄서</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">바드 웨폰 마스터리</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">그랜드 카바타리</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">스피릿 오브 울프 (2레벨부터)</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">포츈 시커, 마에스트로</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">드워븐 웨폰 마스터리 (2레벨부터)</div></td></tr></tbody></table></div><div data-contents-type=\"text\">- '파워 스트라이크', '페이탈 스트라이크', '와일드 스위프', '아이언 펀치', '버닝 피스트'(1~45레벨), '가드 크러쉬' 스킬의 사정거리를 100으로 증가시켰습니다.</div><div data-contents-type=\"text\">- 평타 사정거리 증가 효과가 있는 스킬들의 툴팁을 ‘평타 사정거리 +증가수치’로 통일하였습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">3. 뱅가드 클래스가 '사인 오브 트러스트' 스킬을 습득할 때 SP가 소모되지 않는 문제를 수정하였습니다.</div><div data-contents-type=\"text\">- 앞으로 ' 사인 오브 트러스트 ' 습득 시 SP 5,900이 소모됩니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">4. '인페르노', '블리자드', '데몬 윈드', '러시' 스킬의 이펙트를 변경하였습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">5. '풀 스윙', '기간틱 스윙' 스킬의 아이콘을 변경하였습니다.</div><div data-contents-type=\"text\">​</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><span style=\"font-size: 20px;\"><span style=\"color: rgb(0, 112, 192);\"><strong>[사냥터]</strong></span></span></div><div data-contents-type=\"text\">1. 일부 사냥터의 몬스터 배치 수량을 감소시켰습니다.</div><div data-contents-type=\"text\">- 대상 사냥터: '국립 묘지', '학살의 대지', '영광의 평원', '격전의 평원', '고요한 분지'</div><div data-contents-type=\"text\">​</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><span style=\"font-size: 20px;\"><span style=\"color: rgb(0, 112, 192);\"><strong>[시즌제 사냥터 - 개미굴]</strong></span></span></div><div data-contents-type=\"text\">1. ‘개미굴’ 시즌제 사냥터가 오픈되고 2026년 11월 11일(수) 정기점검 후 ~ 2026년 12월 09일(수) 정기점검 전까지 운영됩니다.</div><div data-contents-type=\"text\">- 텔레포트(Alt+F) 기능을 이용하여 ‘개미굴’로 이동할 수 있습니다.</div><div data-contents-type=\"text\">- 해당 사냥터는 자동 사냥이 불가능하며, 수동 사냥으로만 플레이 가능합니다.</div><div data-contents-type=\"text\">- 개미굴 내 무작위 위치에 ‘개미의 힘을 품은 고치’ NPC가 등장합니다.</div><div data-contents-type=\"text\">- 10초 이내 고치 NPC를 타격하면 확률적으로 ‘고대 수개미’가 스폰됩니다.</div><div data-contents-type=\"text\">- 개미굴 몬스터 처치 시 MP가 회복됩니다.</div><div data-contents-type=\"text\">- 파티 상태로 몬스터 처치 시 파티 보너스가 적용됩니다.</div><div class=\"tableWrapper\"><table class=\"\"><colgroup><col><col><col><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>보상 지급 몬스터</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>획득</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>아이템명</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>수량</strong></span></div></td></tr><tr><td rowspan=\"9\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">고대 수개미</div></td><td rowspan=\"4\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">확률 드롭</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">무기 강화 주문서</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">1</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">갑옷 강화 주문서</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">1</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">D급 장비</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">1</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기본재료</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">10~50</div></td></tr><tr><td rowspan=\"5\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">추가 확률 드롭</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">행운의 아데나 상자 [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">1</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">무기 제련석</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">1</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">갑옷 제련석</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">1</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">악세서리 제련석</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">1</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">특수 장비 제련석</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">1</div></td></tr></tbody></table></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">2. ‘카밀라’와 대화를 통해 아데나, 엘코인을 소모하여 획득한 ‘개미굴 탐색 허가증(기간제) [각인]’ 아이템을 통해 진행 가능한 퀘스트 1종을 추가하였습니다.</div><div data-contents-type=\"text\">- 2026년 12월 09일(수) 정기점검 이전까지 진행 가능합니다.</div><div data-contents-type=\"text\">- 78레벨 이상 캐릭터로 수행할 수 있습니다.</div><div data-contents-type=\"text\">- ‘카밀라’는 개미굴 입구 근처에 위치합니다.</div><div data-contents-type=\"text\">- ‘카밀라’와 대화하면 비용을 소모해 ‘개미굴 탐색 허가증(기간제) [각인]’ 아이템을 획득할 수 있습니다.</div><div data-contents-type=\"text\">- ‘개미굴 탐색 허가증(기간제) [각인]’ 아이템은 1회차 구매시 30만 아데나, 2회차부터는 300엘코인을 소모합니다.</div><div data-contents-type=\"text\">- ‘개미굴 탐색 허가증(기간제) [각인]’ 아이템은 하루 최대 5회까지 구매할 수 있습니다.</div><div class=\"tableWrapper\"><table class=\"\"><colgroup><col><col><col><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>퀘스트명</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>수행 목표</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>처치수</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>완료 보상</strong></span></div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">개미굴 탐색</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">개미굴 몬스터 처치</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">100</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">개미굴 탐색 보상 상자(기간제) [각인] 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">그린 아크 - EXP(기간제) [각인] 1개</div></td></tr></tbody></table></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">- ‘개미굴 탐색 보상상자(기간제) [각인]’ 아이템 사용 시 아래 아이템을 확률적으로 획득할 수 있습니다.</div><div class=\"tableWrapper\"><table class=\"\"><colgroup><col><col></colgroup><tbody><tr><td colspan=\"2\" style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>확률 획득 아이템</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">이그니스 아가시온 팩 [각인] 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">네불라 아가시온 팩 [각인] 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">프로첼라 아가시온 팩 [각인] 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">페트람 아가시온 팩 [각인] 1개</div></td></tr><tr><td colspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">샤방 아가시온 팩 [각인] 1개</div></td></tr><tr><td colspan=\"2\" style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>추가 확률 획득 아이템</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">공격력 강화 주문서(기간제) [각인] 3개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">방어력 강화 주문서(기간제) [각인] 3개</div></td></tr><tr><td colspan=\"2\" style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>추가 확률 획득 아이템</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">무기 강화 주문서 D그레이드 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">갑옷 강화 주문서 D그레이드 1개</div></td></tr></tbody></table></div><div data-contents-type=\"text\">​</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><span style=\"font-size: 20px;\"><span style=\"color: rgb(0, 112, 192);\"><strong>[사냥터 - 오만의 탑]</strong></span></span></div><div data-contents-type=\"text\">1. '오만의 탑'에 등장하는 몬스터의 보상을 조정하였습니다.</div><div data-contents-type=\"text\">- 5층 이상에 등장하는 일부 몬스터에게서 '아덴의 집혼석 Lv1 - 무기', '아덴의 집혼석 Lv1 - 갑옷'을 획득할 수 있습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">2. '오만의 탑'의 보스·정예 몬스터의 스킬 사용 빈도를 조정하였습니다.</div><div data-contents-type=\"text\">​</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><span style=\"font-size: 20px;\"><span style=\"color: rgb(0, 112, 192);\"><strong>[특수 사냥터 - 오르비스 전당]</strong></span></span></div><div data-contents-type=\"text\">1. 하층, 상층 보스 몬스터가 다시 등장하는 시간이 10~30분 사이에서 무작위로 정해지도록 변경하였습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">2. 보스의 동족 인식 범위를 증가시키고 회귀 범위를 감소시켰습니다.</div><div data-contents-type=\"text\">​</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><span style=\"font-size: 20px;\"><span style=\"color: rgb(0, 112, 192);\"><strong>[필드 레이드]</strong></span></span></div><div data-contents-type=\"text\">1. 글루디오·기란 영지에 필드 레이드 10종을 추가하였습니다.</div><div class=\"tableWrapper\"><table class=\"\"><colgroup><col><col><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>위치</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>레이드 보스</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>레벨</strong></span></div></td></tr><tr><td rowspan=\"5\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">글루디오 영지</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">실렌의 사신 카브리오</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">80</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">피의 사제 루델토</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">80</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">주술사 이시르</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">80</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">안타라스의 사제 클로에</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">80</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">헤카톤 프레스</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">80</div></td></tr><tr><td rowspan=\"5\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란 영지</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">봉인된 좀비로드 크로울</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">80</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">소울 컬렉터 아케론</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">80</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아르콘 수스켑터</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">80</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">고르고로스</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">80</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">밀리노우스</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">80</div></td></tr></tbody></table></div><div data-contents-type=\"text\">​- 레이드 시작 후 10분 내 보스를 처치하지 못하면 보스의 HP가 회복됩니다.</div><div data-contents-type=\"text\">- 처치 후 4시간 뒤에 다시 등장합니다.</div><div data-contents-type=\"text\">- 레이드 정보에서 위치를 확인하고 텔레포트로 이동할 수 있습니다.</div><div data-contents-type=\"text\">- 처치 시 기본 재료, 무기·갑옷 강화 주문서 D그레이드를 획득할 수 있으며, 확률적으로 정령 진화석(물/불/바람/대지)과 '일반 마법서'를 획득할 수 있습니다.</div><div data-contents-type=\"text\">​</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><span style=\"font-size: 20px;\"><span style=\"color: rgb(0, 112, 192);\"><strong>[레이드 - 칠성 사도]</strong></span></span></div><div data-contents-type=\"text\">1. 칠성 사도 레이드 보스 몬스터의 능력치를 하향 조정하였습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">2. 칠성 사도 레이드 시작 후 10분 내 보스를 처치하지 못하면 보스의 HP가 회복되도록 변경하였습니다.</div><div data-contents-type=\"text\">​</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><span style=\"font-size: 20px;\"><span style=\"color: rgb(0, 112, 192);\"><strong>[L2 스토어]</strong></span></span></div><div data-contents-type=\"text\">1. L2 스토어에 신규 상품을 추가하였습니다.</div><div class=\"tableWrapper\"><table class=\"\"><colgroup><col><col><col><col><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>상품명</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>구분</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>판매 기간</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>비용</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>구매 제한</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">개미 창궐! 여왕의 기운 상자(기간제)</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">이벤트</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">11/11~11/18</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아데나 100개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">계정당 1일 1개</div></td></tr></tbody></table></div><div data-contents-type=\"text\">- 계정 1일 구매 제한은 매일 오전 6시 30분에 초기화됩니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">- ‘개미 창궐! 여왕의 기운 상자(기간제) [각인]’ 아이템을 사용하면 다음 목록의 아이템을 확정 획득할 수 있습니다.</div><div class=\"tableWrapper\"><table class=\"\"><colgroup><col><col></colgroup><tbody><tr><td colspan=\"2\" style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>확정 획득 아이템</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">마정석 [각인] 3,000개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">성장의 룬 조각 [각인] 10개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">공격력 강화 주문서(기간제) [각인] 10개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">방어력 강화 주문서(기간제) [각인] 10개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">특수 사냥터 추가 입장 아이템 교환 티켓(기간제) [각인] 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">여왕의 기운(기간제) [각인] 10개</div></td></tr></tbody></table></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">- ‘여왕의 기운(기간제) [각인]’ 아이템을 사용하면 20분 동안 다음 버프 효과를 적용 받습니다.</div><div class=\"tableWrapper\"><table class=\"\"><colgroup><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>버프 효과</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">공격력 +2%</div><div data-contents-type=\"text\" style=\"text-align: center;\">마법력 +2%</div><div data-contents-type=\"text\" style=\"text-align: center;\">획득 EXP/SP +10%</div></td></tr></tbody></table></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">- L2 스토어에서 획득한 기간제 아이템과 버프 스킬은 다음 일정으로 일괄 삭제됩니다.</div><div class=\"tableWrapper\"><table class=\"\"><colgroup><col><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>아이템명</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>일괄 삭제</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">개미 창궐! 여왕의 기운 상자(기간제)</div></td><td rowspan=\"4\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">2026년 11월 25일(수)</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">공격력 강화 주문서(기간제)</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">방어력 강화 주문서(기간제)</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">여왕의 기운(기간제)</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">특수 사냥터 추가 입장 아이템 교환 티켓(기간제)</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">2026년 12월 2일(수)</div></td></tr></tbody></table></div><div data-contents-type=\"text\">​</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><span style=\"font-size: 20px;\"><span style=\"color: rgb(0, 112, 192);\"><strong>[특수 제작]</strong></span></span></div><div data-contents-type=\"text\">1. '마력의 서판' 상품의 제작 제한을 계정당 1일 3회에서 5회로 변경하였습니다.</div><div data-contents-type=\"text\">​-&nbsp;2026년 11월 11일 정기점검 이전, 00시 초기화 이후 제작을 진행한 경우 증가된 제작 횟수는 익일부터 정상 적용됩니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><span style=\"font-size: 20px;\"><span style=\"color: rgb(0, 112, 192);\"><strong>[그 외 변경사항]</strong></span></span></div><div data-contents-type=\"text\">1. 월드 거래소 상단에 아데나 시세(최저 가격)를 표시하도록 개선하였습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">2. 월드 거래소에서 '염료', '가디언' 분류가 표시되지 않도록 변경하였습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">3. 방패 아이템의 메뉴에 '집혼석 장착' 항목이 표시되는 문제를 수정하였습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">4. 용의 계곡 사냥터의 '셰클', '로얄 케이브 서번트' 몬스터가 사용하는 'MP 드레인' 스킬을 'HP 드레인'으로 변경하였습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">5. 오르비스 전당 사냥터의 '영웅의 호위병사', '영웅의 친위대' 몬스터가 석화 스킬을 사용하지 않도록 변경하였습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">6. 국립 묘지와 티막 전초기지 사냥터에서 몬스터가 비정상적인 위치에 등장하는 문제를 수정하였습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">7. 레이드 보스 몬스터가 전투 시작 후 일정 시간이 지나면 광폭화하던 기능을 제거하였습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">8. ‘셀 마훔 돌격병’ 과 ‘셀 마훔 기사’ 몬스터가 스턴 스킬을 사용하지 않도록 변경하였습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">9. [리썰 샷 - 초월] 스킬의 사운드가 잘못 출력되던 문제를 수정하였습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">10. 엘레멘탈 마스터가 엘레멘탈 엑스퍼트를 사용한 상태에서 엘레멘탈 볼트 스킬을 시전할 때 엘레멘탈 유니콘이 공격하지 않는 현상을 수정하였습니다.</div><div data-contents-type=\"text\">​</div><div data-contents-type=\"text\">​</div><div data-contents-type=\"text\">고객 여러분께서는 위 내용을 확인하시어 원활하게 게임 진행하시길 바랍니다.</div><div data-contents-type=\"text\">고맙습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><a href=\"https://lounge.ncpurple.com/\"><div class=\"fr-image\" contenteditable=\"false\" data-contents-json=\"{&quot;src&quot;:&quot;https://assets.playnccdn.com/static-conti/1698872407960.jpeg&quot;,&quot;width&quot;:null,&quot;height&quot;:null}\" data-contents-type=\"image\"><div class=\"fe-image-inner\"><img src=\"https://assets.playnccdn.com/static-conti/1698872407960.jpeg\" alt=\"Purple_Lounge_FooterBanner_02_attract_KR.jpg\"></div></div></a></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div>",
+      "contentSize": 38206,
+      "deleteReasonCode": 0,
+      "deleteReasonComment": null,
+      "docMetaVersion": "0.0.3",
+      "id": "68766cf028c745263507304b",
+      "ip": "0.0.0.0",
+      "meta": {
+        "version": "0.0.3"
+      },
+      "serviceReserved": {
+        "reserved1": {},
+        "reserved2": {},
+        "reserved3": {},
+        "reserved4": {},
+        "serviceReserved": {}
+      },
+      "tags": [],
+      "userAgent": null,
+      "userPlatform": null,
+      "zone": "ncs"
+    },
+    "contentMeta": {
+      "boardRef": "6391373486043d35401d8728",
+      "categoryBoard": {
+        "boardAlias": "l2update",
+        "boardConfigRef": "6391373586043d35401d880c",
+        "boardName": "업데이트",
+        "boardNameI18N": {},
+        "boardSdkUrlPattern": null,
+        "boardState": "published",
+        "boardType": "Notice",
+        "boardUrlPattern": "https://lineage2.plaync.com/board/{boardAlias}/view?articleId={articleId}",
+        "docMetaVersion": "0.0.2",
+        "hierarchy": {
+          "friend": null,
+          "parent": null,
+          "root": null,
+          "subTree": {
+            "treeId": null,
+            "treeRoot": null
+          }
+        },
+        "id": "6391373486043d35401d8728",
+        "language": "",
+        "meta": {
+          "version": "0.0.2"
+        },
+        "metaTags": [
+          "lobby",
+          "searchAllowed"
+        ],
+        "serviceReserved": {
+          "reserved1": {},
+          "reserved2": {},
+          "reserved3": {},
+          "reserved4": {},
+          "serviceReserved": {}
+        },
+        "snow": {
+          "boardId": 2,
+          "parentBoardId": 0,
+          "rootBoardId": 0
+        },
+        "weight": 0
+      },
+      "contentTypeCode": 1,
+      "docMetaVersion": "0.0.3",
+      "emoticonUrl": "https://vod.plaync.com/lineage2/board/lineage2_admin.png",
+      "groupId": "",
+      "hasAttachments": false,
+      "hierarchy": {
+        "parent": "",
+        "reactionParent": "",
+        "root": ""
+      },
+      "id": "68766cf028c745263507304b",
+      "idNumberHierarchy": {
+        "parent": "",
+        "reactionParent": "",
+        "root": ""
+      },
+      "largeSummary": null,
+      "meta": {
+        "version": "0.0.3"
+      },
+      "metaTags": [
+        "NoticeFeedbackSurvey",
+        "HideVoteCount",
+        "ArticleTemplate",
+        "CommentUiOff"
+      ],
+      "reactions": {
+        "commentCount": 0,
+        "dislikeCount": 0,
+        "likeCount": 0,
+        "recommendCount": 0,
+        "recommendDownCount": 0,
+        "recommendUpCount": 0,
+        "replyCount": 0,
+        "reportCount": 0,
+        "scrapCount": 0,
+        "viewCount": 2912,
+        "voteCount": 0
+      },
+      "recentCommentWriter": null,
+      "reservedFields": null,
+      "rootBoard": null,
+      "rootBoardRef": "6391373486043d35401d8728",
+      "searchSummary": null,
+      "serviceRef": "638ed2ebb73f050c67d81732",
+      "snow": {
+        "contentId": 50044694
+      },
+      "statusCode": 1,
+      "summary": " ",
+      "thumbnailUrl": null,
+      "thumbnailUrlList": [],
+      "timestamps": {
+        "commentedAt": "1970-01-01T00:00:00.001Z",
+        "commentedEpoch": 0,
+        "localOffsetHours": 0,
+        "postDateTime": "2026-11-10 22:40:10.001",
+        "postedAt": "2026-11-10T22:40:10.001Z",
+        "postedEpoch": 1794350410,
+        "publishedAt": "2026-11-10T22:40:10.001Z",
+        "publishedDateTime": null,
+        "updateDateTime": "2026-11-11 00:30:19.793",
+        "updatedAt": "2026-11-11T00:30:19.793Z",
+        "updatedEpoch": 1794357019,
+        "version": "0.0.3"
+      },
+      "title": "[수정] [BASIC] 11월 11일(수) 업데이트 안내",
+      "userReactionCodes": [],
+      "visibilityCode": 1,
+      "voteRef": null,
+      "writer": {
+        "admin": true,
+        "gameUser": {
+          "communityLevel": {
+            "level": 0,
+            "levelKey": null,
+            "rank": 0,
+            "score": 0
+          },
+          "gameCharacterId": "",
+          "gameCharacterName": "",
+          "gameCode": 0,
+          "gameGroupId": "",
+          "gameGroupMemberRank": "",
+          "gameServerId": "",
+          "gameUniqueGroupId": "",
+          "gameUserUid": ""
+        },
+        "loginUser": {
+          "admin": true,
+          "banned": false,
+          "name": "admin",
+          "serviceCode": "13",
+          "uid": "*****"
+        }
+      },
+      "zone": "ncs"
+    },
+    "idNumberHierarchy": null,
+    "rootBoard": null
+  },
   "article_id": "68766cf028c745263507304b",
-  "full_article_verified": false,
-  "note": "List metadata only; do not translate as a complete article without verifying full original body.",
+  "full_article_verified": true,
+  "note": "Full official article detail, including HTML body.",
   "record": {
     "boardRef": "6391373486043d35401d8728",
     "categoryBoard": {

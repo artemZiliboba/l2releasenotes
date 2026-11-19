@@ -1,7 +1,223 @@
 {
+  "article": {
+    "categoryBoard": {
+      "boardAlias": "l2update",
+      "boardConfigRef": "6391373586043d35401d880c",
+      "boardName": "업데이트",
+      "boardNameI18N": {},
+      "boardSdkUrlPattern": null,
+      "boardState": "published",
+      "boardType": "Notice",
+      "boardUrlPattern": "https://lineage2.plaync.com/board/{boardAlias}/view?articleId={articleId}",
+      "docMetaVersion": "0.0.2",
+      "hierarchy": {
+        "friend": null,
+        "parent": null,
+        "root": null,
+        "subTree": {
+          "treeId": null,
+          "treeRoot": null
+        }
+      },
+      "id": "6391373486043d35401d8728",
+      "language": "",
+      "meta": {
+        "version": "0.0.2"
+      },
+      "metaTags": [
+        "lobby",
+        "searchAllowed"
+      ],
+      "serviceReserved": {
+        "reserved1": {},
+        "reserved2": {},
+        "reserved3": {},
+        "reserved4": {},
+        "serviceReserved": {}
+      },
+      "snow": {
+        "boardId": 2,
+        "parentBoardId": 0,
+        "rootBoardId": 0
+      },
+      "weight": 0
+    },
+    "content": {
+      "attachments": {
+        "files": [],
+        "thumbnailUrl": ""
+      },
+      "boardRef": "6391373486043d35401d8728",
+      "content": "<div data-contents-type=\"text\"><strong>리니지2 고객님, 안녕하세요.</strong></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">리니지2를 사랑해주시는 고객님들께 감사의 말씀을 드리며,</div><div data-contents-type=\"text\">10월 14일(수) 업데이트 사항을 다음과 같이 안내해 드립니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><span style=\"color: rgb(0, 112, 192);\"><strong>[미션]</strong></span></div><div data-contents-type=\"text\">1. 아래 미션의 보상을 변경하였습니다.</div><div class=\"tableWrapper\"><table class=\"first-row first-col no-vband\"><colgroup><col><col><col><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: black;\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: white;\"><strong>미션명</strong></span></div></td><td style=\"padding: 4px 8px; background-color: black;\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: white;\"><strong>반복여부</strong></span></div></td><td style=\"padding: 4px 8px; background-color: black;\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: white;\"><strong>귀속 타입</strong></span></div></td><td style=\"padding: 4px 8px; background-color: black;\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: white;\"><strong>변경사항</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">94레벨 달성 특별 보상</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">일회성</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">계정</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">‘+10 탈리스만 교환권 [각인]’ 추가</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">94레벨 도달</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">일회성</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">캐릭터</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">‘+10 탈리스만 교환권 [각인]’ 제거</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">95레벨 도달</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">일회성</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">캐릭터</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">‘불멸의 반지(각인) 팩 [각인]’ 제거</div></td></tr></tbody></table></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">2. 아래 미션 1종을 추가하였습니다.</div><div class=\"tableWrapper\"><table class=\"first-row first-col no-vband\"><colgroup><col><col><col><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: black;\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: white;\"><strong>미션명</strong></span></div></td><td style=\"padding: 4px 8px; background-color: black;\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: white;\"><strong>반복여부</strong></span></div></td><td style=\"padding: 4px 8px; background-color: black;\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: white;\"><strong>귀속 타입</strong></span></div></td><td style=\"padding: 4px 8px; background-color: black;\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: white;\"><strong>미션 보상</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">95레벨 달성 특별 보상</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">일회성</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">계정</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">불멸의 반지(각인) 팩 [각인] 1개</div></td></tr></tbody></table></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">3. ‘96레벨 도달’ 일회성 미션을 계정 귀속으로 변경하였습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><span style=\"color: rgb(0, 112, 192);\"><strong>[특수 제작]</strong></span></div><div data-contents-type=\"text\">1. 2026년 10월 28일(수) 정기점검까지 ‘기란의 인장’을 비용으로 제작할 수 있는 상품 4종을 추가하였습니다.</div><div class=\"tableWrapper\"><table class=\"first-row first-col no-vband\"><colgroup><col><col><col><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: black;\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: white;\"><strong>제작명</strong></span></div></td><td colspan=\"2\" style=\"padding: 4px 8px; background-color: black;\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: white;\"><strong>제작 아이템</strong></span></div></td><td style=\"padding: 4px 8px; background-color: black;\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: white;\"><strong>제작 비용</strong></span></div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">+2 페리온의 목걸이 팩</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">+2 페리온의 목걸이 팩 [각인] 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 105개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 10개</div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">+2 아즈타칸의 귀걸이 팩</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">+2 아즈타칸의 귀걸이 팩 [각인] 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 70개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 7개</div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">+2 베레스의 반지 팩</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">+2 베레스의 반지 팩 [각인] 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 70개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 7개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">고급 레어 액세서리 강화 주문서</div></td><td colspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">고급 레어 액세서리 강화 주문서 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 200개</div></td></tr></tbody></table></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><span style=\"color: rgb(0, 112, 192);\"><strong>[그 외 변경사항]</strong></span></div><div data-contents-type=\"text\">1. 강철의 성 베레스의 공간에 배치된 문을 캐릭터가 간헐적으로 통과할 수 있는 문제를 수정하였습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">고객 여러분께서는 위 내용을 확인하시어 원활하게 게임 진행하시길 바랍니다.</div><div data-contents-type=\"text\">고맙습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><a href=\"https://lounge.ncpurple.com/\"><div class=\"fr-image\" contenteditable=\"false\" data-contents-json=\"{&quot;src&quot;:&quot;https://assets.playnccdn.com/static-conti/1698872407960.jpeg&quot;,&quot;width&quot;:null,&quot;height&quot;:null}\" data-contents-type=\"image\"><div class=\"fe-image-inner\"><img src=\"https://assets.playnccdn.com/static-conti/1698872407960.jpeg\" alt=\"Purple_Lounge_FooterBanner_02_attract_KR.jpg\"></div></div></a></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div>",
+      "contentSize": 9898,
+      "deleteReasonCode": 0,
+      "deleteReasonComment": null,
+      "docMetaVersion": "0.0.3",
+      "id": "6aceb7f0263e537d356d1125",
+      "ip": "0.0.0.0",
+      "meta": {
+        "version": "0.0.3"
+      },
+      "serviceReserved": {
+        "reserved1": {},
+        "reserved2": {},
+        "reserved3": {},
+        "reserved4": {},
+        "serviceReserved": {}
+      },
+      "tags": [],
+      "userAgent": null,
+      "userPlatform": null,
+      "zone": "ncs"
+    },
+    "contentMeta": {
+      "boardRef": "6391373486043d35401d8728",
+      "categoryBoard": {
+        "boardAlias": "l2update",
+        "boardConfigRef": "6391373586043d35401d880c",
+        "boardName": "업데이트",
+        "boardNameI18N": {},
+        "boardSdkUrlPattern": null,
+        "boardState": "published",
+        "boardType": "Notice",
+        "boardUrlPattern": "https://lineage2.plaync.com/board/{boardAlias}/view?articleId={articleId}",
+        "docMetaVersion": "0.0.2",
+        "hierarchy": {
+          "friend": null,
+          "parent": null,
+          "root": null,
+          "subTree": {
+            "treeId": null,
+            "treeRoot": null
+          }
+        },
+        "id": "6391373486043d35401d8728",
+        "language": "",
+        "meta": {
+          "version": "0.0.2"
+        },
+        "metaTags": [
+          "lobby",
+          "searchAllowed"
+        ],
+        "serviceReserved": {
+          "reserved1": {},
+          "reserved2": {},
+          "reserved3": {},
+          "reserved4": {},
+          "serviceReserved": {}
+        },
+        "snow": {
+          "boardId": 2,
+          "parentBoardId": 0,
+          "rootBoardId": 0
+        },
+        "weight": 0
+      },
+      "contentTypeCode": 1,
+      "docMetaVersion": "0.0.3",
+      "emoticonUrl": "https://vod.plaync.com/lineage2/board/lineage2_admin.png",
+      "groupId": "",
+      "hasAttachments": false,
+      "hierarchy": {
+        "parent": "",
+        "reactionParent": "",
+        "root": ""
+      },
+      "id": "6aceb7f0263e537d356d1125",
+      "idNumberHierarchy": {
+        "parent": "",
+        "reactionParent": "",
+        "root": ""
+      },
+      "largeSummary": null,
+      "meta": {
+        "version": "0.0.3"
+      },
+      "metaTags": [
+        "NoticeFeedbackSurvey",
+        "HideVoteCount",
+        "ArticleTemplate",
+        "CommentUiOff"
+      ],
+      "reactions": {
+        "commentCount": 0,
+        "dislikeCount": 0,
+        "likeCount": 0,
+        "recommendCount": 0,
+        "recommendDownCount": 0,
+        "recommendUpCount": 0,
+        "replyCount": 0,
+        "reportCount": 0,
+        "scrapCount": 0,
+        "viewCount": 1456,
+        "voteCount": 0
+      },
+      "recentCommentWriter": null,
+      "reservedFields": null,
+      "rootBoard": null,
+      "rootBoardRef": "6391373486043d35401d8728",
+      "searchSummary": null,
+      "serviceRef": "638ed2ebb73f050c67d81732",
+      "snow": {
+        "contentId": 50042626
+      },
+      "statusCode": 1,
+      "summary": " ",
+      "thumbnailUrl": null,
+      "thumbnailUrlList": [],
+      "timestamps": {
+        "commentedAt": "1970-01-01T00:00:00.001Z",
+        "commentedEpoch": 0,
+        "localOffsetHours": 0,
+        "postDateTime": "2026-10-13 23:00:00.406",
+        "postedAt": "2026-10-13T23:00:00.406Z",
+        "postedEpoch": 1791932400,
+        "publishedAt": "2026-10-13T23:00:00.406Z",
+        "publishedDateTime": null,
+        "updateDateTime": "2026-10-13 23:00:48.147",
+        "updatedAt": "2026-10-13T23:00:48.147Z",
+        "updatedEpoch": 1791932448,
+        "version": "0.0.3"
+      },
+      "title": "[말하는섬] 10월 14일(수) 업데이트 안내",
+      "userReactionCodes": [],
+      "visibilityCode": 1,
+      "voteRef": null,
+      "writer": {
+        "admin": true,
+        "gameUser": {
+          "communityLevel": {
+            "level": 0,
+            "levelKey": null,
+            "rank": 0,
+            "score": 0
+          },
+          "gameCharacterId": "",
+          "gameCharacterName": "",
+          "gameCode": 0,
+          "gameGroupId": "",
+          "gameGroupMemberRank": "",
+          "gameServerId": "",
+          "gameUniqueGroupId": "",
+          "gameUserUid": ""
+        },
+        "loginUser": {
+          "admin": true,
+          "banned": false,
+          "name": "admin",
+          "serviceCode": "13",
+          "uid": "*****"
+        }
+      },
+      "zone": "ncs"
+    },
+    "idNumberHierarchy": null,
+    "rootBoard": null
+  },
   "article_id": "6aceb7f0263e537d356d1125",
-  "full_article_verified": false,
-  "note": "List metadata only; do not translate as a complete article without verifying full original body.",
+  "full_article_verified": true,
+  "note": "Full official article detail, including HTML body.",
   "record": {
     "boardRef": "6391373486043d35401d8728",
     "categoryBoard": {

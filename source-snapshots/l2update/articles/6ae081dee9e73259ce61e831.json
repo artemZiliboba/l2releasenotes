@@ -1,7 +1,220 @@
 {
+  "article": {
+    "categoryBoard": {
+      "boardAlias": "l2update",
+      "boardConfigRef": "6391373586043d35401d880c",
+      "boardName": "업데이트",
+      "boardNameI18N": {},
+      "boardSdkUrlPattern": null,
+      "boardState": "published",
+      "boardType": "Notice",
+      "boardUrlPattern": "https://lineage2.plaync.com/board/{boardAlias}/view?articleId={articleId}",
+      "docMetaVersion": "0.0.2",
+      "hierarchy": {
+        "friend": null,
+        "parent": null,
+        "root": null,
+        "subTree": {
+          "treeId": null,
+          "treeRoot": null
+        }
+      },
+      "id": "6391373486043d35401d8728",
+      "language": "",
+      "meta": {
+        "version": "0.0.2"
+      },
+      "metaTags": [
+        "lobby",
+        "searchAllowed"
+      ],
+      "serviceReserved": {
+        "reserved1": {},
+        "reserved2": {},
+        "reserved3": {},
+        "reserved4": {},
+        "serviceReserved": {}
+      },
+      "snow": {
+        "boardId": 2,
+        "parentBoardId": 0,
+        "rootBoardId": 0
+      },
+      "weight": 0
+    },
+    "content": {
+      "attachments": {
+        "files": [],
+        "thumbnailUrl": ""
+      },
+      "boardRef": "6391373486043d35401d8728",
+      "content": "<div data-contents-type=\"text\"><strong>리니지2 고객님, 안녕하세요.</strong></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">10/28 업데이트로 변경 되는 토벌 콘텐츠 사전 안내 드립니다.</div><div data-contents-type=\"text\"><strong>​</strong></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><span style=\"color: rgb(0, 112, 192);\"><strong>[토벌]</strong></span></div><div data-contents-type=\"text\">1. 2026년 10월 28일(수) 정기점검에 토벌 보상이 변경될 예정입니다.&nbsp;</div><div data-contents-type=\"text\">- 각 토벌 별 기본 보상이 변경되며, 순위 보상도 함께 변경될 예정입니다.&nbsp;</div><div data-contents-type=\"text\">​</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">고객님들께 더욱 만족스러운 서비스를 제공해 드리기 위하여 항상 노력하겠습니다.</div><div data-contents-type=\"text\">​고맙습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><div class=\"fr-image\" contenteditable=\"false\" data-contents-json=\"{&quot;src&quot;:&quot;https://fizz-download.playnccdn.com/lg/file/lin2/download/19c93fa6cbe-56afd646-131a-4dac-b5b5-d6d381505fd2&quot;,&quot;width&quot;:null,&quot;height&quot;:null}\" data-contents-type=\"image\"><div class=\"fe-image-inner\"><img src=\"https://fizz-download.playnccdn.com/lg/file/lin2/download/19c93fa6cbe-56afd646-131a-4dac-b5b5-d6d381505fd2\" alt=\"3. 하단.png\" class=\"fe-image\"></div></div></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div>",
+      "contentSize": 1774,
+      "deleteReasonCode": 0,
+      "deleteReasonComment": null,
+      "docMetaVersion": "0.0.3",
+      "id": "6ae081dee9e73259ce61e831",
+      "ip": "0.0.0.0",
+      "meta": {
+        "version": "0.0.3"
+      },
+      "serviceReserved": {
+        "reserved1": {},
+        "reserved2": {},
+        "reserved3": {},
+        "reserved4": {},
+        "serviceReserved": {}
+      },
+      "tags": [],
+      "userAgent": null,
+      "userPlatform": null,
+      "zone": "ncs"
+    },
+    "contentMeta": {
+      "boardRef": "6391373486043d35401d8728",
+      "categoryBoard": {
+        "boardAlias": "l2update",
+        "boardConfigRef": "6391373586043d35401d880c",
+        "boardName": "업데이트",
+        "boardNameI18N": {},
+        "boardSdkUrlPattern": null,
+        "boardState": "published",
+        "boardType": "Notice",
+        "boardUrlPattern": "https://lineage2.plaync.com/board/{boardAlias}/view?articleId={articleId}",
+        "docMetaVersion": "0.0.2",
+        "hierarchy": {
+          "friend": null,
+          "parent": null,
+          "root": null,
+          "subTree": {
+            "treeId": null,
+            "treeRoot": null
+          }
+        },
+        "id": "6391373486043d35401d8728",
+        "language": "",
+        "meta": {
+          "version": "0.0.2"
+        },
+        "metaTags": [
+          "lobby",
+          "searchAllowed"
+        ],
+        "serviceReserved": {
+          "reserved1": {},
+          "reserved2": {},
+          "reserved3": {},
+          "reserved4": {},
+          "serviceReserved": {}
+        },
+        "snow": {
+          "boardId": 2,
+          "parentBoardId": 0,
+          "rootBoardId": 0
+        },
+        "weight": 0
+      },
+      "contentTypeCode": 1,
+      "docMetaVersion": "0.0.3",
+      "emoticonUrl": "https://vod.plaync.com/lineage2/board/lineage2_admin.png",
+      "groupId": "",
+      "hasAttachments": true,
+      "hierarchy": {
+        "parent": "",
+        "reactionParent": "",
+        "root": ""
+      },
+      "id": "6ae081dee9e73259ce61e831",
+      "idNumberHierarchy": {
+        "parent": "",
+        "reactionParent": "",
+        "root": ""
+      },
+      "largeSummary": null,
+      "meta": {
+        "version": "0.0.3"
+      },
+      "metaTags": [],
+      "reactions": {
+        "commentCount": 0,
+        "dislikeCount": 0,
+        "likeCount": 0,
+        "recommendCount": 0,
+        "recommendDownCount": 0,
+        "recommendUpCount": 0,
+        "replyCount": 0,
+        "reportCount": 0,
+        "scrapCount": 0,
+        "viewCount": 1491,
+        "voteCount": 0
+      },
+      "recentCommentWriter": null,
+      "reservedFields": null,
+      "rootBoard": null,
+      "rootBoardRef": "6391373486043d35401d8728",
+      "searchSummary": null,
+      "serviceRef": "638ed2ebb73f050c67d81732",
+      "snow": {
+        "contentId": 50043614
+      },
+      "statusCode": 1,
+      "summary": "리니지2 고객님, 안녕하세요.10/28 업데이트로 변경 되는 토벌 콘텐츠 사전 안내 드립니다.​[토벌]1. 2026년 10월 28일(수) 정기점검에 토벌 보상이 변경될 예정입니다.&nbsp;- 각 토벌 별 기본 보상이 변경되며, 순위 보상도 함께 변경될 예정입니다.&nbsp;​고객님들께 더욱 만족스러운 서비스를 제공해 드리기 위하여 항상 노력하겠습니다.​고",
+      "thumbnailUrl": null,
+      "thumbnailUrlList": [
+        "https://fizz-download.playnccdn.com/lg/file/lin2/download_thumbnail/19c93fa6cbe-56afd646-131a-4dac-b5b5-d6d381505fd2"
+      ],
+      "timestamps": {
+        "commentedAt": "1970-01-01T00:00:00.001Z",
+        "commentedEpoch": 0,
+        "localOffsetHours": 0,
+        "postDateTime": "2026-10-27 10:50:06.080",
+        "postedAt": "2026-10-27T10:50:06.080Z",
+        "postedEpoch": 1793098206,
+        "publishedAt": "2026-10-27T10:50:06.080Z",
+        "publishedDateTime": null,
+        "updateDateTime": "2026-10-27 10:51:41.750",
+        "updatedAt": "2026-10-27T10:51:41.750Z",
+        "updatedEpoch": 1793098301,
+        "version": "0.0.3"
+      },
+      "title": "[본/에바/일섬&발도] 토벌 콘텐츠 사전 업데이트 안내",
+      "userReactionCodes": [],
+      "visibilityCode": 1,
+      "voteRef": null,
+      "writer": {
+        "admin": true,
+        "gameUser": {
+          "communityLevel": {
+            "level": 0,
+            "levelKey": null,
+            "rank": 0,
+            "score": 0
+          },
+          "gameCharacterId": "",
+          "gameCharacterName": "",
+          "gameCode": 0,
+          "gameGroupId": "",
+          "gameGroupMemberRank": "",
+          "gameServerId": "",
+          "gameUniqueGroupId": "",
+          "gameUserUid": ""
+        },
+        "loginUser": {
+          "admin": true,
+          "banned": false,
+          "name": "admin",
+          "serviceCode": "13",
+          "uid": "*****"
+        }
+      },
+      "zone": "ncs"
+    },
+    "idNumberHierarchy": null,
+    "rootBoard": null
+  },
   "article_id": "6ae081dee9e73259ce61e831",
-  "full_article_verified": false,
-  "note": "List metadata only; do not translate as a complete article without verifying full original body.",
+  "full_article_verified": true,
+  "note": "Full official article detail, including HTML body.",
   "record": {
     "boardRef": "6391373486043d35401d8728",
     "categoryBoard": {

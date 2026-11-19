@@ -1,7 +1,223 @@
 {
+  "article": {
+    "categoryBoard": {
+      "boardAlias": "l2update",
+      "boardConfigRef": "6391373586043d35401d880c",
+      "boardName": "업데이트",
+      "boardNameI18N": {},
+      "boardSdkUrlPattern": null,
+      "boardState": "published",
+      "boardType": "Notice",
+      "boardUrlPattern": "https://lineage2.plaync.com/board/{boardAlias}/view?articleId={articleId}",
+      "docMetaVersion": "0.0.2",
+      "hierarchy": {
+        "friend": null,
+        "parent": null,
+        "root": null,
+        "subTree": {
+          "treeId": null,
+          "treeRoot": null
+        }
+      },
+      "id": "6391373486043d35401d8728",
+      "language": "",
+      "meta": {
+        "version": "0.0.2"
+      },
+      "metaTags": [
+        "lobby",
+        "searchAllowed"
+      ],
+      "serviceReserved": {
+        "reserved1": {},
+        "reserved2": {},
+        "reserved3": {},
+        "reserved4": {},
+        "serviceReserved": {}
+      },
+      "snow": {
+        "boardId": 2,
+        "parentBoardId": 0,
+        "rootBoardId": 0
+      },
+      "weight": 0
+    },
+    "content": {
+      "attachments": {
+        "files": [],
+        "thumbnailUrl": ""
+      },
+      "boardRef": "6391373486043d35401d8728",
+      "content": "<div data-contents-type=\"text\"><strong>리니지2 고객님, 안녕하세요.</strong></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">리니지2를 사랑해주시는 고객님들께 감사의 말씀을 드리며,</div><div data-contents-type=\"text\">11월 18일(수) 업데이트 사항을 다음과 같이 안내해 드립니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><span style=\"color: rgb(0, 112, 192);\"><strong>[공성전]</strong></span></div><div data-contents-type=\"text\">1. 고다드 공성전이 진행됩니다.</div><div class=\"tableWrapper\"><table class=\"first-row first-col no-vband\"><colgroup><col><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>공성전 진행 일시</strong></span></div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\">2026년 11월 18일 ~ 2026년 12월 9일매주 목, 금, 토요일 21시</div></td></tr><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>공성전 준비 기간</strong></span></div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">21시부터 입장 신청 가능<br>21시 5분 입장</div></td></tr><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>공성전 매칭 인원</strong></span></div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">50인 대 50인 경쟁</div></td></tr></tbody></table></div><div data-contents-type=\"text\">- ‘고다드 공성전’은 아래 레벨 구간에 따라 매칭됩니다.</div><div class=\"tableWrapper\"><table class=\"first-row first-col no-vband\"><colgroup><col><col><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>서버</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>구간1</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>구간2</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">본 서버</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">76~93레벨</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">94~레벨</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">에바&amp;울프&amp;발라카스 서버</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">76~92레벨</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">93~레벨</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">일섬&amp;발도 서버</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">76~91레벨</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">92~레벨</div></td></tr></tbody></table></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">2. 입장 지역에는 리오넬 헌터, 헤르프아가 배치되어 있습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">3. 모든 유저에게 ‘지배자의 각인’ 스킬이 지급됩니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">4. 공성전이 시작되면 각 팀원에게 리오넬 헌터, 헤르프아 버프가 지급됩니다.</div><div data-contents-type=\"text\">- 해당 버프가 적용된 상태에서는 사망해도 버프 및 디버프가 해제되지 않습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">5. 외성문을 통해 고다드의 수호자에게 이동할 수 있으며, 고다드의 수호자를 대상으로 지배자의 각인 스킬을 사용할 수 있습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">6. 고다드의 수호자에게 각인 성공 시 해당 팀의 색깔로 변경되며 상대 팀은 모두 입장 지역으로 이동합니다.</div><div data-contents-type=\"text\">- 두개의 고다드의 수호자는 항상 동기화 되어 한쪽을 각인하면 반대쪽도 같이 변경됩니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">7. 고다드의 수호자는 각인에 성공하면 15초간 타겟 불가 상태가 됩니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">8. 각인 성공 시; 상태 팀 성벽은 파괴됩니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">9. 각인을 성공하지 못한 팀 쪽에 이동 장치가 배치됩니다.</div><div data-contents-type=\"text\">- 이동 장치를 통해 3군데 장소로 텔레포트 할 수 있습니다. (불의 방, 물의 방, 테라스)</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">10. UI를 통해 단계, 남은 시간, 각 팀의 점수를 보여줍니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">11. ‘고다드의 수호자’ 각인 상태에서 점수 규칙에 따라 점수를 지급하며, 규칙은 아래와 같습니다.</div><div class=\"tableWrapper\"><table class=\"first-row first-col no-vband\"><colgroup><col><col><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>경기 시간</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>단계</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>3초당 점수</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">0~6분</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">I</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">1점</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">6~13분</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">II</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">2점</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">13~20분</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">III</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">6점</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">-</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">가호상태</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">10점</div></td></tr></tbody></table></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">12. 한 팀이 고다드의 수호자 각인 상태를 유지한 채, 2분 동안 상대 팀의 각인 시도가 없을 경우 ‘고다드 수호자의 가호’가 발동되며, 상대 팀에게 경고 메시지가 귓속말로 안내됩니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">13. 한 팀의 점수가 700점 이상이 되거나, 제한 시간이 모두 종료되면 공성전이 종료됩니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">14. 한 팀이 700점을 먼저 달성하거나, 제한시간 종료 시 더 높은 점수를 획득한 팀이 승리합니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">15. 동점인 경우 모두 패배 보상을 받게 됩니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">16. 고다드 공성전에서 수행할 수 있는 미션을 추가하였습니다.</div><div class=\"tableWrapper\"><table class=\"first-row first-col no-vband\"><colgroup><col><col><col><col><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>미션명</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>수행조건</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>수행주기</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>미션 내용</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>미션 보상</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">고다드 공성전 참전</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">76레벨 이상</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">목, 금, 토요일 진행 가능</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">고다드 공성전에 참전하여 공성전 종료 후<br>리오넬 헌터, 헤르프아와 대화하면 보상을 받을 수 있습니다.<br>이벤트 기간 동안 목, 금, 토요일에<br>계정당 하루 한 번 수행할 수 있습니다.</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아덴의 금화 [각인] 10개<br>레드 아크(기간제) [각인] 100개</div></td></tr></tbody></table></div><div data-contents-type=\"text\">- 미션을 통해 획득한 ‘레드 아크(기간제) [각인]’ 아이템은 매주 정기점검에 삭제됩니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">17. 공성전 성공 시 획득하는 ‘고다드 공성 승리의 상자(기간제) [각인]’ 사용 시 아래 아이템을 획득할 수 있습니다.</div><div class=\"tableWrapper\"><table class=\"first-row first-col no-vband\"><colgroup><col><col></colgroup><tbody><tr><td colspan=\"2\" style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>확정 획득 아이템</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아덴 연구 일지 [각인] 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아덴의 금화 [각인] 60개</div></td></tr><tr><td colspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">인형 소환권(일반~영웅) - 11회(기간제) [각인] 1개</div></td></tr><tr><td colspan=\"2\" style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>확률 획득 아이템</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">전설 마법서 교환권(기간제) [각인] 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">초월 강화석 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">안정된 무기 강화 주문서(기간제) [각인] 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">안정된 갑옷 강화 주문서(기간제) [각인] 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">축복받은 무기 강화 주문서 [각인] 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">축복받은 갑옷 강화 주문서 [각인] 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">저주받은 무기 강화 주문서 [각인] 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">저주받은 갑옷 강화 주문서 [각인] 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">하딘의 집혼석 Lv1 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아덴의 집혼석 Lv1 - 무기 1개</div></td></tr><tr><td colspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아덴의 집혼석 Lv1 - 갑옷 1개</div></td></tr></tbody></table></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">18. 공성전 실패 시 획득하는 ‘고다드 공성 보급품(기간제) [각인]’ 사용 시 아래 아이템을 획득할 수 있습니다.</div><div class=\"tableWrapper\"><table class=\"first-row first-col no-vband docx_a4\"><colgroup><col><col></colgroup><tbody><tr><td colspan=\"2\" style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>확정 획득 아이템</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아덴의 금화 [각인] 20개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">버서커 주문서(기간제) [각인] 3개</div></td></tr><tr><td colspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">인형 소환권(일반~영웅) - 11회(기간제) [각인] 1개</div></td></tr><tr><td colspan=\"2\" style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>추가 확률 획득 아이템</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">안정된 무기 강화 주문서(기간제) [각인] 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">안정된 갑옷 강화 주문서(기간제) [각인] 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">무기 강화 주문서 [각인] 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">갑옷 강화 주문서 [각인] 1개</div></td></tr><tr><td colspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아덴 연구 일지 조각 [각인] 5개</div></td></tr></tbody></table></div><div data-contents-type=\"text\">- 고다드 공성전을 통해 획득한 기간제 아이템은 2026년 12월 16(수) 정기점검에 일괄 삭제됩니다.</div><div data-contents-type=\"text\">- 고다드 공성전을 통해 획득한 기간제 아이템은 2026년 12월 16(수) 정기점검에 일괄 삭제됩니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">19. ‘고다드 공성전’이 진행되는 목요일~토요일까지 ‘전초기지 점령전’은 진행되지 않습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">20. 고다드 공성전에서 팀별 전투 상황을 확인할 수 있도록 킬 로그를 추가하였습니다.</div><div data-contents-type=\"text\">- 상대 팀 캐릭터 처치 시 처치 로그는 처치자의 팀 전체에, 사망 로그는 사망자의 팀 전체에 공유됩니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><span style=\"color: rgb(0, 112, 192);\"><strong>[아이템]</strong></span></div><div data-contents-type=\"text\">1. '여왕개미의 반지'의 모든 인챈트 단계에 홀드 적중 효과를 추가하였습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">2. '엘븐 미스릴 부츠', '엘븐 미스릴 글로브' 아이템의 이름을 '미스릴 부츠', '미스릴 글로브'로 변경하였습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><span style=\"color: rgb(0, 112, 192);\"><strong>[특수 제작 - 본 서버]</strong></span></div><div data-contents-type=\"text\">1. 2026년 11월 25일(수) 정기점검까지 ‘발라카스의 숨결(기간제) [각인]’을 비용으로 제작할 수 있는 상품 4종을 추가하였습니다.</div><div class=\"tableWrapper\"><table class=\"first-row first-col no-vband\"><colgroup><col><col><col><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>상품명</strong></span></div></td><td colspan=\"2\" style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작 아이템　</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작 비용</strong></span></div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">+7 레어 방어구(각인) 교환권(기간제)</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">+7 레어 방어구(각인) 교환권(기간제)<br>[각인] 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">발라카스의 숨결(기간제)<br>[각인] 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 1개</div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">+7 수호의 방어구(각인) 교환권(기간제)</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">+7 수호의 방어구(각인) 교환권(기간제)<br>[각인] 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">발라카스의 숨결(기간제)<br>[각인] 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 1개</div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">+8 특수 방어구(각인) 교환권(기간제)</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">+8 특수 방어구(각인) 교환권(기간제)<br>[각인] 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">발라카스의 숨결(기간제)<br>[각인] 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 1개</div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">안정된 갑옷 강화 주문서(각인) 10개 팩(기간제)</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">안정된 갑옷 강화 주문서(각인) 10개 팩(기간제)<br>[각인] 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">발라카스의 숨결(기간제)<br>[각인] 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 1개</div></td></tr></tbody></table></div><div data-contents-type=\"text\">- 특수 제작에서 획득한 기간제 아이템은 2026년 12월 2일(수) 정기점검에 일괄 삭제됩니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">2. 2026년 11월 25일(수) 정기점검까지 ‘기란의 인장’을 비용으로 제작할 수 있는 서버 한정 상품 5종을 추가하였습니다.</div><div class=\"tableWrapper\"><table class=\"first-row first-col no-vband\"><colgroup><col><col><col><col><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>상품명</strong></span></div></td><td colspan=\"2\" style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작 아이템　</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작 비용</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작 제한</strong></span></div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아덴의 정수</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아덴의 정수 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 10개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">월드 서버 15개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 1개</div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">불멸의 반지 팩</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">불멸의 반지 팩 [각인] 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 10개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">서버당 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 1개</div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">헬바운드 탈리스만 - 초월</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">헬바운드 탈리스만 - 초월 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 10개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">서버당 1일 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 1개</div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">하딘의 초월 집혼석 Lv1</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">하딘의 초월 집혼석 Lv1 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 10개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">서버당 1일 5개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 1개</div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">베니르의 탈리스만 - 초월</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">베니르의 탈리스만 - 초월 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 10개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">서버당 1일 3개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 1개</div></td></tr></tbody></table></div><div data-contents-type=\"text\">- ‘아덴의 정수’ 상품은 월드 서버에서만 제작할 수 있습니다.</div><div data-contents-type=\"text\">- 그 외 서버 제작 제한 상품은 월드 서버에서 이용하실 수 없습니다. (메인 서버 전용)</div><div data-contents-type=\"text\">- 서버 1일 제작 제한은 매일 자정 00시에 초기화됩니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">3. 2026년 11월 25일(수) 정기점검까지 ‘기란의 인장’을 비용으로 제작할 수 있는 상품 3종을 추가하였습니다.</div><div class=\"tableWrapper\"><table class=\"first-row first-col no-vband\"><colgroup><col><col><col><col><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>상품명</strong></span></div></td><td colspan=\"2\" style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작 아이템　</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작 비용</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작 제한</strong></span></div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">초월 강화석(각인) 10개 팩(기간제)</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">초월 강화석(각인) 10개 팩(기간제) [각인] 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 388개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">계정당 1일 10개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 19개</div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">축복 주문서 - 갑옷 50개 팩(기간제)</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">축복 주문서 - 갑옷 50개 팩(기간제) [각인] 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 39개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">-</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 2개</div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">축복 제련석(각인) 선택권 100개 팩(기간제)</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">축복 제련석(각인) 선택권 100개 팩(기간제) [각인] 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 260개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">계정당 5개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 13개</div></td></tr></tbody></table></div><div data-contents-type=\"text\">- 계정 1일 제작 제한은 매일 자정 00시에 초기화됩니다.</div><div data-contents-type=\"text\">- 특수 제작으로 획득한 기간제 아이템은 2026년 12월 2일(수) 정기점검에 일괄 삭제됩니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><span style=\"color: rgb(0, 112, 192);\"><strong>[L2 스토어 - 에바&amp;울프&amp;발라카스/일섬&amp;발도 서버]</strong></span></div><div data-contents-type=\"text\">1. L2 스토어에 신규 상품 2종을 추가하였습니다.</div><div class=\"tableWrapper\"><table class=\"first-row first-col no-vband\"><colgroup><col><col><col><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>상품명</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>구분</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>판매 기간</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>비용</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">성장 지원 주문서(기간제)</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">이벤트</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">11/18~12/2</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아데나 500,000개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아인하사드의 축복 주문서(기간제)</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">이벤트</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">11/18~12/2</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아데나 300,000개</div></td></tr></tbody></table></div><div data-contents-type=\"text\">- L2 스토어에서 획득한 기간제 아이템과 버프 스킬은 2026년 12월 9일(수) 정기점검에 일괄 삭제됩니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><span style=\"color: rgb(0, 112, 192);\"><strong>[특수 제작 - 에바&amp;울프&amp;발라카스/일섬&amp;발도 서버]</strong></span></div><div data-contents-type=\"text\">1. 2026년 11월 25일(수) 정기점검까지 ‘아데나’를 비용으로 제작할 수 있는 상품 3종을 추가하였습니다.</div><div class=\"tableWrapper\"><table class=\"first-row first-col no-vband\"><colgroup><col><col><col><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>상품명</strong></span></div></td><td colspan=\"2\" style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작 아이템　</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작 비용</strong></span></div></td></tr><tr><td rowspan=\"3\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">초월 강화석(각인) 50개 팩(기간제)</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">초월 강화석(각인) 50개 팩(기간제) [각인] 1개</div></td><td rowspan=\"3\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"3\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아데나 1,000,000개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">초월 강화석 [각인] 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">강화석 조각 [각인] 5개</div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">안정된 무기 강화 주문서</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">안정된 무기 강화 주문서 [각인] 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아데나 8,000,000개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아데나 800,000개</div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">안정된 갑옷 강화 주문서</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">안정된 갑옷 강화 주문서 [각인] 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아데나 8,000,000개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아데나 800,000개</div></td></tr></tbody></table></div><div data-contents-type=\"text\">- 특수 제작으로 획득한 기간제 아이템은 2026년 12월 2일(수) 정기점검에 일괄 삭제됩니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">2. 전설 마법서 교환권 상품의 제작 대체 비용으로 바츠 클래스의 영웅 마법서를 추가하였습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><span style=\"color: rgb(0, 112, 192);\"><strong>[그 외 변경사항]</strong></span></div><div data-contents-type=\"text\">1. 에바&amp;울프&amp;발라카스/일섬&amp;발도 서버의 '전설 마법서 교환권' 특수 제작 대체 재료에 '마법서 - 루미트릭스'가 누락된 문제를 수정하였습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">2. [데몬 윈드] 스킬의 연출을 변경하였습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">3. 바츠 클래스의 디스토션 스킬 사용 시 주변에 아군이 있을 때 보라가 되는 문제를 수정하였습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">고객 여러분께서는 위 내용을 확인하시어 원활하게 게임 진행하시길 바랍니다.</div><div data-contents-type=\"text\">고맙습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><a href=\"https://lounge.ncpurple.com/\"><div class=\"fr-image\" contenteditable=\"false\" data-contents-json=\"{&quot;src&quot;:&quot;https://assets.playnccdn.com/static-conti/1698872407960.jpeg&quot;,&quot;width&quot;:null,&quot;height&quot;:null}\" data-contents-type=\"image\"><div class=\"fe-image-inner\"><img src=\"https://assets.playnccdn.com/static-conti/1698872407960.jpeg\" alt=\"Purple_Lounge_FooterBanner_02_attract_KR.jpg\"></div></div></a></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div>",
+      "contentSize": 41308,
+      "deleteReasonCode": 0,
+      "deleteReasonComment": null,
+      "docMetaVersion": "0.0.3",
+      "id": "6afcdc70e96a444182a29dc7",
+      "ip": "0.0.0.0",
+      "meta": {
+        "version": "0.0.3"
+      },
+      "serviceReserved": {
+        "reserved1": {},
+        "reserved2": {},
+        "reserved3": {},
+        "reserved4": {},
+        "serviceReserved": {}
+      },
+      "tags": [],
+      "userAgent": null,
+      "userPlatform": null,
+      "zone": "ncs"
+    },
+    "contentMeta": {
+      "boardRef": "6391373486043d35401d8728",
+      "categoryBoard": {
+        "boardAlias": "l2update",
+        "boardConfigRef": "6391373586043d35401d880c",
+        "boardName": "업데이트",
+        "boardNameI18N": {},
+        "boardSdkUrlPattern": null,
+        "boardState": "published",
+        "boardType": "Notice",
+        "boardUrlPattern": "https://lineage2.plaync.com/board/{boardAlias}/view?articleId={articleId}",
+        "docMetaVersion": "0.0.2",
+        "hierarchy": {
+          "friend": null,
+          "parent": null,
+          "root": null,
+          "subTree": {
+            "treeId": null,
+            "treeRoot": null
+          }
+        },
+        "id": "6391373486043d35401d8728",
+        "language": "",
+        "meta": {
+          "version": "0.0.2"
+        },
+        "metaTags": [
+          "lobby",
+          "searchAllowed"
+        ],
+        "serviceReserved": {
+          "reserved1": {},
+          "reserved2": {},
+          "reserved3": {},
+          "reserved4": {},
+          "serviceReserved": {}
+        },
+        "snow": {
+          "boardId": 2,
+          "parentBoardId": 0,
+          "rootBoardId": 0
+        },
+        "weight": 0
+      },
+      "contentTypeCode": 1,
+      "docMetaVersion": "0.0.3",
+      "emoticonUrl": "https://vod.plaync.com/lineage2/board/lineage2_admin.png",
+      "groupId": "",
+      "hasAttachments": false,
+      "hierarchy": {
+        "parent": "",
+        "reactionParent": "",
+        "root": ""
+      },
+      "id": "6afcdc70e96a444182a29dc7",
+      "idNumberHierarchy": {
+        "parent": "",
+        "reactionParent": "",
+        "root": ""
+      },
+      "largeSummary": null,
+      "meta": {
+        "version": "0.0.3"
+      },
+      "metaTags": [
+        "NoticeFeedbackSurvey",
+        "HideVoteCount",
+        "ArticleTemplate",
+        "CommentUiOff"
+      ],
+      "reactions": {
+        "commentCount": 0,
+        "dislikeCount": 0,
+        "likeCount": 0,
+        "recommendCount": 0,
+        "recommendDownCount": 0,
+        "recommendUpCount": 0,
+        "replyCount": 0,
+        "reportCount": 0,
+        "scrapCount": 0,
+        "viewCount": 1301,
+        "voteCount": 0
+      },
+      "recentCommentWriter": null,
+      "reservedFields": null,
+      "rootBoard": null,
+      "rootBoardRef": "6391373486043d35401d8728",
+      "searchSummary": null,
+      "serviceRef": "638ed2ebb73f050c67d81732",
+      "snow": {
+        "contentId": 50044870
+      },
+      "statusCode": 1,
+      "summary": " ",
+      "thumbnailUrl": null,
+      "thumbnailUrlList": [],
+      "timestamps": {
+        "commentedAt": "1970-01-01T00:00:00.001Z",
+        "commentedEpoch": 0,
+        "localOffsetHours": 0,
+        "postDateTime": "2026-11-17 23:00:00.289",
+        "postedAt": "2026-11-17T23:00:00.289Z",
+        "postedEpoch": 1794956400,
+        "publishedAt": "2026-11-17T23:00:00.289Z",
+        "publishedDateTime": null,
+        "updateDateTime": "2026-11-17 23:00:23.985",
+        "updatedAt": "2026-11-17T23:00:23.985Z",
+        "updatedEpoch": 1794956423,
+        "version": "0.0.3"
+      },
+      "title": "[본서버] 11월 18일(수) 업데이트 안내",
+      "userReactionCodes": [],
+      "visibilityCode": 1,
+      "voteRef": null,
+      "writer": {
+        "admin": true,
+        "gameUser": {
+          "communityLevel": {
+            "level": 0,
+            "levelKey": null,
+            "rank": 0,
+            "score": 0
+          },
+          "gameCharacterId": "",
+          "gameCharacterName": "",
+          "gameCode": 0,
+          "gameGroupId": "",
+          "gameGroupMemberRank": "",
+          "gameServerId": "",
+          "gameUniqueGroupId": "",
+          "gameUserUid": ""
+        },
+        "loginUser": {
+          "admin": true,
+          "banned": false,
+          "name": "admin",
+          "serviceCode": "13",
+          "uid": "*****"
+        }
+      },
+      "zone": "ncs"
+    },
+    "idNumberHierarchy": null,
+    "rootBoard": null
+  },
   "article_id": "6afcdc70e96a444182a29dc7",
-  "full_article_verified": false,
-  "note": "List metadata only; do not translate as a complete article without verifying full original body.",
+  "full_article_verified": true,
+  "note": "Full official article detail, including HTML body.",
   "record": {
     "boardRef": "6391373486043d35401d8728",
     "categoryBoard": {
@@ -82,7 +298,7 @@
       "replyCount": 0,
       "reportCount": 0,
       "scrapCount": 0,
-      "viewCount": 1298,
+      "viewCount": 1301,
       "voteCount": 0
     },
     "recentCommentWriter": null,
