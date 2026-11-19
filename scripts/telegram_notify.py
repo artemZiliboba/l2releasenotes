@@ -19,8 +19,13 @@ NC_API = "https://api-community.plaync.com/lin2/board/l2update/article/search/mo
 
 def request(url, data=None, headers=None):
     req = urllib.request.Request(url, data=data, headers={"User-Agent": "l2releasenotes-notifier/1.0", **(headers or {})})
-    with urllib.request.urlopen(req, timeout=25) as response:
-        return json.load(response)
+    try:
+        with urllib.request.urlopen(req, timeout=25) as response:
+            return json.load(response)
+    except urllib.error.HTTPError as exc:
+        detail = exc.read(2048).decode("utf-8", errors="replace")
+        # Never expose a Telegram bot token, which is embedded in its request URL.
+        raise RuntimeError(f"HTTP {exc.code}: {detail}") from None
 
 
 def telegram(text):
@@ -102,7 +107,8 @@ def ids_from_api(obj):
                 walk(child)
     walk(obj)
     if not found:
-        raise ValueError("NCSoft API returned no recognizable article IDs")
+        shape = list(obj)[:12] if isinstance(obj, dict) else type(obj).__name__
+        raise ValueError(f"NCSoft API returned no recognizable article IDs; response top-level shape: {shape}")
     return found
 
 
