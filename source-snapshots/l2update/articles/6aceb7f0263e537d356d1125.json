@@ -1,0 +1,301 @@
+{
+  "article_id": "6aceb7f0263e537d356d1125",
+  "full_article_verified": false,
+  "note": "List metadata only; do not translate as a complete article without verifying full original body.",
+  "record": {
+    "boardRef": "6391373486043d35401d8728",
+    "categoryBoard": {
+      "boardAlias": "l2update",
+      "boardConfigRef": "6391373586043d35401d880c",
+      "boardName": "업데이트",
+      "boardNameI18N": {},
+      "boardSdkUrlPattern": null,
+      "boardState": "published",
+      "boardType": "Notice",
+      "boardUrlPattern": "https://lineage2.plaync.com/board/{boardAlias}/view?articleId={articleId}",
+      "docMetaVersion": "0.0.2",
+      "hierarchy": {
+        "friend": null,
+        "parent": null,
+        "root": null,
+        "subTree": {
+          "treeId": null,
+          "treeRoot": null
+        }
+      },
+      "id": "6391373486043d35401d8728",
+      "language": "",
+      "meta": {
+        "version": "0.0.2"
+      },
+      "metaTags": [
+        "lobby",
+        "searchAllowed"
+      ],
+      "serviceReserved": {
+        "reserved1": {},
+        "reserved2": {},
+        "reserved3": {},
+        "reserved4": {},
+        "serviceReserved": {}
+      },
+      "snow": {
+        "boardId": 2,
+        "parentBoardId": 0,
+        "rootBoardId": 0
+      },
+      "weight": 0
+    },
+    "contentTypeCode": 1,
+    "docMetaVersion": "0.0.3",
+    "emoticonUrl": "https://vod.plaync.com/lineage2/board/lineage2_admin.png",
+    "groupId": "",
+    "hasAttachments": false,
+    "hierarchy": {
+      "parent": "",
+      "reactionParent": "",
+      "root": ""
+    },
+    "id": "6aceb7f0263e537d356d1125",
+    "idNumberHierarchy": {
+      "parent": "",
+      "reactionParent": "",
+      "root": ""
+    },
+    "largeSummary": null,
+    "meta": {
+      "version": "0.0.3"
+    },
+    "metaTags": [
+      "NoticeFeedbackSurvey",
+      "HideVoteCount",
+      "ArticleTemplate",
+      "CommentUiOff"
+    ],
+    "reactions": {
+      "commentCount": 0,
+      "dislikeCount": 0,
+      "likeCount": 0,
+      "recommendCount": 0,
+      "recommendDownCount": 0,
+      "recommendUpCount": 0,
+      "replyCount": 0,
+      "reportCount": 0,
+      "scrapCount": 0,
+      "viewCount": 1456,
+      "voteCount": 0
+    },
+    "recentCommentWriter": null,
+    "reservedFields": {
+      "reserved1": {},
+      "reserved2": {},
+      "reserved3": {},
+      "reserved4": {},
+      "serviceReserved": {}
+    },
+    "rootBoard": {
+      "board": {
+        "boardAlias": "l2update",
+        "boardConfigRef": "6391373586043d35401d880c",
+        "boardName": "업데이트",
+        "boardNameI18N": {},
+        "boardSdkUrlPattern": null,
+        "boardState": "published",
+        "boardType": "Notice",
+        "boardUrlPattern": "https://lineage2.plaync.com/board/{boardAlias}/view?articleId={articleId}",
+        "docMetaVersion": "0.0.2",
+        "hierarchy": {
+          "friend": null,
+          "parent": null,
+          "root": null,
+          "subTree": {
+            "treeId": null,
+            "treeRoot": null
+          }
+        },
+        "id": "6391373486043d35401d8728",
+        "language": "",
+        "meta": {
+          "version": "0.0.2"
+        },
+        "metaTags": [
+          "lobby",
+          "searchAllowed"
+        ],
+        "serviceReserved": {
+          "reserved1": {},
+          "reserved2": {},
+          "reserved3": {},
+          "reserved4": {},
+          "serviceReserved": {}
+        },
+        "snow": {
+          "boardId": 2,
+          "parentBoardId": 0,
+          "rootBoardId": 0
+        },
+        "weight": 0
+      },
+      "boardConfigs": {
+        "article": {
+          "auth": {
+            "read": {
+              "acl": [
+                "All"
+              ],
+              "level": {
+                "enabled": false,
+                "level": 0
+              }
+            },
+            "txns": [
+              "Read",
+              "Write",
+              "Delete",
+              "Modify"
+            ],
+            "write": {
+              "acl": [
+                "Admin"
+              ],
+              "level": {
+                "enabled": false,
+                "level": 0
+              }
+            }
+          },
+          "contentActions": [
+            "Scrap",
+            "Vote",
+            "Like",
+            "Recommend",
+            "Report"
+          ],
+          "enabled": true,
+          "sort": "TimeDesc",
+          "tempCount": 5,
+          "useHotRecommendedContent": false,
+          "useReply": true
+        },
+        "boardConfName": "업데이트-2-0",
+        "comment": {
+          "auth": {
+            "read": {
+              "acl": [
+                "All"
+              ],
+              "level": {
+                "enabled": false,
+                "level": 0
+              }
+            },
+            "txns": [
+              "Read",
+              "Write",
+              "Delete",
+              "Modify"
+            ],
+            "write": {
+              "acl": [
+                "All"
+              ],
+              "level": {
+                "enabled": false,
+                "level": 0
+              }
+            }
+          },
+          "contentActions": [
+            "Scrap",
+            "Vote",
+            "Like",
+            "Recommend",
+            "Report"
+          ],
+          "enabled": true,
+          "sort": "TimeDesc",
+          "tempCount": 5,
+          "useHotRecommendedContent": false,
+          "useReply": true
+        },
+        "description": "fromSnow3",
+        "docMetaVersion": "0.0.2",
+        "id": "6391373586043d35401d880c",
+        "meta": {
+          "version": "0.0.2"
+        },
+        "propertiesValue": null,
+        "rssEnabled": true,
+        "rssFeedSize": 0,
+        "search": "Public",
+        "top": {
+          "enabled": true,
+          "sort": "TimeDesc"
+        }
+      },
+      "boardDepth": 0,
+      "category": false,
+      "rootBoard": null,
+      "rootBoardConfigs": null,
+      "servicesConfigs": null,
+      "userPermissions": null
+    },
+    "rootBoardRef": "6391373486043d35401d8728",
+    "searchSummary": null,
+    "serviceRef": "638ed2ebb73f050c67d81732",
+    "snow": {
+      "contentId": 50042626
+    },
+    "statusCode": 1,
+    "summary": " ",
+    "thumbnailUrl": null,
+    "thumbnailUrlList": [],
+    "timestamps": {
+      "commentedAt": "1970-01-01T00:00:00.001Z",
+      "commentedEpoch": 0,
+      "localOffsetHours": 0,
+      "postDateTime": "2026-10-13 23:00:00.406",
+      "postedAt": "2026-10-13T23:00:00.406Z",
+      "postedEpoch": 1791932400,
+      "publishedAt": "2026-10-13T23:00:00.406Z",
+      "publishedDateTime": null,
+      "updateDateTime": "2026-10-13 23:00:48.147",
+      "updatedAt": "2026-10-13T23:00:48.147Z",
+      "updatedEpoch": 1791932448,
+      "version": "0.0.3"
+    },
+    "title": "[말하는섬] 10월 14일(수) 업데이트 안내",
+    "userReactionCodes": [],
+    "visibilityCode": 1,
+    "voteRef": null,
+    "writer": {
+      "admin": true,
+      "gameUser": {
+        "communityLevel": {
+          "level": 0,
+          "levelKey": null,
+          "rank": 0,
+          "score": 0
+        },
+        "gameCharacterId": "",
+        "gameCharacterName": "",
+        "gameCode": 0,
+        "gameGroupId": "",
+        "gameGroupMemberRank": "",
+        "gameServerId": "",
+        "gameUniqueGroupId": "",
+        "gameUserUid": ""
+      },
+      "loginUser": {
+        "admin": true,
+        "banned": false,
+        "name": "admin",
+        "serviceCode": "13",
+        "uid": "*****"
+      }
+    },
+    "zone": "ncs"
+  },
+  "source": "official NCSoft l2update list API",
+  "source_url": "https://lineage2.plaync.com/board/l2update/view?articleId=6aceb7f0263e537d356d1125"
+}
