@@ -53,7 +53,8 @@ def main():
             "source_url": "https://lineage2.plaync.com/board/l2update/view?articleId=" + article_id,
             "record": item,
             "full_article_verified": True,
-            "note": "List metadata only; do not translate as a complete article without verifying full original body."
+            "article": article,
+            "note": "Full official article detail, including HTML body."
         })
     write_if_changed(OUT / "latest.json", {
         "source": API,
@@ -61,7 +62,7 @@ def main():
         "count": len(entries),
         "has_more": data.get("hasMore"),
         "search_count": data.get("searchCount"),
-        "full_article_verified": False,
+        "full_article_verified": True,
     })
     print(f"Archived {len(entries)} official NCSoft article detail responses with HTML.")
 
