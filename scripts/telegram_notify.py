@@ -87,9 +87,10 @@ def deployed(args):
         date = str(record.get("date", "")).strip()
         version = str(record.get("version", "")).replace("NC Korea · ", "").strip()
         # Astro glob loader uses the filename without its .md extension as the entry ID.
-        article_url = SITE + "/patches/" + urllib.parse.quote(path.stem) + "/"
-        short_title = re.sub(r"^\\d{1,2}\\.\\d{1,2}\\.\\d{4}\\s*[-—–]\\s*", "", title)
-        short_title = re.sub(r"^(?:Main|BASIC|Talking Island)\\s*:\\s*", "", short_title, flags=re.I)
+        article_id = path.relative_to(ROOT / "src/content/patches").with_suffix("").as_posix()
+        article_url = SITE + "/patches/" + urllib.parse.quote(article_id, safe="/") + "/"
+        short_title = re.sub(r"^\d{1,2}\.\d{1,2}\.\d{4}\s*[-—–]\s*", "", title)
+        short_title = re.sub(r"^(?:Main|BASIC|Talking Island)\s*:\s*", "", short_title, flags=re.I)
         try:
             pretty_date = dt.date.fromisoformat(date).strftime("%d.%m.%Y")
         except ValueError:
@@ -108,7 +109,7 @@ def deployed(args):
         if source.startswith("https://"):
             links += '  ·  <a href="' + html.escape(source, quote=True) + '">🇰🇷 Оригинал</a>'
         lines.extend(["", links])
-        telegram("\\n".join(lines), html_mode=True)
+        telegram("\n".join(lines), html_mode=True)
 
 
 def ids_from_api(obj):
