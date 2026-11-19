@@ -30,7 +30,7 @@ jobs:
           with urllib.request.urlopen(req, timeout=30) as response:
               runs = json.load(response)["workflow_runs"]
           current = int(os.environ["CURRENT_RUN"])
-          older = [r for r in runs if r["id"] < current and r.get("head_sha") != os.environ["CURRENT_SHA"]]
+          older = [r for r in runs if r["id"] < current]
           older.sort(key=lambda r: r["id"], reverse=True)
           before = older[0]["head_sha"] if older else ""
           with open(os.environ["GITHUB_OUTPUT"], "a") as f:
