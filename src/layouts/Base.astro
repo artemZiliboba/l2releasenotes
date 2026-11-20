@@ -3,7 +3,7 @@ const { title = 'L2 KR · Русские переводы', description = 'Ре�
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
 ---
 <!doctype html>
-<html lang="ru">
+<html lang="ru" data-theme="dark">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -16,6 +16,13 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
     <link rel="icon" type="image/png" sizes="16x16" href={base + 'favicon-16x16.png'} />
     <link rel="apple-touch-icon" sizes="180x180" href={base + 'apple-touch-icon.png'} />
     <link rel="manifest" href={base + 'site.webmanifest'} />
+    <meta name="theme-color" content="#171a1e" />
+    <script is:inline>
+      try {
+        const saved = localStorage.getItem('l2kr-theme');
+        document.documentElement.dataset.theme = saved === 'light' ? 'light' : 'dark';
+      } catch (_) { document.documentElement.dataset.theme = 'dark'; }
+    </script>
     <style is:global>
 :root{--paper:#f3efe6;--ink:#25231f;--muted:#68645e;--wine:#722e38;--dark:#25272b;--line:#d9d1c4;font-family:Georgia,"Times New Roman",serif;color:var(--ink);background:var(--paper);font-size:17px;line-height:1.55}
 *{box-sizing:border-box}body{margin:0}a{color:inherit;text-underline-offset:4px}button{font:inherit}a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--wine);outline-offset:4px}p{margin:0 0 1.1em}h1,h2,h3{line-height:1.12;font-weight:500;letter-spacing:-.035em}img{max-width:100%;height:auto}
@@ -30,11 +37,63 @@ footer{background:var(--dark);color:#f4efe5;padding:60px 40px}.footer-inner{max-
 @media(max-width:800px){.site-header-inner{padding:16px 20px}.hero-inner{grid-template-columns:1fr;padding:60px 22px 55px}.hero-copy h1{font-size:clamp(3.1rem,10vw,5.5rem)}.hero-art{display:none}.archive-shell{padding:55px 22px 85px}.archive-heading{display:block}.archive-heading p{margin-top:15px}.patch-preview{grid-template-columns:1fr;gap:9px}.patch-family{margin:0}.archive-toolbar{padding:15px}.footer-inner{display:block}.footer-inner p{margin-top:22px}.reading-shell{padding:40px 22px 85px}}
 @media(max-width:440px){.brand{font-size:1.22rem}.brand img{width:34px;height:34px}.site-nav{gap:12px}.archive-search{width:100%}.filter-button{padding:9px 11px}.hero-copy h1{font-size:3.15rem}}
 @media(prefers-reduced-motion:no-preference){.hero-art img{animation:portrait-enter 900ms ease-out both}.hero-copy{animation:copy-enter 650ms ease-out both}.patch-preview{animation:copy-enter 550ms ease-out both}@keyframes portrait-enter{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}@keyframes copy-enter{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}}
+
+/* Theme tokens: dark is the default, light is an explicit choice. */
+:root,[data-theme="dark"]{color-scheme:dark;--paper:#171a1e;--ink:#eee8dd;--muted:#b6b0a7;--wine:#e3a28e;--dark:#22252a;--line:#3b3d41;--toolbar:#282b30;--field:#202329;--field-ink:#eee8dd;--field-placeholder:#b6b0a7;--filter-ink:#ddd5ca;--filter-active:#bc705f;--filter-active-ink:#fffaf5;--summary:#c6bfb4;--tag-bg:#2c3035;--tag-ink:#d4cbc0;--quote-bg:#292d32;--table-border:#47494d;--table-head:#2a2e33;--strong:#fff8ed;--hero-bg:#22252a;--hero-ink:#f8f3e9;--footer-bg:#202226;--footer-ink:#f4efe5;--footer-muted:#c2bcb3;--button-bg:#e7d7b8;--button-ink:#2c2825;--button-hover:#fff;--brand-accent:#e3a28e}
+[data-theme="light"]{color-scheme:light;--paper:#f3efe6;--ink:#25231f;--muted:#68645e;--wine:#722e38;--dark:#25272b;--line:#d9d1c4;--toolbar:#e7dfd2;--field:#fff;--field-ink:#25231f;--field-placeholder:#68645e;--filter-ink:#45413d;--filter-active:#722e38;--filter-active-ink:#fff;--summary:#58534d;--tag-bg:#e5ded2;--tag-ink:#5e574e;--quote-bg:#e9e1d4;--table-border:#ccc2b4;--table-head:#e7dfd2;--strong:#1b1916;--hero-bg:#25272b;--hero-ink:#f8f3e9;--footer-bg:#25272b;--footer-ink:#f4efe5;--footer-muted:#c2bcb3;--button-bg:#e7d7b8;--button-ink:#2c2825;--button-hover:#fff;--brand-accent:#722e38}
+:root{background:var(--paper);color:var(--ink)}
+body,.site-header{background:var(--paper);color:var(--ink)}
+.brand small{color:var(--brand-accent)}
+.site-nav a:hover,.patch-preview h3 a:hover{color:var(--wine)}
+.archive-hero{background:var(--hero-bg);color:var(--hero-ink)}
+.hero-action{background:var(--button-bg);color:var(--button-ink)}
+.hero-action:hover{background:var(--button-hover)}
+.archive-toolbar{background:var(--toolbar)}
+.filter-button{color:var(--filter-ink)}
+.filter-button:hover,.filter-button[aria-pressed=true]{background:var(--filter-active);color:var(--filter-active-ink)}
+.archive-search{background:var(--field);color:var(--field-ink);border:1px solid var(--line)}
+.archive-search::placeholder{color:var(--field-placeholder)}
+.patch-summary,.article-header .summary{color:var(--summary)}
+.tag{background:var(--tag-bg);color:var(--tag-ink)}
+.article-body strong{color:var(--strong)}
+.article-body blockquote{background:var(--quote-bg)}
+th,td{border-color:var(--table-border)}th{background:var(--table-head)}
+footer{background:var(--footer-bg);color:var(--footer-ink)}
+.footer-inner p{color:var(--footer-muted)}
+.theme-toggle{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:transparent;color:var(--ink);padding:9px 12px;cursor:pointer;font-family:Arial,sans-serif;font-size:.83rem;line-height:1.25;min-height:40px}
+.theme-toggle:hover{background:var(--toolbar)}
+.theme-toggle svg{width:17px;height:17px;flex-shrink:0}
+.theme-toggle .icon-sun{display:none}
+[data-theme="dark"] .theme-toggle .icon-sun{display:block}
+[data-theme="dark"] .theme-toggle .icon-moon{display:none}
+::selection{background:var(--filter-active);color:var(--filter-active-ink)}
+@media(max-width:440px){.theme-toggle{padding:9px}.theme-toggle-label{display:none}.site-nav{gap:10px}}
     </style>
   </head>
   <body>
-    <header class="site-header"><div class="site-header-inner"><a class="brand" href={base}><span>LINEAGE <small>II</small> / KR</span></a><nav class="site-nav" aria-label="Навигация"><a href={base + '#archive'}>Архив</a><a href={base + 'rss.xml'}>RSS ↗</a></nav></div></header>
+    <header class="site-header"><div class="site-header-inner"><a class="brand" href={base}><span>LINEAGE <small>II</small> / KR</span></a><nav class="site-nav" aria-label="Навигация"><a href={base + '#archive'}>Архив</a><a href={base + 'rss.xml'}>RSS ↗</a><button class="theme-toggle" type="button" aria-label="Переключить цветовую тему" aria-pressed="true" title="Сменить тему"><svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg><svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M20.5 14.4A8.7 8.7 0 0 1 9.6 3.5 8.7 8.7 0 1 0 20.5 14.4Z"/></svg><span class="theme-toggle-label">Тема</span></button></nav></div></header>
     <main><slot /></main>
     <footer><div class="footer-inner"><strong>История изменений.<br />На твоём языке.</strong><p>Неофициальные русские переводы корейских обновлений Lineage 2. Оригиналы — NC Korea.</p></div></footer>
+    <script is:inline>
+      (() => {
+        const toggle = document.querySelector('.theme-toggle');
+        if (!toggle) return;
+        const sync = () => {
+          const dark = document.documentElement.dataset.theme !== 'light';
+          toggle.setAttribute('aria-pressed', String(dark));
+          toggle.setAttribute('aria-label', dark ? 'Включить светлую тему' : 'Включить тёмную тему');
+          toggle.setAttribute('title', dark ? 'Включить светлую тему' : 'Включить тёмную тему');
+          const meta = document.querySelector('meta[name="theme-color"]');
+          if (meta) meta.setAttribute('content', dark ? '#171a1e' : '#f3efe6');
+        };
+        toggle.addEventListener('click', () => {
+          const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+          document.documentElement.dataset.theme = next;
+          try { localStorage.setItem('l2kr-theme', next); } catch (_) {}
+          sync();
+        });
+        sync();
+      })();
+    </script>
   </body>
 </html>
