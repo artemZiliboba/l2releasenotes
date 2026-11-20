@@ -1,7 +1,9 @@
-name: Archive NCSoft sources (four times daily)
+name: Archive NCSoft sources (every 3 hours)
 on:
+  # Moscow time (MSK, UTC+3): 00:00, 03:00, 06:00, 09:00, 12:00, 15:00, 18:00, 21:00.
+  # GitHub Actions cron uses UTC; a three-hour interval aligns with the same clock hours in MSK.
   schedule:
-    - cron: '0 0,6,12,18 * * *'
+    - cron: '0 */3 * * *'
   workflow_dispatch:
 permissions:
   contents: write
