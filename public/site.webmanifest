@@ -1,5 +1,5 @@
 {
-  "name": "Lineage 2 KR — Переводы",
+  "name": "Lineage 2 KR — Русские переводы",
   "short_name": "L2 KR",
   "icons": [
     {
@@ -16,7 +16,6 @@
     }
   ],
   "theme_color": "#25272b",
-  "background_color": "#f3efe6",
-  "display": "standalone",
-  "start_url": "./"
+  "background_color": "#25272b",
+  "display": "standalone"
 }
