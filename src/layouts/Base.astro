@@ -17,47 +17,30 @@ const base = import.meta.env.BASE_URL.replace(/\/?$/, '/');
     <link rel="apple-touch-icon" sizes="180x180" href={base + 'apple-touch-icon.png'} />
     <link rel="manifest" href={base + 'site.webmanifest'} />
     <style is:global>
-      :root { font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif; color: #e7eaf0; background: #101319; font-size: 16px; line-height: 1.65; }
-      * { box-sizing: border-box; }
-      body { margin: 0; }
-      header, main, footer { width: min(100% - 40px, 760px); margin-inline: auto; }
-      header { padding: 22px 0; border-bottom: 1px solid #2b323e; font-size: .9rem; }
-      main { padding: 46px 0 80px; }
-      footer { padding: 22px 0 40px; border-top: 1px solid #2b323e; font-size: .84rem; }
-      a, a:visited { color: #a8cfff; text-decoration-color: #637b9a; text-underline-offset: 3px; }
-      a:hover { color: #d5e7ff; }
-      h1, h2, h3 { color: #f6f7fa; line-height: 1.24; letter-spacing: -.025em; }
-      h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); margin: 10px 0 18px; font-weight: 700; }
-      h2 { font-size: 1.4rem; margin: 36px 0 12px; }
-      h3 { font-size: 1.1rem; margin: 26px 0 10px; }
-      p { margin: 0 0 18px; }
-      .muted { color: #a5adbc; }
-      .eyebrow { color: #a5adbc; font-size: .86rem; margin: 0 0 10px; }
-      .summary { color: #c5ccd8; font-size: 1.05rem; }
-      .article-header { margin-bottom: 32px; padding-bottom: 24px; border-bottom: 1px solid #2b323e; }
-      .article-body { max-width: 70ch; }
-      .article-body p { line-height: 1.75; }
-      .article-body ul, .article-body ol { padding-left: 1.4rem; margin: 10px 0 22px; }
-      .article-body li { padding-left: .25rem; margin: 9px 0; }
-      .article-body li::marker { color: #a5adbc; }
-      .article-body blockquote { border-left: 2px solid #526784; margin: 20px 0 28px; padding: 2px 0 2px 18px; color: #bbc4d3; }
-      .article-body blockquote p:last-child { margin-bottom: 0; }
-      .article-body hr { border: 0; border-top: 1px solid #2b323e; margin: 34px 0; }
-      .article-body strong { color: #f1f3f8; font-weight: 650; }
-      .tag { display: inline-block; color: #c3cfdf; background: #222b38; border: 1px solid #354151; border-radius: 5px; font-size: .78rem; padding: 3px 9px; margin: 0 7px 7px 0; }
-      .patch-preview { padding: 24px 0; border-bottom: 1px solid #2b323e; }
-      .patch-preview h2 { font-size: 1.35rem; margin: 5px 0 12px; }
-      .patch-preview h2 a { color: #e7eaf0; text-decoration: none; }
-      .patch-preview h2 a:hover { color: #a8cfff; }
-      table { display: block; overflow-x: auto; border-collapse: collapse; max-width: 100%; }
-      th, td { border: 1px solid #354151; padding: 9px 12px; }
-      img { max-width: 100%; height: auto; }
-      @media (max-width: 560px) { header, main, footer { width: min(100% - 32px, 760px); } main { padding-top: 30px; } }
+      :root{font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color:#f2eee8;background:#101113;font-size:16px;line-height:1.65;font-synthesis:none}
+      *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0}a{color:inherit;text-underline-offset:4px}a:focus-visible,button:focus-visible{outline:3px solid #f3a57e;outline-offset:4px}
+      .site-header{background:#17191c}.site-header-inner{max-width:1240px;margin:auto;padding:22px clamp(20px,5vw,68px);display:flex;align-items:center;justify-content:space-between;gap:24px}
+      .brand{font-size:1.15rem;font-weight:850;letter-spacing:-.055em;text-decoration:none}.brand span{color:#d96c52}.site-nav{display:flex;gap:28px;align-items:center}.site-nav a{font-size:.9rem;text-decoration:none;color:#c7c2bd}.site-nav a:hover{color:#fff}
+      main{min-height:70vh}footer{background:#191b1e;padding:52px clamp(20px,5vw,68px);color:#b5b0a9}footer .footer-inner{max-width:1100px;margin:auto}footer strong{display:block;color:#f2eee8;font-size:clamp(2rem,6vw,4.5rem);letter-spacing:-.06em;line-height:1.05;margin-bottom:14px}
+      h1,h2,h3{line-height:1.12;letter-spacing:-.045em}h1{font-size:clamp(2.8rem,7vw,6.8rem);margin:0}h2{font-size:clamp(1.5rem,2.5vw,2.2rem)}p{margin:0 0 18px}
+      .archive-shell{max-width:1240px;margin:auto;padding:0 clamp(20px,5vw,68px) 110px}
+      .archive-hero{padding:clamp(64px,10vw,136px) 0 90px;display:grid;grid-template-columns:minmax(0,1.6fr) minmax(220px,.7fr);gap:clamp(24px,6vw,100px);align-items:end}
+      .archive-hero h1{max-width:830px}.archive-hero h1 em{font-style:normal;color:#dc745c}.hero-description{font-size:clamp(1.05rem,1.5vw,1.25rem);line-height:1.65;color:#c6c0ba;max-width:340px;margin:0 0 12px}
+      .hero-detail{display:block;margin-top:24px;color:#df8c77;font-weight:700;font-size:.9rem}
+      .archive-toolbar{background:#222326;padding:24px 30px;display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap}
+      .archive-toolbar h2{font-size:1.15rem;margin:0}.filter-list{display:flex;flex-wrap:wrap;gap:8px}.filter-button{border:0;background:transparent;color:#c8c4bf;padding:11px 17px;font:inherit;font-size:.88rem;cursor:pointer}.filter-button:hover,.filter-button[aria-pressed=true]{background:#d46c52;color:#101113}
+      .patch-list{padding-top:18px}.patch-preview{display:grid;grid-template-columns:190px minmax(0,1fr);gap:clamp(22px,5vw,80px);padding:42px 0 48px;border-bottom:1px solid #333438}.patch-preview[hidden]{display:none}
+      .patch-date{color:#dd876e;font-size:.96rem;font-weight:700;margin:0}.patch-family{color:#97958f;font-size:.84rem;margin:8px 0 0}.patch-preview h2{margin:0 0 18px;font-size:clamp(1.55rem,2.6vw,2.35rem);max-width:850px}.patch-preview h2 a{text-decoration:none}.patch-preview h2 a:hover{color:#e88c70}
+      .patch-preview .patch-summary{color:#c7c2bd;font-size:1.02rem;line-height:1.7;max-width:770px;margin-bottom:22px}.patch-meta{display:flex;flex-wrap:wrap;gap:9px}.tag{font-size:.78rem;color:#bcb8b3;background:#242629;padding:6px 10px}.patch-open{display:inline-block;margin-top:24px;color:#ef9b82;font-size:.92rem;font-weight:700;text-decoration:none}.patch-open:hover{text-decoration:underline}
+      .reading-shell{max-width:920px;margin:0 auto;padding:75px 24px 120px}.article-header{margin-bottom:52px}.article-header h1{font-size:clamp(2.25rem,5vw,4.25rem)}.article-body{max-width:78ch;font-size:1.05rem;line-height:1.85}.article-body p{line-height:1.85}.article-body ul,.article-body ol{padding-left:1.4rem;margin:12px 0 24px}.article-body li{margin:8px 0}.article-body blockquote{border-left:4px solid #d46c52;margin:28px 0;padding:8px 0 8px 22px;color:#c6c0ba}.article-body strong{color:#fff}.article-body a{color:#f2a087}
+      table{display:block;overflow-x:auto;border-collapse:collapse;max-width:100%;margin:24px 0}th,td{border:1px solid #444448;padding:10px 14px}th{background:#25272a}img{max-width:100%;height:auto}
+      @media(max-width:720px){.site-header-inner{padding:18px 20px}.site-nav{gap:16px}.archive-hero{grid-template-columns:1fr;padding:70px 0 60px;gap:24px}.hero-description{max-width:600px}.archive-toolbar{padding:20px}.patch-preview{grid-template-columns:1fr;gap:14px;padding:32px 0}.patch-family{margin-top:2px}.archive-shell{padding-bottom:70px}}
+      @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
     </style>
   </head>
   <body>
-    <header><a href={base}>L2 KR / Переводы</a> · <a href={base + 'rss.xml'}>RSS</a></header>
+    <header class="site-header"><div class="site-header-inner"><a class="brand" href={base}>L2<span> / </span>KR</a><nav class="site-nav" aria-label="Основная навигация"><a href={base}>Обновления</a><a href={base + 'rss.xml'}>RSS ↗</a></nav></div></header>
     <main><slot /></main>
-    <footer class="muted">Неофициальный редакторский перевод · Источник: NC Korea</footer>
+    <footer><div class="footer-inner"><strong>Lineage 2.<br />Без языкового барьера.</strong><p>Неофициальные русские переводы обновлений · Источник: NC Korea</p></div></footer>
   </body>
 </html>
