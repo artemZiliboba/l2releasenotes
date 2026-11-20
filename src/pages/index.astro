@@ -12,16 +12,48 @@ const formatTitle = (title: string, date: Date) => {
   return stamp + ' - ' + label;
 };
 ---
-<Base>
-  <h1>Корейские обновления Lineage 2</h1>
-  <p class="summary">Русские переводы для редакторской работы. Полные тексты, оригинальные источники и краткое описание изменений.</p>
-  {patches.length === 0
-    ? <p>Пока нет переводов.</p>
-    : patches.map(p => <article class="patch-preview">
-        <p class="eyebrow"><time datetime={p.data.date.toISOString()}>{p.data.date.toLocaleDateString('ru-RU')}</time> · {p.data.version}</p>
-        <h2><a href={base + 'patches/' + p.id + '/'}>{formatTitle(p.data.title, p.data.date)}</a></h2>
-        <p>{p.data.summary}</p>
-        <div>{p.data.categories.map(c => <span class="tag">{c}</span>)}</div>
-      </article>)
-  }
+<Base title="Lineage 2 KR — обновления на русском" description="Полные переводы корейских обновлений Lineage 2: Main, BASIC, Talking Island.">
+  <div class="archive-shell">
+    <section class="archive-hero" aria-labelledby="archive-title">
+      <div><h1 id="archive-title">Lineage 2.<br /><em>Все изменения.</em><br />На русском.</h1></div>
+      <div><p class="hero-description">Корейские патчноуты без сокращений. Полные переводы, точные изменения и ссылки на оригиналы NCSoft.</p><span class="hero-detail">{patches.length} материалов в архиве</span></div>
+    </section>
+    <section aria-label="Архив обновлений" id="archive">
+      <div class="archive-toolbar">
+        <h2>Лента обновлений</h2>
+        <div class="filter-list" role="group" aria-label="Фильтр по серверам">
+          <button class="filter-button" type="button" data-filter="all" aria-pressed="true">Все</button>
+          <button class="filter-button" type="button" data-filter="main" aria-pressed="false">Main</button>
+          <button class="filter-button" type="button" data-filter="basic" aria-pressed="false">BASIC</button>
+          <button class="filter-button" type="button" data-filter="talking" aria-pressed="false">Talking Island</button>
+        </div>
+      </div>
+      <div class="patch-list">
+        {patches.length === 0 ? <p>Пока нет переводов.</p> : patches.map(p => {
+          const title = formatTitle(p.data.title, p.data.date);
+          const haystack = (p.data.title + ' ' + p.data.version).toLowerCase();
+          const family = /talking island/i.test(haystack) ? 'talking' : /basic/i.test(haystack) ? 'basic' : /main/i.test(haystack) ? 'main' : 'other';
+          const familyName = family === 'talking' ? 'Talking Island' : family === 'basic' ? 'BASIC' : family === 'main' ? 'Main' : p.data.version;
+          const url = base + 'patches/' + p.id + '/';
+          return <article class="patch-preview" data-family={family}>
+            <div><p class="patch-date"><time datetime={p.data.date.toISOString()}>{p.data.date.toLocaleDateString('ru-RU')}</time></p><p class="patch-family">{familyName}</p></div>
+            <div><h2><a href={url}>{title.replace(/^\d{1,2}\.\d{1,2}\.\d{4}\s*-\s*/, '')}</a></h2><p class="patch-summary">{p.data.summary}</p><div class="patch-meta">{p.data.categories.map(c => <span class="tag">{c}</span>)}</div><a class="patch-open" href={url}>Читать перевод →</a></div>
+          </article>;
+        })}
+        <p id="filter-empty" hidden>В этой категории пока нет материалов.</p>
+      </div>
+    </section>
+  </div>
+  <script>
+    const buttons = document.querySelectorAll<HTMLButtonElement>('[data-filter]');
+    const articles = document.querySelectorAll<HTMLElement>('.patch-preview[data-family]');
+    const empty = document.getElementById('filter-empty');
+    buttons.forEach(button => button.addEventListener('click', () => {
+      const filter = button.dataset.filter;
+      buttons.forEach(b => b.setAttribute('aria-pressed', String(b === button)));
+      let visible = 0;
+      articles.forEach(article => { const show = filter === 'all' || article.dataset.family === filter; article.hidden = !show; if (show) visible++; });
+      if (empty) empty.hidden = visible !== 0;
+    }));
+  </script>
 </Base>
