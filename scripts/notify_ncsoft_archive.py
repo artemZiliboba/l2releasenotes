@@ -9,6 +9,8 @@ import os
 from pathlib import Path
 import re
 import subprocess
+import urllib.request
+import urllib.error
 import sys
 from zoneinfo import ZoneInfo
 
@@ -85,29 +87,96 @@ def published_links():
     return result
 
 
-def summary(old, new):
-    """Describe actual text-level additions/removals; never invent a translation."""
+def changed_lines(old, new):
+    """Return only actual additions/removals, never the entire patch note."""
     a, b = blocks(old), blocks(new)
     if a == b:
-        return None
+        return []
     changes = []
-    added = removed = 0
     for operation, i, j, k, l in difflib.SequenceMatcher(a=a, b=b, autojunk=False).get_opcodes():
         if operation == "equal":
             continue
-        added += l - k
-        removed += j - i
-        for line in b[k:l][:2]:
-            changes.append("＋ " + line[:120])
-        for line in a[i:j][:1]:
-            changes.append("− " + line[:180])
+        changes.append({"kind": operation, "before": a[i:j], "after": b[k:l]})
+    return changes
+
+
+def ai_summary(changes):
+    """Optional Korean-to-Russian factual summary. Requires an explicitly configured API key."""
+    key = os.environ.get("OPENAI_API_KEY", "").strip()
+    if not key:
+        return None
+    # Cap input size; never summarize a truncated diff as if it were complete.
+    payload = json.dumps(changes, ensure_ascii=False)
+    if len(payload) > 32000:
+        return None
+    prompt = (
+        "Ты переводчик корейских патчноутов Lineage 2. На входе точные изменения "
+        "между двумя версиями оригинала NCSoft. Напиши краткую понятную сводку "
+        "на русском для Telegram: отдельные пункты 'Добавлено', 'Изменено', "
+        "'Удалено' только если такие действия подтверждены данными. "
+        "Для replace сравни до/после и явно показывай прежние и новые числа, "
+        "проценты, сроки, предметы и условия, когда они изменились. "
+        "Не выдумывай причины, игровые последствия, названия или отсутствующие детали. "
+        "Если смысл неоднозначен, прямо скажи об этом. Не добавляй ссылки. "
+        "Не используй Markdown или HTML. Не упоминай, что перевод уже опубликован. "
+        "Максимум 900 символов."
+    )
+    data = json.dumps({
+        "model": os.environ.get("OPENAI_MODEL", "gpt-4.1-mini"),
+        "temperature": 0,
+        "messages": [
+            {"role": "system", "content": prompt},
+            {"role": "user", "content": payload},
+        ],
+        "max_tokens": 550,
+    }, ensure_ascii=False).encode("utf-8")
+    req = urllib.request.Request(
+        "https://api.openai.com/v1/chat/completions",
+        data=data,
+        headers={"Authorization": "Bearer " + key, "Content-Type": "application/json"},
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=35) as response:
+            result = json.load(response)
+        text = result["choices"][0]["message"]["content"].strip()
+        if not text or re.search(r"[가-힣]", text):
+            raise ValueError("Russian summary missing or contains untranslated Korean")
+        return text[:1200]
+    except (urllib.error.URLError, ValueError, KeyError, IndexError, TypeError) as exc:
+        # Never log the request or credentials; alert with an honest fallback.
+        print(f"AI summary unavailable: {type(exc).__name__}", file=sys.stderr)
+        return None
+
+
+def factual_fallback(changes):
+    """Russian structural summary when AI translation is not configured/available."""
+    added = sum(len(x["after"]) for x in changes)
+    removed = sum(len(x["before"]) for x in changes)
+    lines = [f"Изменено содержимое оригинала: новых строк — {added}, удалённых — {removed}."]
+    examples = 0
+    for item in changes:
+        before = item["before"]
+        after = item["after"]
+        if before and after:
+            old_numbers = re.findall(r"\\d+(?:[.,]\\d+)?%?", " ".join(before))
+            new_numbers = re.findall(r"\\d+(?:[.,]\\d+)?%?", " ".join(after))
+            if old_numbers != new_numbers:
+                lines.append("Числа в изменённом фрагменте: " +
+                             ", ".join(old_numbers[:8]) + " → " + ", ".join(new_numbers[:8]) +
+                             " (контекст требует перевода).")
+                examples += 1
+        if examples >= 2:
+            break
+    lines.append("Точный смысл корейских правок пока не переведён; проверьте оригинал.")
+    return "\\n".join(lines)
+
+
+def summary(old, new):
+    changes = changed_lines(old, new)
     if not changes:
         return None
-    detail = "\n".join(html.escape(x) for x in changes[:4])
-    if len(changes) > 4:
-        detail += f"\n… и ещё {len(changes) - 4} строк"
-    return f"Изменения в тексте: добавлено {added}, удалено {removed} строк(и).\n{detail}"
-
+    return html.escape(ai_summary(changes) or factual_fallback(changes))
 
 def send_alerts():
     from telegram_notify import telegram
@@ -140,8 +209,7 @@ def send_alerts():
         if new:
             lines.append("Обнаружена новая статья NCSoft. Полный русский перевод ещё не опубликован.")
         else:
-            lines.extend(["<b>Что изменилось в оригинале:</b>", delta,
-                          "", "Фрагменты выше приведены на языке оригинала; автоматический перевод не выполнялся."])
+            lines.extend(["<b>Что изменилось в оригинале:</b>", delta])
         translated = links.get(source_id)
         if translated:
             lines.extend(["", "⏳ Русская статья существует, но новая редакция ещё не подтверждена.",
