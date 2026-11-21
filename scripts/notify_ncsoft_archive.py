@@ -97,15 +97,15 @@ def summary(old, new):
             continue
         added += l - k
         removed += j - i
-        for line in b[k:l][:3]:
-            changes.append("＋ " + line[:180])
-        for line in a[i:j][:2]:
+        for line in b[k:l][:2]:
+            changes.append("＋ " + line[:120])
+        for line in a[i:j][:1]:
             changes.append("− " + line[:180])
     if not changes:
         return None
-    detail = "\n".join(html.escape(x) for x in changes[:5])
-    if len(changes) > 5:
-        detail += f"\n… и ещё {len(changes) - 5} строк"
+    detail = "\n".join(html.escape(x) for x in changes[:4])
+    if len(changes) > 4:
+        detail += f"\n… и ещё {len(changes) - 4} строк"
     return f"Изменения в тексте: добавлено {added}, удалено {removed} строк(и).\n{detail}"
 
 
@@ -152,8 +152,6 @@ def send_alerts():
         lines.append("🕒 " + dt.datetime.now(MSK).strftime("%d.%m.%Y %H:%M МСК"))
         alerts.append("\n".join(lines))
     for message in alerts:
-        if len(message) > 3900:
-            message = message[:3800] + "\n…\n</b>" if False else message[:3800] + "\n…"
         telegram(message, html_mode=True)
     print(f"Sent {len(alerts)} meaningful NCSoft change alert(s)")
 
