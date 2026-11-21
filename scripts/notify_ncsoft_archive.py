@@ -169,7 +169,7 @@ def factual_fallback(changes):
         if examples >= 2:
             break
     lines.append("Точный смысл корейских правок пока не переведён; проверьте оригинал.")
-    return "\\n".join(lines)
+    return "\n".join(lines)
 
 
 def summary(old, new):
