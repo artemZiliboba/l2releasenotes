@@ -69,8 +69,9 @@ def deployed(args):
     if not before or not after or before == after:
         print("No new deployment delta")
         return
-    names = git("diff", "--name-only", "--diff-filter=A", before, after, "--", "src/content/patches")
+    names = git("diff", "--name-only", "--diff-filter=AM", before, after, "--", "src/content/patches")
     added = [ROOT / name for name in names.splitlines() if name.endswith(".md")]
+    newly_added = set(git("diff", "--name-only", "--diff-filter=A", before, after, "--", "src/content/patches").splitlines())
     if not added:
         print("No new patch files")
         return
@@ -95,7 +96,7 @@ def deployed(args):
             pretty_date = dt.date.fromisoformat(date).strftime("%d.%m.%Y")
         except ValueError:
             pretty_date = date
-        lines = []
+        lines = ["<b>" + ("🆕 Русский перевод опубликован" if str(path.relative_to(ROOT)) in newly_added else "✅ Русский перевод обновлён") + "</b>", ""]
         if pretty_date:
             lines.append("📅 " + html.escape(pretty_date))
         if version:
@@ -137,7 +138,7 @@ def daily(args):
     current = ids_from_api(request(NC_API))
     published = {str(m.get("source_id")) for p in articles() if (m := metadata(p)).get("source_id")}
     missing = current - published
-    now = dt.datetime.now(dt.timezone.utc).strftime("%d.%m.%Y %H:%M UTC")
+    now = dt.datetime.now(dt.timezone(dt.timedelta(hours=3))).strftime("%d.%m.%Y %H:%M МСК")
     if missing:
         telegram(f"📋 Проверка L2 Update — {now}\nВ последних {len(current)} записях NCSoft найдено {len(missing)} ID, которых пока нет среди опубликованных статей сайта.\nЭто не означает, что все относятся к целевой версии или ещё не переведены.\nИсточник: https://lineage2.plaync.com/board/l2update")
     else:
