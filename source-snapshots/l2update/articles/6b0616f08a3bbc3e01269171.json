@@ -1,0 +1,517 @@
+{
+  "article": {
+    "categoryBoard": {
+      "boardAlias": "l2update",
+      "boardConfigRef": "6391373586043d35401d880c",
+      "boardName": "업데이트",
+      "boardNameI18N": {},
+      "boardSdkUrlPattern": null,
+      "boardState": "published",
+      "boardType": "Notice",
+      "boardUrlPattern": "https://lineage2.plaync.com/board/{boardAlias}/view?articleId={articleId}",
+      "docMetaVersion": "0.0.2",
+      "hierarchy": {
+        "friend": null,
+        "parent": null,
+        "root": null,
+        "subTree": {
+          "treeId": null,
+          "treeRoot": null
+        }
+      },
+      "id": "6391373486043d35401d8728",
+      "language": "",
+      "meta": {
+        "version": "0.0.2"
+      },
+      "metaTags": [
+        "lobby",
+        "searchAllowed"
+      ],
+      "serviceReserved": {
+        "reserved1": {},
+        "reserved2": {},
+        "reserved3": {},
+        "reserved4": {},
+        "serviceReserved": {}
+      },
+      "snow": {
+        "boardId": 2,
+        "parentBoardId": 0,
+        "rootBoardId": 0
+      },
+      "weight": 0
+    },
+    "content": {
+      "attachments": {
+        "files": [],
+        "thumbnailUrl": ""
+      },
+      "boardRef": "6391373486043d35401d8728",
+      "content": "<div data-contents-type=\"text\"><strong>리니지2 고객님, 안녕하세요.</strong></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">리니지2를 사랑해주시는 고객님들께 감사의 말씀을 드리며,</div><div data-contents-type=\"text\">11월 25일(수) 업데이트 사항을 다음과 같이 안내해 드립니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><span style=\"color: rgb(0, 112, 192);\"><strong>[이벤트 - 출석 체크]</strong></span></div><div data-contents-type=\"text\">1. 2026년 12월 23일(수) 정기점검까지 4주간 출석 체크 이벤트를 진행합니다.</div><div class=\"tableWrapper\"><table class=\"first-row first-col no-vband\"><colgroup><col><col><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>일자</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>보상 아이템</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>수량</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">1</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">주간 소모품 상자(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">1</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">2</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">성장 지원 팩(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">1</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">3</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">드래곤의 특별한 영약/열매 Lv3 선택권(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">300</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">4</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">드래곤의 특별한 영약/열매 Lv3 선택권(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">300</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">5</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">드래곤의 특별한 영약/열매 Lv3 선택권(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">300</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">6</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">드래곤의 특별한 영약/열매 Lv3 선택권(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">300</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">7</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">장인의 버서커 주문서(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">500</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">8</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">주간 소모품 상자(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">1</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">9</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">성장 지원 팩(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">1</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">10</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">특수 사냥터 추가 입장 아이템 교환 티켓(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">1</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">11</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">특수 사냥터 추가 입장 아이템 교환 티켓(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">1</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">12</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">특수 사냥터 추가 입장 아이템 교환 티켓(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">1</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">13</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">특수 사냥터 추가 입장 아이템 교환 티켓(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">1</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">14</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">마스터 컬렉션 증표 [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">500</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">15</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">주간 소모품 상자(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">1</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">16</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">성장 지원 팩(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">1</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">17</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">인형 소환권(일반~영웅) - 11회(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">2</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">18</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">인형 소환권(일반~영웅) - 11회(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">2</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">19</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">인형 소환권(일반~영웅) - 11회(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">2</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">20</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">인형 소환권(일반~영웅) - 11회(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">2</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">21</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">초월 강화석(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">1</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">22</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">주간 소모품 상자(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">1</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">23</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">성장 지원 팩(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">1</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">24</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">캐릭터 성장 아이템 선택권(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">1</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">25</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">캐릭터 성장 아이템 선택권(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">1</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">26</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">캐릭터 성장 아이템 선택권(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">1</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">27</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">캐릭터 성장 아이템 선택권(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">1</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">28</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">영웅 인형 소환권 &amp; 전설 인형 소환권 조각 상자(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">1</div></td></tr></tbody></table></div><div data-contents-type=\"text\">- 출석 체크에서 획득한 기간제 아이템과 버프 스킬은 2026년 12월 23일(수) 정기점검에 일괄 삭제됩니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><span style=\"color: rgb(0, 112, 192);\"><strong>[L2 스토어]</strong></span></div><div data-contents-type=\"text\">1. 2026년 12월 23일(수) 정기점검까지 L2 스토어에서 신규 상품을 판매합니다.</div><div class=\"tableWrapper\"><table class=\"first-row first-col no-vband\"><colgroup><col><col><col><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>카테고리</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>상품명</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>비용(엘코인)</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>구매 제한</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">이벤트샵</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">윈터 페스타 패키지(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">10,000</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">계정당 5회</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">이벤트샵</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">윈터 페스타 상자(기간제)</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">100</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">-</div></td></tr></tbody></table></div><div data-contents-type=\"text\">- ‘윈터 페스타 패키지(기간제) [각인]’ 아이템을 사용하면 다음 목록의 아이템을 획득할 수 있습니다.</div><div class=\"tableWrapper\"><table class=\"first-row first-col no-vband\"><colgroup><col><col></colgroup><tbody><tr><td colspan=\"2\" style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>확정 획득 아이템</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">윈터 페스타 상자(기간제) 100개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">윈터 페스타 티켓(기간제) [각인] 100개</div></td></tr><tr><td colspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">인형 소환권(영웅) - 1회(기간제) [각인] 1개</div></td></tr></tbody></table></div><div data-contents-type=\"text\">- ‘윈터 페스타 티켓(기간제) [각인]’ 아이템을 사용 시 아래의 버프 효과가 적용됩니다.</div><div class=\"tableWrapper\"><table class=\"first-row first-col no-vband\"><colgroup><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>효과</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">공격력 +200, 마법력 +200, 물리 방어력 +200, 마법 방어력 +200<br>PvE 대미지 보너스 +3%, 획득 EXP/SP +50%</div></td></tr></tbody></table></div><div data-contents-type=\"text\">- ‘윈터 페스타 상자(기간제)’ 아이템을 사용하면 다음 목록의 아이템을 확정&amp;확률 획득할 수 있습니다.</div><div class=\"tableWrapper\"><table class=\"first-row first-col no-vband\"><colgroup><col><col></colgroup><tbody><tr><td colspan=\"2\" style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>확정 획득 아이템</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">윈터 페스타 티켓(기간제) [각인] 1개</div></td></tr><tr><td colspan=\"2\" style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>확률 획득 아이템</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">불멸의 반지 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">무기 외형 - 귀검 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">천상의 망토 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">발라카스 아가시온 [각인] 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">그랑카인의 펜던트 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">마법서 - 익스팬드 다이 포텐셜 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">드래곤 버서커 변신 각인서 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">베니르의 탈리스만 - 초월 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">+20 얼음 군주의 무기 교환권(기간제) [각인] 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">+18 수호의 방어구 교환권(기간제) [각인] 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 5000개 팩 [각인] 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 1000개 팩 [각인] 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 500개 팩 [각인] 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">윈터 페스타 티켓 2000개 팩(기간제) [각인] 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">윈터 페스타 티켓 1000개 팩(기간제) [각인] 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">윈터 페스타 티켓 500개 팩(기간제) [각인] 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">초월 강화석 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">무기 제련석 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">갑옷 제련석 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">액세서리 제련석 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">특수 장비 제련석 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">축복 주문서 - 무기 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">축복 주문서 - 갑옷 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">헬바운드 탈리스만 조각 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">권능의 탈리스만 조각 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">드래곤의 벨트 상자 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">보석의 기운 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">사이하의 폭풍 Lv3 5개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">수호탑의 축복 주문서 5개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">드래곤 버서커 변신 주문서 5개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">바이움 탈리스만(각인) 강화 팩(기간제) [각인] 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 10개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 5개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 3개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">윈터 페스타 티켓(기간제) [각인] 10개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">윈터 페스타 티켓(기간제) [각인] 5개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">윈터 페스타 티켓(기간제) [각인] 3개</div></td></tr></tbody></table></div><div data-contents-type=\"text\">- 아래 아이템은 2027년 1월 6일(수) 정기점검에 일괄 삭제됩니다.</div><div class=\"tableWrapper\"><table class=\"first-row first-col no-vband\"><colgroup><col><col></colgroup><tbody><tr><td colspan=\"2\" style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>일괄 삭제</strong></span></div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">바이움 탈리스만(각인) 강화 팩(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">바이움 탈리스만 강화 주문서(기간제) [각인]</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">+18 수호의 방어구 교환권(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">+20 얼음 군주의 무기 교환권(기간제) [각인]</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">인형 소환권(영웅) - 1회(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">윈터 페스타 티켓 2000개 팩(기간제) [각인]</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">윈터 페스타 티켓 1000개 팩(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">윈터 페스타 티켓 500개 팩(기간제) [각인]</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">윈터 페스타 티켓(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">윈터 페스타 상자(기간제)</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">윈터 페스타 패키지(기간제) [각인]</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 5000개 도전 상자(기간제) [각인]</div></td></tr></tbody></table></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\"><span style=\"color: rgb(0, 112, 192);\"><strong>[특수 제작]</strong></span></div><div data-contents-type=\"text\">1. 2026년 12월 9일(수) 정기점검까지 ‘윈터 페스타 티켓(기간제) [각인]’ 아이템을 비용으로 제작할 수 있는 제작 상품 3종을 추가하였습니다.</div><div class=\"tableWrapper\"><table class=\"first-row first-col no-vband\"><colgroup><col><col><col><col><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작명</strong></span></div></td><td colspan=\"2\" style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작 아이템</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작 비용</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작 제한</strong></span></div></td></tr><tr><td rowspan=\"4\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">전설 템페스트 인형 소환권</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">전설 템페스트 인형 소환권<br>[각인] 1개</div></td><td rowspan=\"4\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"4\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">윈터 페스타 티켓(기간제)<br>[각인] 1개</div></td><td rowspan=\"4\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">서버당 주간 1회</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">영웅 템페스트 인형 소환권<br>[각인] 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">희귀 템페스트 인형 소환권<br>[각인] 1개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">인형 소환권(일반~영웅) - 1회</div><div data-contents-type=\"text\" style=\"text-align: center;\">(기간제)<br>[각인] 1개</div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">인형 소환권(전설) - 1회(기간제)</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">인형 소환권(전설) - 1회</div><div data-contents-type=\"text\" style=\"text-align: center;\">(기간제)<br>[각인] 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">윈터 페스타 티켓(기간제)<br>[각인] 552개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">-</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">윈터 페스타 티켓(기간제)<br>[각인] 55개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">인형 소환권(일반~영웅) - 11회(기간제)</div></td><td colspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">인형 소환권(일반~영웅) - 11회</div><div data-contents-type=\"text\" style=\"text-align: center;\">(기간제)<br>[각인] 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">인형 소환권(일반~영웅) - 1회(기간제)<br>[각인] 10개,<br>아데나 2,000,000</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">-</div></td></tr></tbody></table></div><div data-contents-type=\"text\">- 특수 제작을 통해 획득한 기간제 아이템은 2026년 12월 16일(수) 정기점검에 일괄 삭제됩니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">2. 2027년 1월 6일(수) 정기점검까지 ‘윈터 페스타 티켓(기간제) [각인]’ 아이템을 비용으로 제작할 수 있는 제작 상품 2종을 추가하였습니다.</div><div class=\"tableWrapper\"><table class=\"first-row first-col no-vband\"><colgroup><col><col><col><col><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작명</strong></span></div></td><td colspan=\"2\" style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작 아이템</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작 비용</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작 제한</strong></span></div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 5000개 도전 상자(기간제)</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 5000개 도전 상자(기간제)<br>[각인] 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">윈터 페스타 티켓(기간제)<br>[각인] 300개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">계정당 주간 3회</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">윈터 페스타 티켓(기간제)<br>[각인] 15개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">초월 강화석</div></td><td colspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">초월 강화석 1개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">윈터 페스타 티켓(기간제)<br>[각인] 75개</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">-</div></td></tr></tbody></table></div><div data-contents-type=\"text\">- ‘기란의 인장 5000개 도전 상자(기간제) [각인]’ 아이템은 2027년 1월 6일(수) 정기점검에 삭제됩니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">3. 2027년 1월 6일(수) 정기점검까지 ‘기란의 인장’ 아이템을 비용으로 제작할 수 있는 제작 상품 4종을 추가하였습니다.</div><div class=\"tableWrapper\"><table class=\"first-row first-col no-vband\"><colgroup><col><col><col><col></colgroup><tbody><tr><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작명</strong></span></div></td><td colspan=\"2\" style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작 아이템</strong></span></div></td><td style=\"padding: 4px 8px; background-color: rgb(0, 0, 0);\"><div data-contents-type=\"text\" style=\"text-align: center;\"><span style=\"color: rgb(255, 255, 255);\"><strong>제작 비용</strong></span></div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">베니르의 탈리스만 Lv24 팩</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">베니르의 탈리스만 Lv24 팩 [각인] 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 107개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 10개</div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">하딘의 집혼석 Lv20</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">하딘의 집혼석 Lv20 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 80개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 8개</div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아덴의 집혼석 Lv20 - 무기</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아덴의 집혼석 Lv20 - 무기 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 33개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 3개</div></td></tr><tr><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아덴의 집혼석 Lv20 - 갑옷</div></td><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">아덴의 집혼석 Lv20 - 갑옷 1개</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">중 1종 획득</div></td><td rowspan=\"2\" style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 33개</div></td></tr><tr><td style=\"padding: 4px 8px;\"><div data-contents-type=\"text\" style=\"text-align: center;\">기란의 인장 3개</div></td></tr></tbody></table></div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div><div data-contents-type=\"text\">고객 여러분께서는 위 내용을 확인하시어 원활하게 게임 진행하시길 바랍니다.</div><div data-contents-type=\"text\">고맙습니다.</div><div data-contents-type=\"text\"><br class=\"ProseMirror-trailingBreak\"></div>",
+      "contentSize": 36568,
+      "deleteReasonCode": 0,
+      "deleteReasonComment": null,
+      "docMetaVersion": "0.0.3",
+      "id": "6b0616f08a3bbc3e01269171",
+      "ip": "0.0.0.0",
+      "meta": {
+        "version": "0.0.3"
+      },
+      "serviceReserved": {
+        "reserved1": {},
+        "reserved2": {},
+        "reserved3": {},
+        "reserved4": {},
+        "serviceReserved": {}
+      },
+      "tags": [],
+      "userAgent": null,
+      "userPlatform": null,
+      "zone": "ncs"
+    },
+    "contentMeta": {
+      "boardRef": "6391373486043d35401d8728",
+      "categoryBoard": {
+        "boardAlias": "l2update",
+        "boardConfigRef": "6391373586043d35401d880c",
+        "boardName": "업데이트",
+        "boardNameI18N": {},
+        "boardSdkUrlPattern": null,
+        "boardState": "published",
+        "boardType": "Notice",
+        "boardUrlPattern": "https://lineage2.plaync.com/board/{boardAlias}/view?articleId={articleId}",
+        "docMetaVersion": "0.0.2",
+        "hierarchy": {
+          "friend": null,
+          "parent": null,
+          "root": null,
+          "subTree": {
+            "treeId": null,
+            "treeRoot": null
+          }
+        },
+        "id": "6391373486043d35401d8728",
+        "language": "",
+        "meta": {
+          "version": "0.0.2"
+        },
+        "metaTags": [
+          "lobby",
+          "searchAllowed"
+        ],
+        "serviceReserved": {
+          "reserved1": {},
+          "reserved2": {},
+          "reserved3": {},
+          "reserved4": {},
+          "serviceReserved": {}
+        },
+        "snow": {
+          "boardId": 2,
+          "parentBoardId": 0,
+          "rootBoardId": 0
+        },
+        "weight": 0
+      },
+      "contentTypeCode": 1,
+      "docMetaVersion": "0.0.3",
+      "emoticonUrl": "https://vod.plaync.com/lineage2/board/lineage2_admin.png",
+      "groupId": "",
+      "hasAttachments": false,
+      "hierarchy": {
+        "parent": "",
+        "reactionParent": "",
+        "root": ""
+      },
+      "id": "6b0616f08a3bbc3e01269171",
+      "idNumberHierarchy": {
+        "parent": "",
+        "reactionParent": "",
+        "root": ""
+      },
+      "largeSummary": null,
+      "meta": {
+        "version": "0.0.3"
+      },
+      "metaTags": [
+        "NoticeFeedbackSurvey",
+        "HideVoteCount",
+        "ArticleTemplate",
+        "CommentUiOff"
+      ],
+      "reactions": {
+        "commentCount": 0,
+        "dislikeCount": 0,
+        "likeCount": 0,
+        "recommendCount": 0,
+        "recommendDownCount": 0,
+        "recommendUpCount": 0,
+        "replyCount": 0,
+        "reportCount": 0,
+        "scrapCount": 0,
+        "viewCount": 151,
+        "voteCount": 0
+      },
+      "recentCommentWriter": null,
+      "reservedFields": null,
+      "rootBoard": null,
+      "rootBoardRef": "6391373486043d35401d8728",
+      "searchSummary": null,
+      "serviceRef": "638ed2ebb73f050c67d81732",
+      "snow": {
+        "contentId": 50045068
+      },
+      "statusCode": 1,
+      "summary": " ",
+      "thumbnailUrl": null,
+      "thumbnailUrlList": [],
+      "timestamps": {
+        "commentedAt": "1970-01-01T00:00:00.001Z",
+        "commentedEpoch": 0,
+        "localOffsetHours": 0,
+        "postDateTime": "2026-11-24 23:00:01.001",
+        "postedAt": "2026-11-24T23:00:01.001Z",
+        "postedEpoch": 1795561201,
+        "publishedAt": "2026-11-24T23:00:01.001Z",
+        "publishedDateTime": null,
+        "updateDateTime": "2026-11-24 23:24:38.868",
+        "updatedAt": "2026-11-24T23:24:38.868Z",
+        "updatedEpoch": 1795562678,
+        "version": "0.0.3"
+      },
+      "title": "[말하는섬] 11월 25일(수) 업데이트 안내",
+      "userReactionCodes": [],
+      "visibilityCode": 1,
+      "voteRef": null,
+      "writer": {
+        "admin": true,
+        "gameUser": {
+          "communityLevel": {
+            "level": 0,
+            "levelKey": null,
+            "rank": 0,
+            "score": 0
+          },
+          "gameCharacterId": "",
+          "gameCharacterName": "",
+          "gameCode": 0,
+          "gameGroupId": "",
+          "gameGroupMemberRank": "",
+          "gameServerId": "",
+          "gameUniqueGroupId": "",
+          "gameUserUid": ""
+        },
+        "loginUser": {
+          "admin": true,
+          "banned": false,
+          "name": "admin",
+          "serviceCode": "13",
+          "uid": "*****"
+        }
+      },
+      "zone": "ncs"
+    },
+    "idNumberHierarchy": null,
+    "rootBoard": null
+  },
+  "article_id": "6b0616f08a3bbc3e01269171",
+  "full_article_verified": true,
+  "note": "Full official article detail, including HTML body.",
+  "record": {
+    "boardRef": "6391373486043d35401d8728",
+    "categoryBoard": {
+      "boardAlias": "l2update",
+      "boardConfigRef": "6391373586043d35401d880c",
+      "boardName": "업데이트",
+      "boardNameI18N": {},
+      "boardSdkUrlPattern": null,
+      "boardState": "published",
+      "boardType": "Notice",
+      "boardUrlPattern": "https://lineage2.plaync.com/board/{boardAlias}/view?articleId={articleId}",
+      "docMetaVersion": "0.0.2",
+      "hierarchy": {
+        "friend": null,
+        "parent": null,
+        "root": null,
+        "subTree": {
+          "treeId": null,
+          "treeRoot": null
+        }
+      },
+      "id": "6391373486043d35401d8728",
+      "language": "",
+      "meta": {
+        "version": "0.0.2"
+      },
+      "metaTags": [
+        "lobby",
+        "searchAllowed"
+      ],
+      "serviceReserved": {
+        "reserved1": {},
+        "reserved2": {},
+        "reserved3": {},
+        "reserved4": {},
+        "serviceReserved": {}
+      },
+      "snow": {
+        "boardId": 2,
+        "parentBoardId": 0,
+        "rootBoardId": 0
+      },
+      "weight": 0
+    },
+    "contentTypeCode": 1,
+    "docMetaVersion": "0.0.3",
+    "emoticonUrl": "https://vod.plaync.com/lineage2/board/lineage2_admin.png",
+    "groupId": "",
+    "hasAttachments": false,
+    "hierarchy": {
+      "parent": "",
+      "reactionParent": "",
+      "root": ""
+    },
+    "id": "6b0616f08a3bbc3e01269171",
+    "idNumberHierarchy": {
+      "parent": "",
+      "reactionParent": "",
+      "root": ""
+    },
+    "largeSummary": null,
+    "meta": {
+      "version": "0.0.3"
+    },
+    "metaTags": [
+      "NoticeFeedbackSurvey",
+      "HideVoteCount",
+      "ArticleTemplate",
+      "CommentUiOff"
+    ],
+    "reactions": {
+      "commentCount": 0,
+      "dislikeCount": 0,
+      "likeCount": 0,
+      "recommendCount": 0,
+      "recommendDownCount": 0,
+      "recommendUpCount": 0,
+      "replyCount": 0,
+      "reportCount": 0,
+      "scrapCount": 0,
+      "viewCount": 151,
+      "voteCount": 0
+    },
+    "recentCommentWriter": null,
+    "reservedFields": {
+      "reserved1": {},
+      "reserved2": {},
+      "reserved3": {},
+      "reserved4": {},
+      "serviceReserved": {}
+    },
+    "rootBoard": {
+      "board": {
+        "boardAlias": "l2update",
+        "boardConfigRef": "6391373586043d35401d880c",
+        "boardName": "업데이트",
+        "boardNameI18N": {},
+        "boardSdkUrlPattern": null,
+        "boardState": "published",
+        "boardType": "Notice",
+        "boardUrlPattern": "https://lineage2.plaync.com/board/{boardAlias}/view?articleId={articleId}",
+        "docMetaVersion": "0.0.2",
+        "hierarchy": {
+          "friend": null,
+          "parent": null,
+          "root": null,
+          "subTree": {
+            "treeId": null,
+            "treeRoot": null
+          }
+        },
+        "id": "6391373486043d35401d8728",
+        "language": "",
+        "meta": {
+          "version": "0.0.2"
+        },
+        "metaTags": [
+          "lobby",
+          "searchAllowed"
+        ],
+        "serviceReserved": {
+          "reserved1": {},
+          "reserved2": {},
+          "reserved3": {},
+          "reserved4": {},
+          "serviceReserved": {}
+        },
+        "snow": {
+          "boardId": 2,
+          "parentBoardId": 0,
+          "rootBoardId": 0
+        },
+        "weight": 0
+      },
+      "boardConfigs": {
+        "article": {
+          "auth": {
+            "read": {
+              "acl": [
+                "All"
+              ],
+              "level": {
+                "enabled": false,
+                "level": 0
+              }
+            },
+            "txns": [
+              "Read",
+              "Write",
+              "Delete",
+              "Modify"
+            ],
+            "write": {
+              "acl": [
+                "Admin"
+              ],
+              "level": {
+                "enabled": false,
+                "level": 0
+              }
+            }
+          },
+          "contentActions": [
+            "Scrap",
+            "Vote",
+            "Like",
+            "Recommend",
+            "Report"
+          ],
+          "enabled": true,
+          "sort": "TimeDesc",
+          "tempCount": 5,
+          "useHotRecommendedContent": false,
+          "useReply": true
+        },
+        "boardConfName": "업데이트-2-0",
+        "comment": {
+          "auth": {
+            "read": {
+              "acl": [
+                "All"
+              ],
+              "level": {
+                "enabled": false,
+                "level": 0
+              }
+            },
+            "txns": [
+              "Read",
+              "Write",
+              "Delete",
+              "Modify"
+            ],
+            "write": {
+              "acl": [
+                "All"
+              ],
+              "level": {
+                "enabled": false,
+                "level": 0
+              }
+            }
+          },
+          "contentActions": [
+            "Scrap",
+            "Vote",
+            "Like",
+            "Recommend",
+            "Report"
+          ],
+          "enabled": true,
+          "sort": "TimeDesc",
+          "tempCount": 5,
+          "useHotRecommendedContent": false,
+          "useReply": true
+        },
+        "description": "fromSnow3",
+        "docMetaVersion": "0.0.2",
+        "id": "6391373586043d35401d880c",
+        "meta": {
+          "version": "0.0.2"
+        },
+        "propertiesValue": null,
+        "rssEnabled": true,
+        "rssFeedSize": 0,
+        "search": "Public",
+        "top": {
+          "enabled": true,
+          "sort": "TimeDesc"
+        }
+      },
+      "boardDepth": 0,
+      "category": false,
+      "rootBoard": null,
+      "rootBoardConfigs": null,
+      "servicesConfigs": null,
+      "userPermissions": null
+    },
+    "rootBoardRef": "6391373486043d35401d8728",
+    "searchSummary": null,
+    "serviceRef": "638ed2ebb73f050c67d81732",
+    "snow": {
+      "contentId": 50045068
+    },
+    "statusCode": 1,
+    "summary": " ",
+    "thumbnailUrl": null,
+    "thumbnailUrlList": [],
+    "timestamps": {
+      "commentedAt": "1970-01-01T00:00:00.001Z",
+      "commentedEpoch": 0,
+      "localOffsetHours": 0,
+      "postDateTime": "2026-11-24 23:00:01.001",
+      "postedAt": "2026-11-24T23:00:01.001Z",
+      "postedEpoch": 1795561201,
+      "publishedAt": "2026-11-24T23:00:01.001Z",
+      "publishedDateTime": null,
+      "updateDateTime": "2026-11-24 23:24:38.868",
+      "updatedAt": "2026-11-24T23:24:38.868Z",
+      "updatedEpoch": 1795562678,
+      "version": "0.0.3"
+    },
+    "title": "[말하는섬] 11월 25일(수) 업데이트 안내",
+    "userReactionCodes": [],
+    "visibilityCode": 1,
+    "voteRef": null,
+    "writer": {
+      "admin": true,
+      "gameUser": {
+        "communityLevel": {
+          "level": 0,
+          "levelKey": null,
+          "rank": 0,
+          "score": 0
+        },
+        "gameCharacterId": "",
+        "gameCharacterName": "",
+        "gameCode": 0,
+        "gameGroupId": "",
+        "gameGroupMemberRank": "",
+        "gameServerId": "",
+        "gameUniqueGroupId": "",
+        "gameUserUid": ""
+      },
+      "loginUser": {
+        "admin": true,
+        "banned": false,
+        "name": "admin",
+        "serviceCode": "13",
+        "uid": "*****"
+      }
+    },
+    "zone": "ncs"
+  },
+  "source": "official NCSoft l2update list API",
+  "source_url": "https://lineage2.plaync.com/board/l2update/view?articleId=6b0616f08a3bbc3e01269171"
+}
