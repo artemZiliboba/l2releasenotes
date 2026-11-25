@@ -13,7 +13,8 @@
       "order": 1,
       "title": "[잠재력 - 본서버]",
       "file": "01.md",
-      "status": "pending"
+      "status": "translated",
+      "blob_sha": "922c3fa500bd41e80ec10a0d6ba447d8abf2b5ec"
     },
     {
       "order": 2,
