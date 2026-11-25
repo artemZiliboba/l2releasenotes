@@ -6,7 +6,8 @@
       "order": 0,
       "title": "Вступление",
       "file": "00.md",
-      "status": "pending"
+      "status": "translated",
+      "blob_sha": "887af0d8e344b49e1e2fc3d7bdad0909345f7240"
     },
     {
       "order": 1,
